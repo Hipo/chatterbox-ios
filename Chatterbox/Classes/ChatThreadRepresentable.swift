@@ -9,7 +9,7 @@
 import Foundation
 
 
-protocol ChatThreadRepresentable {
+public protocol ChatThreadRepresentable {
     
     var token: String? { get }
     

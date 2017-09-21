@@ -10,7 +10,7 @@ import Foundation
 import SocketRocket
 
 
-class SRChatInterfaceWebSocketProvider
+public class SRChatInterfaceWebSocketProvider
     <T: ChatThreadRepresentable, S: ChatMessageRepresentable>: BaseChatInterfaceWebSocketProvider<T>,
 SRWebSocketDelegate {
     
@@ -35,7 +35,7 @@ SRWebSocketDelegate {
     
     // MARK: API
     
-    override func openConnection() {
+    override public func openConnection() {
         if connectionStatus != .disconnected {
             return
         }
@@ -53,7 +53,7 @@ SRWebSocketDelegate {
         newWebSocket?.open()
     }
     
-    override func closeConnection() {
+    override public func closeConnection() {
         if connectionStatus == .disconnected {
             return
         }
@@ -67,13 +67,13 @@ SRWebSocketDelegate {
     
     // MARK: SRWebSocketDelegate
     
-    func webSocketDidOpen(_ webSocket: SRWebSocket!) {
+    public func webSocketDidOpen(_ webSocket: SRWebSocket!) {
         self.webSocket = webSocket
         
         listener?.webSocketConnectionDidOpen()
     }
     
-    func webSocket(_ webSocket: SRWebSocket!,
+    public func webSocket(_ webSocket: SRWebSocket!,
                    didCloseWithCode code: Int,
                    reason: String!,
                    wasClean: Bool) {
@@ -82,14 +82,14 @@ SRWebSocketDelegate {
         openConnection()
     }
     
-    func webSocket(_ webSocket: SRWebSocket!,
+    public func webSocket(_ webSocket: SRWebSocket!,
                    didFailWithError error: Error!) {
         listener?.webSocketConnectionDidFail(with: error)
         
         openConnection()
     }
     
-    func webSocket(_ webSocket: SRWebSocket!,
+    public func webSocket(_ webSocket: SRWebSocket!,
                    didReceiveMessage message: Any!) {
         let jsonString = message as? String
         listener?.webSocketConnectionDidReceive(jsonString?.jsonSerialized())

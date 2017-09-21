@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct ChatDraftMessage {
+public struct ChatDraftMessage {
     
     // MARK: Variables
     

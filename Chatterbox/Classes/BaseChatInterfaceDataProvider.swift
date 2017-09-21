@@ -22,7 +22,7 @@ let ChatThreadUserInfoKey = "Chat.Notification.UserInfo.ChatThread"
 let ChatMessageUserInfoKey = "Chat.Notification.UserInfo.ChatMessage"
 
 
-protocol BaseChatInterfaceDataProviderListener: class {
+public protocol BaseChatInterfaceDataProviderListener: class {
     
     func chatInterfaceDataProviderDidReloadChatMessages(animated: Bool)
     
@@ -39,7 +39,7 @@ extension BaseChatInterfaceDataProviderListener {
 }
 
 
-enum ChatThreadStatus {
+public enum ChatThreadStatus {
     
     case unstarted
     
@@ -49,25 +49,25 @@ enum ChatThreadStatus {
 }
 
 
-class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMessageRepresentable> {
+open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMessageRepresentable> {
     
-    typealias ChatThread = T
-    typealias ChatMessage = U
+    public typealias ChatThread = T
+    public typealias ChatMessage = U
     
-    typealias CompletionClosure = (Error?) -> Void
+    public typealias CompletionClosure = (Error?) -> Void
     
-    typealias ChatThreadCreationCompletionClosure = (ChatThread?, ChatMessage?, Error?) -> Void
+    public typealias ChatThreadCreationCompletionClosure = (ChatThread?, ChatMessage?, Error?) -> Void
     
-    typealias ChatThreadLoadCompletionClosure = (ChatThread?, Error?) -> Void
+    public typealias ChatThreadLoadCompletionClosure = (ChatThread?, Error?) -> Void
     
     // MARK: Variables
     
-    var chatThread: ChatThread? {
+    open var chatThread: ChatThread? {
         didSet {
             self.chatThreadStatus = chatThread.map({ $0.isFault ? .suspended : .running }) ?? .unstarted
         }
     }
-    var chatThreadStatus: ChatThreadStatus
+    open var chatThreadStatus: ChatThreadStatus
     
     var chatMessages = [ChatMessage]()
     
@@ -87,24 +87,24 @@ class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMessageRe
     
     // MARK: Initialization
     
-    init(chatThread: ChatThread?) {
+    public init(chatThread: ChatThread?) {
         self.chatThread = chatThread
         self.chatThreadStatus = chatThread.map({ $0.isFault ? .suspended : .running }) ?? .unstarted
     }
     
     // MARK: API
     
-    func createChatThread(with draft: ChatDraftMessage,
+    open func createChatThread(with draft: ChatDraftMessage,
                           onCompletion completion: ChatThreadCreationCompletionClosure?) {
         fatalError("This method must be implemented by subclasses.")
     }
     
-    func loadChatThread(with token: String,
+    open func loadChatThread(with token: String,
                         onCompletion completion: ChatThreadLoadCompletionClosure?) {
         fatalError("This method must be implemented by subclasses.")
     }
     
-    func loadLastReceivedChatMessage(for json: [String: Any]) {
+    open func loadLastReceivedChatMessage(for json: [String: Any]) {
         fatalError("This method must be implemented by subclasses.")
     }
     
@@ -128,7 +128,7 @@ class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMessageRe
     }
     
     // This method should trigger chat view controller to update isLoadingChatMessages value.
-    func loadChatMessages(previous: Bool) {
+    open func loadChatMessages(previous: Bool) {
         fatalError("This method must be implemented by subclasses.")
     }
     
@@ -155,7 +155,7 @@ class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMessageRe
         }
     }
     
-    func send(_ chatDraftMessage: ChatDraftMessage,
+    open func send(_ chatDraftMessage: ChatDraftMessage,
               onCompletion completion: CompletionClosure?) {
         fatalError("This method must be implemented by subclasses.")
     }

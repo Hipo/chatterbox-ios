@@ -10,14 +10,14 @@ import Foundation
 import IGListKit
 
 
-enum ChatMessageType {
+public enum ChatMessageType {
     case none
     case text(String?)
     case attributedText(NSAttributedString?)
 }
 
 
-protocol ChatMessageRepresentable: ListDiffable {
+public protocol ChatMessageRepresentable: ListDiffable {
     var type: ChatMessageType { get }
     
     var date: Date? { get }

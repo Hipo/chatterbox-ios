@@ -9,7 +9,7 @@
 import Foundation
 
 
-protocol ChatInterfaceWebSocketProviderListener: class {
+public protocol ChatInterfaceWebSocketProviderListener: class {
     
     func webSocketConnectionDidOpen()
     
@@ -22,31 +22,31 @@ protocol ChatInterfaceWebSocketProviderListener: class {
 
 extension ChatInterfaceWebSocketProviderListener {
     
-    func webSocketConnectionDidOpen() {
+    public func webSocketConnectionDidOpen() {
     }
     
-    func webSocketConnectionDidClose() {
+    public func webSocketConnectionDidClose() {
     }
     
-    func webSocketConnectionDidFail(with error: Error?) {
+    public func webSocketConnectionDidFail(with error: Error?) {
     }
 }
 
 
-enum WebSocketConnectionStatus {
+public enum WebSocketConnectionStatus {
     case disconnected
     case connecting
     case connected
 }
 
 
-class BaseChatInterfaceWebSocketProvider<T: ChatThreadRepresentable>: NSObject {
+open class BaseChatInterfaceWebSocketProvider<T: ChatThreadRepresentable>: NSObject {
     
-    typealias ChatThread = T
+    public typealias ChatThread = T
     
     // MARK: Variables
     
-    var chatThread: ChatThread?
+    open var chatThread: ChatThread?
     
     var chatServerUrl: String? {
         fatalError("This variable must be implemented by subclasses.")
@@ -60,21 +60,21 @@ class BaseChatInterfaceWebSocketProvider<T: ChatThreadRepresentable>: NSObject {
     
     // MARK: Initialization
     
-    init(chatThread: ChatThread?) {
+    public init(chatThread: ChatThread?) {
         self.chatThread = chatThread
     }
     
     // MARK: API
     
-    func setupConnection() {
+    open func setupConnection() {
         fatalError("This method must be implemented by subclasses.")
     }
     
-    func openConnection() {
+    open func openConnection() {
         fatalError("This method must be implemented by subclasses.")
     }
     
-    func closeConnection() {
+    open func closeConnection() {
         fatalError("This method must be implemented by subclasses.")
     }
 }

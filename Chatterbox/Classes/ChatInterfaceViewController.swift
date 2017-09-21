@@ -11,7 +11,7 @@ import IGListKit
 import SnapKit
 
 
-protocol ChatInterfaceViewControllerDelegate: class {
+public protocol ChatInterfaceViewControllerDelegate: class {
     
     func chatInterfaceViewControllerDidFailLoadingChatThread(with error: Error)
     
@@ -40,15 +40,15 @@ extension ChatInterfaceViewControllerDelegate {
 }
 
 
-class ChatInterfaceViewController
+open class ChatInterfaceViewController
     <T: ChatThreadRepresentable, U: ChatMessageRepresentable>:
 UIViewController,
 ListAdapterDataSource,
 ListDisplayDelegate {
     
-    typealias ChatInterfaceDataProvider = BaseChatInterfaceDataProvider<T, U>
+    public typealias ChatInterfaceDataProvider = BaseChatInterfaceDataProvider<T, U>
     
-    typealias ChatInterfaceWebSockeProvider = BaseChatInterfaceWebSocketProvider<T>
+    public typealias ChatInterfaceWebSockeProvider = BaseChatInterfaceWebSocketProvider<T>
     
     // MARK: LayoutComponents
     
@@ -91,7 +91,7 @@ ListDisplayDelegate {
     
     // MARK: Initialization
     
-    required init(dataProvider: ChatInterfaceDataProvider,
+    required public init(dataProvider: ChatInterfaceDataProvider,
                   webSocketProvider: ChatInterfaceWebSockeProvider) {
         self.dataProvider = dataProvider
         self.webSocketProvider = webSocketProvider
@@ -105,7 +105,7 @@ ListDisplayDelegate {
         startWatchingNotifications()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -153,7 +153,7 @@ ListDisplayDelegate {
     
     // MARK: LifeCycle
     
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         setupLayout()
@@ -222,7 +222,7 @@ ListDisplayDelegate {
         webSocketProvider.listener = self
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         if isNewChatThread {
@@ -289,7 +289,7 @@ ListDisplayDelegate {
     // MARK: ListAdapterDataSource
     // This protocol can not be conformed by an extension of a generic class.
     
-    func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
+    public func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
         var allObjects = dataProvider.chatMessages as [ListDiffable]
         
         if isScrollTopToLoadEnabled {
@@ -299,7 +299,7 @@ ListDisplayDelegate {
         return allObjects
     }
     
-    func listAdapter(_ listAdapter: ListAdapter,
+    public func listAdapter(_ listAdapter: ListAdapter,
                      sectionControllerFor object: Any) -> ListSectionController {
         if let messageLoader = object as? String, messageLoader == ChatMessageLoaderController.replacementToken {
             return ChatMessageLoaderController()
@@ -318,13 +318,13 @@ ListDisplayDelegate {
         return ListSectionController()
     }
     
-    func emptyView(for listAdapter: ListAdapter) -> UIView? {
+    public func emptyView(for listAdapter: ListAdapter) -> UIView? {
         return nil
     }
     
     // MARK: ListDisplayDelegate
     
-    func listAdapter(_ listAdapter: ListAdapter,
+    public func listAdapter(_ listAdapter: ListAdapter,
                      willDisplay sectionController: ListSectionController) {
         if !dataProvider.canLoadMoreChatMessages {
             isScrollTopToLoadEnabled = false // No need to trigger delegate method every scroll.
@@ -344,17 +344,17 @@ ListDisplayDelegate {
         }
     }
     
-    func listAdapter(_ listAdapter: ListAdapter,
+    public func listAdapter(_ listAdapter: ListAdapter,
                      willDisplay sectionController: ListSectionController,
                      cell: UICollectionViewCell,
                      at index: Int) {
     }
     
-    func listAdapter(_ listAdapter: ListAdapter,
+    public func listAdapter(_ listAdapter: ListAdapter,
                      didEndDisplaying sectionController: ListSectionController) {
     }
     
-    func listAdapter(_ listAdapter: ListAdapter,
+    public func listAdapter(_ listAdapter: ListAdapter,
                      didEndDisplaying sectionController: ListSectionController,
                      cell: UICollectionViewCell,
                      at index: Int) {
@@ -458,24 +458,24 @@ extension ChatInterfaceViewController {
 // MARK: BaseChatInterfaceDataProviderListener
 
 extension ChatInterfaceViewController: BaseChatInterfaceDataProviderListener {
-    func chatInterfaceDataProviderDidReloadChatMessages(animated: Bool) {
+    public func chatInterfaceDataProviderDidReloadChatMessages(animated: Bool) {
         isLoadingChatMessages = false
         isScrollTopToLoadEnabled = dataProvider.canLoadMoreChatMessages
         reloadData()
     }
     
-    func chatInterfaceDataProviderDidLoadNextChatMessages(animated: Bool) {
+    public func chatInterfaceDataProviderDidLoadNextChatMessages(animated: Bool) {
         isLoadingChatMessages = false
         isScrollTopToLoadEnabled = dataProvider.canLoadMoreChatMessages
         performUpdates(animated:animated)
     }
     
-    func chatInterfaceDataProviderDidLoadNewChatMessage(animated: Bool) {
+    public func chatInterfaceDataProviderDidLoadNewChatMessage(animated: Bool) {
         scrollToLastReceivedChatMessage(animated: false)
         performUpdates(animated:animated)
     }
     
-    func chatInterfaceDataProviderDidFailLoadChatMessages(with error: Error) {
+    public func chatInterfaceDataProviderDidFailLoadChatMessages(with error: Error) {
         delegate?.chatInterfaceViewControllerDidFailLoadingChatMessages(with: error)
     }
 }
@@ -483,7 +483,7 @@ extension ChatInterfaceViewController: BaseChatInterfaceDataProviderListener {
 // MARK: ChatInterfaceWebSocketProviderListener
 
 extension ChatInterfaceViewController: ChatInterfaceWebSocketProviderListener {
-    func webSocketConnectionDidReceive(_ json: [String : Any]?) {
+    public func webSocketConnectionDidReceive(_ json: [String : Any]?) {
         guard let validJson = json else {
             return
         }
@@ -495,7 +495,7 @@ extension ChatInterfaceViewController: ChatInterfaceWebSocketProviderListener {
 // MARK: ChatInputAccessoryDelegate
 
 extension ChatInterfaceViewController: ChatInputAccessoryDelegate {
-    func chatInputAccessoryDidTapSendButton(_ chatInputAccessoryView: ChatInputAccessoryRepresentable) {
+    public func chatInputAccessoryDidTapSendButton(_ chatInputAccessoryView: ChatInputAccessoryRepresentable) {
         guard let text = chatInputAccessoryView.textView.text else {
             return
         }

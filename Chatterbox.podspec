@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'IGListKit', '~> 3.0'
   s.dependency 'SocketRocket'
+  s.dependency 'SnapKit', '~> 3.0'
 end

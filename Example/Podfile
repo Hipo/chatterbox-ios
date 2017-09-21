@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Chatterbox_Example' do
+  pod 'Chatterbox', :path => '../'
+
+  target 'Chatterbox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

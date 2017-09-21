@@ -1,0 +1,6 @@
+framework module Pods_Chatterbox_Tests {
+  umbrella header "Pods-Chatterbox_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

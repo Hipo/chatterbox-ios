@@ -1,0 +1,6 @@
+framework module Chatterbox {
+  umbrella header "Chatterbox-umbrella.h"
+
+  export *
+  module * { export * }
+}

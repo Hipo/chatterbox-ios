@@ -1,0 +1,22 @@
+{
+  "name": "Chatterbox",
+  "version": "0.1.0",
+  "summary": "A short description of Chatterbox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Hakan Demiröz/Chatterbox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hakan Demiröz": "mhdemiroz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Hakan Demiröz/Chatterbox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Chatterbox/Classes/**/*"
+}

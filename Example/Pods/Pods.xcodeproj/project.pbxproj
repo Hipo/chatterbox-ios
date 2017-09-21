@@ -19,6 +19,7 @@
 		0AA46A82AE7041E2BD72BBB74B2B66BA /* IGListAdapter+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F85006A7D0E0E8F0364EB5331052F801 /* IGListAdapter+UICollectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0ADA62ED24CEB9891506F71EC8A3A5B5 /* IGListCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEB56E04F19421C8B1E04020CCA2581 /* IGListCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C52051D7939040D3C89B64B9CDA54B7 /* IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E282988DF114BEF5C29773BDBF9DAE4 /* IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C9E3274583521E816B9563F927433A6 /* Chatterbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A87895A662D4757031718ECE02E8A254 /* Chatterbox-dummy.m */; };
 		0EC275E2A258FD2584E8E3503B79698A /* IGListUpdatingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 934551D4AF858D0AC482C055FB2C9B7B /* IGListUpdatingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F706DA2C57EBC4B97A9FDD6E70343FC /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C665EC415817FE42F4FA26F92A645 /* ConstraintMakerEditable.swift */; };
 		0FC3CABEF65F5A34E88E116A1431BC7A /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDF296DD06EC23425F41A1D11015C40 /* ConstraintMultiplierTarget.swift */; };
@@ -75,7 +76,6 @@
 		567952D7FC6A39889299EB5C416D170B /* IGListSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BEB8D79A6949DF1822DDB9A19EEE38 /* IGListSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		57897A5D912E3F01FB3175C18E879685 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8279325001E33F8B90243F549900B3 /* ConstraintLayoutSupport.swift */; };
 		5A783EE8E4B8B66F44C22D1BD98ED763 /* IGListAdapterUpdater+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 52409E755C6698EBD489F90C379CBA7C /* IGListAdapterUpdater+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5AA1542BD765A854C5D455B0EA19A878 /* Chatterbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDAB69799D4875B144CBC72D526F4A /* Chatterbox-dummy.m */; };
 		5AA9B73015919C0128BE78BFC7702A3E /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5E4029E8360552F1DC6C184101B94 /* ConstraintConstantTarget.swift */; };
 		5B514783BE6DEA4508EB5A5B7232ED05 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9697549E23675E9A96001EDAC09C9B03 /* CFNetwork.framework */; };
 		5CD42BE6442ABA5938BA82812484C35C /* IGListReloadDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305DC7F312C595F045B32B9D227233F /* IGListReloadDataUpdater.m */; };
@@ -136,7 +136,7 @@
 		C4986407E2C5ED09D9500DCAF5AB2226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
 		C5AB389F33B9EAD064319D22768C6786 /* IGListReloadIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E4D7F4E252D2F531B56693DEAF0D6 /* IGListReloadIndexPath.m */; };
 		C6CF56A9C2C257F2C02F188FCB44098C /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ECFE67E6C343C1519911D71B0CC8F5 /* IGListSingleSectionController.m */; };
-		C73FED9FE286F16FC1C1917E17B89ECE /* Chatterbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 883CC884D29A9F634348912952F3ABE6 /* Chatterbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73FED9FE286F16FC1C1917E17B89ECE /* Chatterbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67370685EE4B9940D222CB52452BC879 /* Chatterbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C93283000DF8B98C32CDD0A6EDE94397 /* IGListDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBEAA266219C9DBC58D3210080BDE7B /* IGListDebugger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C9D9B1BB2F92A6085713E91EF9810D35 /* UICollectionView+IGListBatchUpdateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C3C881B0A51AD53B1986DA6CAF0C51 /* UICollectionView+IGListBatchUpdateData.m */; };
 		CEB419E5CFC82C88890CA96DE118BBB1 /* IGListStackedSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F76AF0DFC573709DFC0217482B42FA7 /* IGListStackedSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -145,7 +145,6 @@
 		D4A58FCF5FD7269FB4D98AD828DA4805 /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3503C6BE9D73BA9CCBF047C7BCA82CE7 /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D540E7B267C384D45B5D546CDFD80BB7 /* IGListSingleSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6CF94EA64DFF15B0291055BC9830B6 /* IGListSingleSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6D9EA62A8B4C350E59858C7692A081F /* UICollectionView+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FA75D2A1A673D60A72215EB0084CF /* UICollectionView+DebugDescription.m */; };
-		DA43CBFCCB7794C9447D4B0A16C4A3C9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F656B784F27D640C5BB65CB3EBB080A0 /* ReplaceMe.swift */; };
 		DA58B6B018D7FC8400ABDEF4CD8C69AA /* IGListReloadIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = B8239565665D111894F9688A1CA7272B /* IGListReloadIndexPath.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DADA877825B64FBF1C0CFC5B2BD51827 /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 190F1A06047A09BDBA0F5E02C72ACC86 /* IGListIndexSetResult.m */; };
 		DBFBEE90791D683E27256CB3F8E0FE04 /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD373B0CD74D3FD4477B7EC2CBB0592D /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -164,6 +163,27 @@
 		FB36622B0DEF40D972C0E83E8A60A324 /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC2B8CFBF704F5CCDAFC29DDD3C69CF /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE31D451F16D299CF28953BBFE285243 /* IGListBindable.h in Headers */ = {isa = PBXBuildFile; fileRef = C89853BD4CB8C3805CCC73F5CFF13A8A /* IGListBindable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEFDD0A11CB9E53979BC3B4F5E8A168D /* IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5873DE9FAFD5E8B2E4B7264E09C18049 /* IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF33CCC01F73DEFE00126EA0 /* AutoGrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCAA1F73DEFE00126EA0 /* AutoGrowingTextView.swift */; };
+		FF33CCC11F73DEFE00126EA0 /* BaseChatInterfaceDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCAB1F73DEFE00126EA0 /* BaseChatInterfaceDataProvider.swift */; };
+		FF33CCC21F73DEFE00126EA0 /* BaseChatInterfaceWebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCAC1F73DEFE00126EA0 /* BaseChatInterfaceWebSocketProvider.swift */; };
+		FF33CCC31F73DEFE00126EA0 /* ChatDraftMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCAD1F73DEFE00126EA0 /* ChatDraftMessage.swift */; };
+		FF33CCC41F73DEFE00126EA0 /* ChatInputAccessoryRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCAE1F73DEFE00126EA0 /* ChatInputAccessoryRepresentable.swift */; };
+		FF33CCC51F73DEFE00126EA0 /* ChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCAF1F73DEFE00126EA0 /* ChatInputAccessoryView.swift */; };
+		FF33CCC61F73DEFE00126EA0 /* ChatInterfaceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB01F73DEFE00126EA0 /* ChatInterfaceCollectionView.swift */; };
+		FF33CCC71F73DEFE00126EA0 /* ChatInterfaceCommonRepresentables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB11F73DEFE00126EA0 /* ChatInterfaceCommonRepresentables.swift */; };
+		FF33CCC81F73DEFE00126EA0 /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB21F73DEFE00126EA0 /* ChatInterfaceViewController.swift */; };
+		FF33CCC91F73DEFE00126EA0 /* ChatInterfaceViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB31F73DEFE00126EA0 /* ChatInterfaceViewController+Helpers.swift */; };
+		FF33CCCA1F73DEFE00126EA0 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB41F73DEFE00126EA0 /* ChatMessageCell.swift */; };
+		FF33CCCB1F73DEFE00126EA0 /* ChatMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB51F73DEFE00126EA0 /* ChatMessageDataController.swift */; };
+		FF33CCCC1F73DEFE00126EA0 /* ChatMessageLoaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB61F73DEFE00126EA0 /* ChatMessageLoaderCell.swift */; };
+		FF33CCCD1F73DEFE00126EA0 /* ChatMessageLoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB71F73DEFE00126EA0 /* ChatMessageLoaderController.swift */; };
+		FF33CCCE1F73DEFE00126EA0 /* ChatMessageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB81F73DEFE00126EA0 /* ChatMessageRepresentable.swift */; };
+		FF33CCCF1F73DEFE00126EA0 /* ChatMessageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCB91F73DEFE00126EA0 /* ChatMessageViewBuilder.swift */; };
+		FF33CCD01F73DEFE00126EA0 /* ChatMessageViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCBA1F73DEFE00126EA0 /* ChatMessageViewRepresentable.swift */; };
+		FF33CCD11F73DEFE00126EA0 /* ChatTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCBB1F73DEFE00126EA0 /* ChatTextMessageCell.swift */; };
+		FF33CCD21F73DEFE00126EA0 /* ChatTextMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCBC1F73DEFE00126EA0 /* ChatTextMessageDataController.swift */; };
+		FF33CCD31F73DEFE00126EA0 /* ChatThreadRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCBD1F73DEFE00126EA0 /* ChatThreadRepresentable.swift */; };
+		FF33CCD51F73DEFE00126EA0 /* SRChatInterfaceWebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF33CCBF1F73DEFE00126EA0 /* SRChatInterfaceWebSocketProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,11 +243,13 @@
 		032557A1DABFDF6138C45727803024C1 /* IGListSupplementaryViewSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSupplementaryViewSource.h; path = Source/IGListSupplementaryViewSource.h; sourceTree = "<group>"; };
 		053A73B1EE2E70EF0ED949D0467BA886 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		056E4D7F4E252D2F531B56693DEAF0D6 /* IGListReloadIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadIndexPath.m; path = Source/Internal/IGListReloadIndexPath.m; sourceTree = "<group>"; };
+		06B40BB9C7E6DD0E216CDC31C5204A24 /* Chatterbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chatterbox.xcconfig; sourceTree = "<group>"; };
 		086E7E7C310DD873E86CC009D53935B8 /* IGListDebuggingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDebuggingUtilities.h; path = Source/Internal/IGListDebuggingUtilities.h; sourceTree = "<group>"; };
 		0BB1348DDE5242BAABF90AF7C4B5366A /* IGListAdapterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterInternal.h; path = Source/Internal/IGListAdapterInternal.h; sourceTree = "<group>"; };
 		0C54FBB502E9AF1756C8C02F4253922A /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		0F00947D465CF410D6C547BC5D3F4F35 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		0FBEAA266219C9DBC58D3210080BDE7B /* IGListDebugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDebugger.h; path = Source/Internal/IGListDebugger.h; sourceTree = "<group>"; };
+		1046E75177F7AB113F1D3845D8BA7DCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113631DAF9943311CD5CD0073C0A3B2C /* IGListSectionMap+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListSectionMap+DebugDescription.m"; path = "Source/Internal/IGListSectionMap+DebugDescription.m"; sourceTree = "<group>"; };
 		120B52A4EBE637B7CA9378D4B89A760E /* Pods-Chatterbox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatterbox_Tests-resources.sh"; sourceTree = "<group>"; };
 		1279F16028C7E6293216B0B1455D2A9F /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
@@ -239,20 +261,18 @@
 		1A2B52A209D5123D9FFF1BEF9ECC2D48 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		1B64B3E06B7087E9585C628166863DAF /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		1EA91B9B31573BFC7F0394EB5067AF20 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		1EBDAB69799D4875B144CBC72D526F4A /* Chatterbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Chatterbox-dummy.m"; sourceTree = "<group>"; };
 		21239122E4CF5EA2D094C6B970B371D4 /* IGListAdapter+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapter+DebugDescription.h"; path = "Source/Internal/IGListAdapter+DebugDescription.h"; sourceTree = "<group>"; };
-		2173A5E1C7410EDDD288BC6077F4C920 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173A5E1C7410EDDD288BC6077F4C920 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21783B700426C74CB149BB5B072B738B /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		224E323E213067B1C5578D9A99450B44 /* Chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Chatterbox.framework; path = Chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224E323E213067B1C5578D9A99450B44 /* Chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A332B7B358A8CB83F07D94AE03868A /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResultInternal.h; path = Source/Common/Internal/IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
 		22E3D9BC028A9E9668D4119049A1EA0E /* Pods-Chatterbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chatterbox_Tests-dummy.m"; sourceTree = "<group>"; };
 		261A949E36846C9581150BCE43BC3E0E /* IGListMoveIndexInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexInternal.h; path = Source/Common/Internal/IGListMoveIndexInternal.h; sourceTree = "<group>"; };
 		264C36A836681269234CF856C98B7373 /* IGListBatchContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchContext.h; path = Source/IGListBatchContext.h; sourceTree = "<group>"; };
-		26FC2E681C8969F3324467B1A8D2BDA7 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
+		26FC2E681C8969F3324467B1A8D2BDA7 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
 		2719FECE7EF7FF3A8F7A6DAD117266F4 /* IGListCollectionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionContext.h; path = Source/IGListCollectionContext.h; sourceTree = "<group>"; };
 		27A8595C8234E13BCAEC7D7B768B5CDD /* NSString+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IGListDiffable.m"; path = "Source/Common/NSString+IGListDiffable.m"; sourceTree = "<group>"; };
-		2AB0DBC9A08F172F5AAEBB13B0FEDD26 /* Chatterbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chatterbox.xcconfig; sourceTree = "<group>"; };
-		2BE2C0DE794EDA22DAD2E5FD46B4EA40 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
+		2BE2C0DE794EDA22DAD2E5FD46B4EA40 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
 		2D1075C1AAD50D5CFB14F59445846BF9 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1C665EC415817FE42F4FA26F92A645 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		2EA70EDB587D94D5994FF28D1459943A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
@@ -269,7 +289,6 @@
 		3A269C62A366FCC65C3BF394849A13CE /* Pods-Chatterbox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chatterbox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A8AAA674FBDF93184D406EC23F9A0AF /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		3E282988DF114BEF5C29773BDBF9DAE4 /* IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateData.h; path = Source/Common/IGListBatchUpdateData.h; sourceTree = "<group>"; };
-		3EAB37CF2A59E8BB36278A6751FC8ACA /* Chatterbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Chatterbox.modulemap; sourceTree = "<group>"; };
 		4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		412445E6992C830E6F8EBF1620191E9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42C60A46D819EDD84A3DC926D8C56C6A /* Pods-Chatterbox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chatterbox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -277,11 +296,11 @@
 		442714836CF02051B1790804BE576BFD /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		448054529752B39CF17C4F46077D130D /* IGListBatchUpdateState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdateState.h; path = Source/Internal/IGListBatchUpdateState.h; sourceTree = "<group>"; };
 		448DF69EBF035B3ECED88954B87A7D49 /* IGListBindingSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionController.h; path = Source/IGListBindingSectionController.h; sourceTree = "<group>"; };
-		44BEEFC560EB74307508FCBE43BF9C7C /* Pods_Chatterbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chatterbox_Example.framework; path = "Pods-Chatterbox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44EA8BA6E94963AFE6863D33CBA5CFDB /* IGListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IGListKit.modulemap; sourceTree = "<group>"; };
+		44BEEFC560EB74307508FCBE43BF9C7C /* Pods_Chatterbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatterbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EA8BA6E94963AFE6863D33CBA5CFDB /* IGListKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IGListKit.modulemap; sourceTree = "<group>"; };
 		4D127043A02541D8DF7465B6639D4A2C /* IGListKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-prefix.pch"; sourceTree = "<group>"; };
 		4DE85EC070E595D2A27CC4779B2086CD /* IGListAdapterUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterDelegate.h; path = Source/IGListAdapterUpdaterDelegate.h; sourceTree = "<group>"; };
-		4EE6170391B6393C0B31BD9F3BA11E4D /* Pods-Chatterbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Chatterbox_Tests.modulemap"; sourceTree = "<group>"; };
+		4EE6170391B6393C0B31BD9F3BA11E4D /* Pods-Chatterbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Chatterbox_Tests.modulemap"; sourceTree = "<group>"; };
 		4F2E1E94ABFD8FF93829C929C3040020 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
 		5011D9FEEF769110C189BE454B3CE2C1 /* IGListSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionController.h; path = Source/IGListSectionController.h; sourceTree = "<group>"; };
 		52409E755C6698EBD489F90C379CBA7C /* IGListAdapterUpdater+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapterUpdater+DebugDescription.h"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.h"; sourceTree = "<group>"; };
@@ -297,24 +316,25 @@
 		5E01994F3CDF6DCE20B5067A5865FFB0 /* IGListBindingSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBindingSectionController.m; path = Source/IGListBindingSectionController.m; sourceTree = "<group>"; };
 		5F8279325001E33F8B90243F549900B3 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		5FF7F8D950046260D99C69EF5FEC73C1 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		67370685EE4B9940D222CB52452BC879 /* Chatterbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chatterbox-umbrella.h"; sourceTree = "<group>"; };
 		67F5AA332C9413E65755D2E3B4D17D0E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		6AAD48297A08BD8F2BFC8747D47685DC /* IGListAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAssert.h; path = Source/Common/IGListAssert.h; sourceTree = "<group>"; };
 		6B635F8BF861D4C8E635B3D97AA153E3 /* IGListWorkingRangeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeHandler.h; path = Source/Internal/IGListWorkingRangeHandler.h; sourceTree = "<group>"; };
 		6D6CF94EA64DFF15B0291055BC9830B6 /* IGListSingleSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSingleSectionController.h; path = Source/IGListSingleSectionController.h; sourceTree = "<group>"; };
 		6DB53B9166EB597850C7F7B2F60DBBF9 /* UICollectionView+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DebugDescription.h"; path = "Source/Internal/UICollectionView+DebugDescription.h"; sourceTree = "<group>"; };
 		6DB79A7944C61B6E8C6E0DC4C2F78FE8 /* IGListBatchUpdates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBatchUpdates.h; path = Source/Internal/IGListBatchUpdates.h; sourceTree = "<group>"; };
-		6F715DE390FC05BDA93932A417C043C9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F715DE390FC05BDA93932A417C043C9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FA2CDF8F938A4F7A52D6158D779F91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D773FBCC4050B5DD95E26A08E49BAD /* IGListAdapterProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterProxy.m; path = Source/Internal/IGListAdapterProxy.m; sourceTree = "<group>"; };
 		72835DFA99AC5134EFDA845F33F886D5 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		73A8CC5E47C9A638D38155B6D3D75C75 /* IGListMoveIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndex.m; path = Source/Common/IGListMoveIndex.m; sourceTree = "<group>"; };
 		75520F8FFC709CE401F179AD10A87407 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7687D994E9D8B7190AF7CAC306120078 /* Pods_Chatterbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chatterbox_Tests.framework; path = "Pods-Chatterbox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7687D994E9D8B7190AF7CAC306120078 /* Pods_Chatterbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatterbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C1FDA36C08C1981EFB5634F84D5841 /* IGListDiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiff.h; path = Source/Common/IGListDiff.h; sourceTree = "<group>"; };
 		787C082F9B547594CB17EA3EA69D4FC9 /* IGListMoveIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndex.h; path = Source/Common/IGListMoveIndex.h; sourceTree = "<group>"; };
 		7D16A65D30D0D3890D383AD65FB4D952 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		7D96829E85B9B7BDB78923C41D77C48F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7F63F34443F74CA297902275C95253C2 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F63F34443F74CA297902275C95253C2 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8918114F1FAF2868B9D37D70FE744F /* IGListMoveIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndexPath.m; path = Source/Common/IGListMoveIndexPath.m; sourceTree = "<group>"; };
 		8066E42DC182AB4B193AF328E71C2C39 /* IGListIndexPathResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResult.h; path = Source/Common/IGListIndexPathResult.h; sourceTree = "<group>"; };
 		8305DC7F312C595F045B32B9D227233F /* IGListReloadDataUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListReloadDataUpdater.m; path = Source/IGListReloadDataUpdater.m; sourceTree = "<group>"; };
@@ -323,9 +343,8 @@
 		83F079EB0D298266ADBF0A18E58335F1 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
 		845F319CEDC243EFE0F939700429484F /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
 		85768F1A4C31358B1E9BCCE99237202F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8695392401D6E5B2FEC164E8CA1DABD5 /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
+		8695392401D6E5B2FEC164E8CA1DABD5 /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
 		877F7A3CD783C3710532F910A21CA7E8 /* IGListIndexSetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexSetResult.h; path = Source/Common/IGListIndexSetResult.h; sourceTree = "<group>"; };
-		883CC884D29A9F634348912952F3ABE6 /* Chatterbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chatterbox-umbrella.h"; sourceTree = "<group>"; };
 		8A49F86898C316BB47C131A4FD502CCD /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		8A71002AD0722B021A7D24DE54970690 /* IGListBatchUpdates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListBatchUpdates.m; path = Source/Internal/IGListBatchUpdates.m; sourceTree = "<group>"; };
 		8B826964EC762F95CBBD05AB85CA3532 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
@@ -336,11 +355,12 @@
 		91CD54E1EDB48241EDD8EE6199C5F29D /* IGListAdapterUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdater.h; path = Source/IGListAdapterUpdater.h; sourceTree = "<group>"; };
 		92ECFE67E6C343C1519911D71B0CC8F5 /* IGListSingleSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSingleSectionController.m; path = Source/IGListSingleSectionController.m; sourceTree = "<group>"; };
 		934551D4AF858D0AC482C055FB2C9B7B /* IGListUpdatingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListUpdatingDelegate.h; path = Source/IGListUpdatingDelegate.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E9235D8A05D5BE91AA0F674CF99F56 /* IGListAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapter.m; path = Source/IGListAdapter.m; sourceTree = "<group>"; };
 		94BFDF21D4381CD6DC72B29E8C271070 /* Pods-Chatterbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chatterbox_Example-umbrella.h"; sourceTree = "<group>"; };
 		955EEF39488D7DCE032653C51F5EF607 /* Pods-Chatterbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chatterbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9697549E23675E9A96001EDAC09C9B03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		99862EE4B43FB9E9C3D680669CBFE81A /* Chatterbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Chatterbox.modulemap; sourceTree = "<group>"; };
 		99A937F6828A136FD7DEC9DA7C5928DA /* NSNumber+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+IGListDiffable.h"; path = "Source/Common/NSNumber+IGListDiffable.h"; sourceTree = "<group>"; };
 		9AF81529E4F107D21ABF86BD0BA9C868 /* IGListCollectionViewLayoutInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayoutInternal.h; path = Source/Internal/IGListCollectionViewLayoutInternal.h; sourceTree = "<group>"; };
 		9B90D71AB343F3D4585115F0858EF0ED /* Pods-Chatterbox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatterbox_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -351,7 +371,7 @@
 		A1B18935E26C69C0635C3FD1B215CD4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2ADE3AC9F10C326CFE2EA30B55AD04E /* Pods-Chatterbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chatterbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A42495CD530668546A7E4D473BC2721A /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		A561104672E7FADAF66A98E853F57D7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87895A662D4757031718ECE02E8A254 /* Chatterbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Chatterbox-dummy.m"; sourceTree = "<group>"; };
 		A9F3C8F1F932B890D8A8B2A266EA6B2F /* IGListAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapter.h; path = Source/IGListAdapter.h; sourceTree = "<group>"; };
 		AA0B73947B7449F042A70DED63DA2E71 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE108738C303371FA38C63E23AEE3281 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -362,6 +382,7 @@
 		B80073F2F3B2FD71E52F54A5E531C277 /* IGListStackedSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionController.h; path = Source/IGListStackedSectionController.h; sourceTree = "<group>"; };
 		B8239565665D111894F9688A1CA7272B /* IGListReloadIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadIndexPath.h; path = Source/Internal/IGListReloadIndexPath.h; sourceTree = "<group>"; };
 		BA6BD18DC701D936EABFF77BE45534B7 /* IGListBindingSectionControllerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerDataSource.h; path = Source/IGListBindingSectionControllerDataSource.h; sourceTree = "<group>"; };
+		BC4808F072FA70FD4E8A38F1CE3CB50C /* Chatterbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chatterbox-prefix.pch"; sourceTree = "<group>"; };
 		BD6FFD46F5374050D4E8DA3AECA204AE /* IGListSectionMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionMap.h; path = Source/Internal/IGListSectionMap.h; sourceTree = "<group>"; };
 		BDC26C22E5EC9E4CF0057A9AA82B199D /* IGListMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMacros.h; path = Source/Common/IGListMacros.h; sourceTree = "<group>"; };
 		BE4A3EF340E80548746ECCAD34AB801D /* NSString+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+IGListDiffable.h"; path = "Source/Common/NSString+IGListDiffable.h"; sourceTree = "<group>"; };
@@ -384,8 +405,7 @@
 		DD373B0CD74D3FD4477B7EC2CBB0592D /* IGListAdapterUpdaterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterInternal.h; path = Source/Internal/IGListAdapterUpdaterInternal.h; sourceTree = "<group>"; };
 		DEEB56E04F19421C8B1E04020CCA2581 /* IGListCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCompatibility.h; path = Source/Common/IGListCompatibility.h; sourceTree = "<group>"; };
 		DF211B89C63A45506E06A50BC3E869F6 /* Pods-Chatterbox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatterbox_Example-resources.sh"; sourceTree = "<group>"; };
-		E142E764933262F6C0B099E3501DA90A /* Chatterbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chatterbox-prefix.pch"; sourceTree = "<group>"; };
-		E1685C787BC679B8850B358789F3F279 /* Pods-Chatterbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Chatterbox_Example.modulemap"; sourceTree = "<group>"; };
+		E1685C787BC679B8850B358789F3F279 /* Pods-Chatterbox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Chatterbox_Example.modulemap"; sourceTree = "<group>"; };
 		E1BEB8D79A6949DF1822DDB9A19EEE38 /* IGListSectionControllerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionControllerInternal.h; path = Source/Internal/IGListSectionControllerInternal.h; sourceTree = "<group>"; };
 		E2780962C76AAAF27ABBA2D46C3507D3 /* IGListAdapterUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListAdapterUpdater.m; path = Source/IGListAdapterUpdater.m; sourceTree = "<group>"; };
 		E3A618D0CF6CFBB048557A20A3BBE2DA /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
@@ -395,20 +415,40 @@
 		E769D5C3640FE7BBC885C6F516A02A04 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		E85F867FAAAC82B9F2C3A0913FC44093 /* IGListGenericSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListGenericSectionController.m; path = Source/IGListGenericSectionController.m; sourceTree = "<group>"; };
 		E94E2EDE08DFE5F4B711BF8C03F1E501 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		E952E85E22E99D70068C2AC44E09141A /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		E952E85E22E99D70068C2AC44E09141A /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		EB110308363E6A1DB9A69980B5F1C038 /* UICollectionView+IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+IGListBatchUpdateData.h"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.h"; sourceTree = "<group>"; };
 		EB5EC73875DD945070849D47AE032273 /* IGListKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListKit.h; path = Source/IGListKit.h; sourceTree = "<group>"; };
 		EBB8666EF44A29E5FF54C2C749DF7E57 /* IGListBindingSectionControllerSelectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerSelectionDelegate.h; path = Source/IGListBindingSectionControllerSelectionDelegate.h; sourceTree = "<group>"; };
 		F1940368602B3108F2F87234DA7F0FED /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		F195A7A8D5F83FD0EF7783C741A96246 /* IGListAdapterProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterProxy.h; path = Source/Internal/IGListAdapterProxy.h; sourceTree = "<group>"; };
-		F656B784F27D640C5BB65CB3EBB080A0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		F79DE13428E976510615AEB4666B30D5 /* IGListExperiments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListExperiments.h; path = Source/Common/IGListExperiments.h; sourceTree = "<group>"; };
 		F85006A7D0E0E8F0364EB5331052F801 /* IGListAdapter+UICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapter+UICollectionView.h"; path = "Source/Internal/IGListAdapter+UICollectionView.h"; sourceTree = "<group>"; };
 		F8D0C3DE94244E2E80ACF4CE4433496F /* IGListSectionMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSectionMap.m; path = Source/Internal/IGListSectionMap.m; sourceTree = "<group>"; };
 		FB4B1BC8977E3A6B127375A4D32473EA /* IGListStackedSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListStackedSectionController.m; path = Source/IGListStackedSectionController.m; sourceTree = "<group>"; };
 		FB7155DF93C41DCF01F6569799F04456 /* Pods-Chatterbox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chatterbox_Example-dummy.m"; sourceTree = "<group>"; };
-		FC6F614511F7B86F8D13B6979DA6CCAF /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
-		FCCF2CE15B0D2CE77D60E2838FEAB9AB /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		FC6F614511F7B86F8D13B6979DA6CCAF /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
+		FCCF2CE15B0D2CE77D60E2838FEAB9AB /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		FF33CCAA1F73DEFE00126EA0 /* AutoGrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoGrowingTextView.swift; sourceTree = "<group>"; };
+		FF33CCAB1F73DEFE00126EA0 /* BaseChatInterfaceDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseChatInterfaceDataProvider.swift; sourceTree = "<group>"; };
+		FF33CCAC1F73DEFE00126EA0 /* BaseChatInterfaceWebSocketProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseChatInterfaceWebSocketProvider.swift; sourceTree = "<group>"; };
+		FF33CCAD1F73DEFE00126EA0 /* ChatDraftMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDraftMessage.swift; sourceTree = "<group>"; };
+		FF33CCAE1F73DEFE00126EA0 /* ChatInputAccessoryRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputAccessoryRepresentable.swift; sourceTree = "<group>"; };
+		FF33CCAF1F73DEFE00126EA0 /* ChatInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputAccessoryView.swift; sourceTree = "<group>"; };
+		FF33CCB01F73DEFE00126EA0 /* ChatInterfaceCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceCollectionView.swift; sourceTree = "<group>"; };
+		FF33CCB11F73DEFE00126EA0 /* ChatInterfaceCommonRepresentables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceCommonRepresentables.swift; sourceTree = "<group>"; };
+		FF33CCB21F73DEFE00126EA0 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceViewController.swift; sourceTree = "<group>"; };
+		FF33CCB31F73DEFE00126EA0 /* ChatInterfaceViewController+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatInterfaceViewController+Helpers.swift"; sourceTree = "<group>"; };
+		FF33CCB41F73DEFE00126EA0 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		FF33CCB51F73DEFE00126EA0 /* ChatMessageDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageDataController.swift; sourceTree = "<group>"; };
+		FF33CCB61F73DEFE00126EA0 /* ChatMessageLoaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageLoaderCell.swift; sourceTree = "<group>"; };
+		FF33CCB71F73DEFE00126EA0 /* ChatMessageLoaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageLoaderController.swift; sourceTree = "<group>"; };
+		FF33CCB81F73DEFE00126EA0 /* ChatMessageRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageRepresentable.swift; sourceTree = "<group>"; };
+		FF33CCB91F73DEFE00126EA0 /* ChatMessageViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageViewBuilder.swift; sourceTree = "<group>"; };
+		FF33CCBA1F73DEFE00126EA0 /* ChatMessageViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageViewRepresentable.swift; sourceTree = "<group>"; };
+		FF33CCBB1F73DEFE00126EA0 /* ChatTextMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextMessageCell.swift; sourceTree = "<group>"; };
+		FF33CCBC1F73DEFE00126EA0 /* ChatTextMessageDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextMessageDataController.swift; sourceTree = "<group>"; };
+		FF33CCBD1F73DEFE00126EA0 /* ChatThreadRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatThreadRepresentable.swift; sourceTree = "<group>"; };
+		FF33CCBF1F73DEFE00126EA0 /* SRChatInterfaceWebSocketProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRChatInterfaceWebSocketProvider.swift; sourceTree = "<group>"; };
 		FFD7E8C447D0A4EE62130B7AF17AD94C /* IGListAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDelegate.h; path = Source/IGListAdapterDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -654,7 +694,6 @@
 				A42495CD530668546A7E4D473BC2721A /* UILayoutSupport+Extensions.swift */,
 				AFC1DB0A709DBD09F5C54D241F3F7C90 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -670,7 +709,7 @@
 		4882AA45F1A79921A1E14E8214B60B1B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA37C5DD3A9A2DDBF644B9B705E2B7C8 /* Chatterbox */,
+				5EA5511650C52982AAA7337C783154D8 /* Chatterbox */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -698,6 +737,36 @@
 			);
 			name = "Pods-Chatterbox_Tests";
 			path = "Target Support Files/Pods-Chatterbox_Tests";
+			sourceTree = "<group>";
+		};
+		5EA5511650C52982AAA7337C783154D8 /* Chatterbox */ = {
+			isa = PBXGroup;
+			children = (
+				FF33CCAA1F73DEFE00126EA0 /* AutoGrowingTextView.swift */,
+				FF33CCAB1F73DEFE00126EA0 /* BaseChatInterfaceDataProvider.swift */,
+				FF33CCAC1F73DEFE00126EA0 /* BaseChatInterfaceWebSocketProvider.swift */,
+				FF33CCAD1F73DEFE00126EA0 /* ChatDraftMessage.swift */,
+				FF33CCAE1F73DEFE00126EA0 /* ChatInputAccessoryRepresentable.swift */,
+				FF33CCAF1F73DEFE00126EA0 /* ChatInputAccessoryView.swift */,
+				FF33CCB01F73DEFE00126EA0 /* ChatInterfaceCollectionView.swift */,
+				FF33CCB11F73DEFE00126EA0 /* ChatInterfaceCommonRepresentables.swift */,
+				FF33CCB21F73DEFE00126EA0 /* ChatInterfaceViewController.swift */,
+				FF33CCB31F73DEFE00126EA0 /* ChatInterfaceViewController+Helpers.swift */,
+				FF33CCB41F73DEFE00126EA0 /* ChatMessageCell.swift */,
+				FF33CCB51F73DEFE00126EA0 /* ChatMessageDataController.swift */,
+				FF33CCB61F73DEFE00126EA0 /* ChatMessageLoaderCell.swift */,
+				FF33CCB71F73DEFE00126EA0 /* ChatMessageLoaderController.swift */,
+				FF33CCB81F73DEFE00126EA0 /* ChatMessageRepresentable.swift */,
+				FF33CCB91F73DEFE00126EA0 /* ChatMessageViewBuilder.swift */,
+				FF33CCBA1F73DEFE00126EA0 /* ChatMessageViewRepresentable.swift */,
+				FF33CCBB1F73DEFE00126EA0 /* ChatTextMessageCell.swift */,
+				FF33CCBC1F73DEFE00126EA0 /* ChatTextMessageDataController.swift */,
+				FF33CCBD1F73DEFE00126EA0 /* ChatThreadRepresentable.swift */,
+				FF33CCBF1F73DEFE00126EA0 /* SRChatInterfaceWebSocketProvider.swift */,
+				F719714E3080DF6120DB5D781D4A1A0E /* Support Files */,
+			);
+			name = Chatterbox;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6346F958D094F36CE8E43D3679446C5F /* iOS */ = {
@@ -733,15 +802,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		8443155D3A3E4E2C215CA273821082E2 /* Chatterbox */ = {
-			isa = PBXGroup;
-			children = (
-				9E4E2DF148DB77859D01E990B195B994 /* Classes */,
-			);
-			name = Chatterbox;
-			path = Chatterbox;
-			sourceTree = "<group>";
-		};
 		8758EA403CF5922FC465B0DA53C60F47 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -756,15 +816,6 @@
 			path = "../Target Support Files/IGListKit";
 			sourceTree = "<group>";
 		};
-		9E4E2DF148DB77859D01E990B195B994 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F656B784F27D640C5BB65CB3EBB080A0 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		9EE3EE38334AD89292486F85E997831F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -776,20 +827,6 @@
 				7F63F34443F74CA297902275C95253C2 /* SocketRocket.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9F039593634FC1466A892F180773AAB5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EAB37CF2A59E8BB36278A6751FC8ACA /* Chatterbox.modulemap */,
-				2AB0DBC9A08F172F5AAEBB13B0FEDD26 /* Chatterbox.xcconfig */,
-				1EBDAB69799D4875B144CBC72D526F4A /* Chatterbox-dummy.m */,
-				E142E764933262F6C0B099E3501DA90A /* Chatterbox-prefix.pch */,
-				883CC884D29A9F634348912952F3ABE6 /* Chatterbox-umbrella.h */,
-				A561104672E7FADAF66A98E853F57D7A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Chatterbox";
 			sourceTree = "<group>";
 		};
 		AFC1DB0A709DBD09F5C54D241F3F7C90 /* Support Files */ = {
@@ -806,16 +843,6 @@
 			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
-		BA37C5DD3A9A2DDBF644B9B705E2B7C8 /* Chatterbox */ = {
-			isa = PBXGroup;
-			children = (
-				8443155D3A3E4E2C215CA273821082E2 /* Chatterbox */,
-				9F039593634FC1466A892F180773AAB5 /* Support Files */,
-			);
-			name = Chatterbox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		DBD84C0FC7FCA1CC7398DB553C478A43 /* IGListKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -823,7 +850,6 @@
 				53678235729C56D63AB7B8CCA4C516DC /* Diffing */,
 				8758EA403CF5922FC465B0DA53C60F47 /* Support Files */,
 			);
-			name = IGListKit;
 			path = IGListKit;
 			sourceTree = "<group>";
 		};
@@ -835,8 +861,21 @@
 				381CD3064EB2909F5D47ED9AC5186F85 /* SRWebSocket.m */,
 				0B013C6336A03BF76EEE327428BA2D2C /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		F719714E3080DF6120DB5D781D4A1A0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99862EE4B43FB9E9C3D680669CBFE81A /* Chatterbox.modulemap */,
+				06B40BB9C7E6DD0E216CDC31C5204A24 /* Chatterbox.xcconfig */,
+				A87895A662D4757031718ECE02E8A254 /* Chatterbox-dummy.m */,
+				BC4808F072FA70FD4E8A38F1CE3CB50C /* Chatterbox-prefix.pch */,
+				67370685EE4B9940D222CB52452BC879 /* Chatterbox-umbrella.h */,
+				1046E75177F7AB113F1D3845D8BA7DCD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Chatterbox";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -983,7 +1022,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB7615F9C59BA1E1116941A32582F858 /* Build configuration list for PBXNativeTarget "Chatterbox" */;
 			buildPhases = (
-				B504420E9D1E5B25CDE387EEB3C5C3CD /* Sources */,
+				5ED38A9B451EC0BC1208EE2FE8F0B06B /* Sources */,
 				CFC4E4B3D3E1CA952C8B65CE6CCDC921 /* Frameworks */,
 				B225B961CF3BBE313DFDA3373ACD3FFC /* Headers */,
 			);
@@ -1140,6 +1179,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ED38A9B451EC0BC1208EE2FE8F0B06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33CCD51F73DEFE00126EA0 /* SRChatInterfaceWebSocketProvider.swift in Sources */,
+				0C9E3274583521E816B9563F927433A6 /* Chatterbox-dummy.m in Sources */,
+				FF33CCD01F73DEFE00126EA0 /* ChatMessageViewRepresentable.swift in Sources */,
+				FF33CCD21F73DEFE00126EA0 /* ChatTextMessageDataController.swift in Sources */,
+				FF33CCCB1F73DEFE00126EA0 /* ChatMessageDataController.swift in Sources */,
+				FF33CCCC1F73DEFE00126EA0 /* ChatMessageLoaderCell.swift in Sources */,
+				FF33CCCD1F73DEFE00126EA0 /* ChatMessageLoaderController.swift in Sources */,
+				FF33CCC91F73DEFE00126EA0 /* ChatInterfaceViewController+Helpers.swift in Sources */,
+				FF33CCC61F73DEFE00126EA0 /* ChatInterfaceCollectionView.swift in Sources */,
+				FF33CCC71F73DEFE00126EA0 /* ChatInterfaceCommonRepresentables.swift in Sources */,
+				FF33CCC01F73DEFE00126EA0 /* AutoGrowingTextView.swift in Sources */,
+				FF33CCCA1F73DEFE00126EA0 /* ChatMessageCell.swift in Sources */,
+				FF33CCC31F73DEFE00126EA0 /* ChatDraftMessage.swift in Sources */,
+				FF33CCC41F73DEFE00126EA0 /* ChatInputAccessoryRepresentable.swift in Sources */,
+				FF33CCC11F73DEFE00126EA0 /* BaseChatInterfaceDataProvider.swift in Sources */,
+				FF33CCC51F73DEFE00126EA0 /* ChatInputAccessoryView.swift in Sources */,
+				FF33CCD31F73DEFE00126EA0 /* ChatThreadRepresentable.swift in Sources */,
+				FF33CCCE1F73DEFE00126EA0 /* ChatMessageRepresentable.swift in Sources */,
+				FF33CCC81F73DEFE00126EA0 /* ChatInterfaceViewController.swift in Sources */,
+				FF33CCCF1F73DEFE00126EA0 /* ChatMessageViewBuilder.swift in Sources */,
+				FF33CCD11F73DEFE00126EA0 /* ChatTextMessageCell.swift in Sources */,
+				FF33CCC21F73DEFE00126EA0 /* BaseChatInterfaceWebSocketProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7049DB5631B4C36540BD9EAF00B8715B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1194,15 +1262,6 @@
 				60E94F75BA06939ACAD4A2FC6A0590CE /* NSString+IGListDiffable.m in Sources */,
 				D6D9EA62A8B4C350E59858C7692A081F /* UICollectionView+DebugDescription.m in Sources */,
 				C9D9B1BB2F92A6085713E91EF9810D35 /* UICollectionView+IGListBatchUpdateData.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B504420E9D1E5B25CDE387EEB3C5C3CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AA1542BD765A854C5D455B0EA19A878 /* Chatterbox-dummy.m in Sources */,
-				DA43CBFCCB7794C9447D4B0A16C4A3C9 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1263,39 +1322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09468BCF6A3D0575C7FFFDF32F4AFCFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F2E1E94ABFD8FF93829C929C3040020 /* SocketRocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SocketRocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		09CDB9E9A525F5B6E9F759897DB71D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3398106D237F0CEB8B5A79149BFB3D5F /* Pods-Chatterbox_Example.debug.xcconfig */;
@@ -1335,9 +1361,44 @@
 			};
 			name = Debug;
 		};
-		2E78354BB8EC550563C478DE0CFCF9EC /* Release */ = {
+		24330C18E046CAEF22A7A23347EFF4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 325439995D7D7103197DB6148A622A6B /* IGListKit.xcconfig */;
+			baseConfigurationReference = 845F319CEDC243EFE0F939700429484F /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		284F0EB000BF55AE768FAB22FE9C9939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2E1E94ABFD8FF93829C929C3040020 /* SocketRocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1351,16 +1412,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/IGListKit/IGListKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IGListKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IGListKit/IGListKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = IGListKit;
+				PRODUCT_NAME = SocketRocket;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1404,6 +1466,41 @@
 			};
 			name = Debug;
 		};
+		3EFA5C2D4AD6C01C4AEF620B73BC05E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845F319CEDC243EFE0F939700429484F /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4A6B364271393CCFF010DA2850267DDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA50322EB16F99BF9112037E83CBC1AB /* Pods-Chatterbox_Tests.release.xcconfig */;
@@ -1440,7 +1537,76 @@
 			};
 			name = Release;
 		};
-		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+		7D7C7202AAD0BFF2062A4294AD2B4EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2E1E94ABFD8FF93829C929C3040020 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9077E1C05D3ED1B5EA1D15C083372B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B40BB9C7E6DD0E216CDC31C5204A24 /* Chatterbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Chatterbox/Chatterbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chatterbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Chatterbox/Chatterbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Chatterbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1484,82 +1650,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		50BF0E4F36CD780A6F1A873632D084C6 /* Debug */ = {
+		A7413A9C9F2A7D5FBC55DC54D96DFE00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 845F319CEDC243EFE0F939700429484F /* SnapKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		61B2F2A66CC8C9FE4C806FEBCC7625EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB0DBC9A08F172F5AAEBB13B0FEDD26 /* Chatterbox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Chatterbox/Chatterbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Chatterbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Chatterbox/Chatterbox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Chatterbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		790F309FB650C8CC2425F3A7605FA419 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB0DBC9A08F172F5AAEBB13B0FEDD26 /* Chatterbox.xcconfig */;
+			baseConfigurationReference = 06B40BB9C7E6DD0E216CDC31C5204A24 /* Chatterbox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1583,7 +1681,7 @@
 				PRODUCT_NAME = Chatterbox;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1592,40 +1690,7 @@
 			};
 			name = Debug;
 		};
-		9500E183DE0224B75120B6FEFD487981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F2E1E94ABFD8FF93829C929C3040020 /* SocketRocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SocketRocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8D3B88D5564D19AC2B43A28C133F0BE /* Debug */ = {
+		B0469C5A8C478F1D6C58EE6C0CE70D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 325439995D7D7103197DB6148A622A6B /* IGListKit.xcconfig */;
 			buildSettings = {
@@ -1651,12 +1716,47 @@
 				PRODUCT_NAME = IGListKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B06024CC18C177344A6703F159E0B5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325439995D7D7103197DB6148A622A6B /* IGListKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IGListKit/IGListKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGListKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGListKit/IGListKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IGListKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1699,40 +1799,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C53CD16E8FD6E7F39A4D6A22678F8540 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 845F319CEDC243EFE0F939700429484F /* SnapKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1780,7 +1846,7 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
 				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1789,8 +1855,8 @@
 		7B2E3BA7EA1FA270BDA8F2616BC16AD8 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09468BCF6A3D0575C7FFFDF32F4AFCFE /* Debug */,
-				9500E183DE0224B75120B6FEFD487981 /* Release */,
+				7D7C7202AAD0BFF2062A4294AD2B4EC0 /* Debug */,
+				284F0EB000BF55AE768FAB22FE9C9939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1798,8 +1864,8 @@
 		CA49D21CB2594FBCBE8C8F1F94AA00A3 /* Build configuration list for PBXNativeTarget "IGListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8D3B88D5564D19AC2B43A28C133F0BE /* Debug */,
-				2E78354BB8EC550563C478DE0CFCF9EC /* Release */,
+				B0469C5A8C478F1D6C58EE6C0CE70D7B /* Debug */,
+				B06024CC18C177344A6703F159E0B5D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1807,8 +1873,8 @@
 		CB7615F9C59BA1E1116941A32582F858 /* Build configuration list for PBXNativeTarget "Chatterbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				790F309FB650C8CC2425F3A7605FA419 /* Debug */,
-				61B2F2A66CC8C9FE4C806FEBCC7625EF /* Release */,
+				A7413A9C9F2A7D5FBC55DC54D96DFE00 /* Debug */,
+				9077E1C05D3ED1B5EA1D15C083372B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1834,8 +1900,8 @@
 		F75C4264F10403891EF43CB41B7BC984 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50BF0E4F36CD780A6F1A873632D084C6 /* Debug */,
-				C53CD16E8FD6E7F39A4D6A22678F8540 /* Release */,
+				24330C18E046CAEF22A7A23347EFF4BA /* Debug */,
+				3EFA5C2D4AD6C01C4AEF620B73BC05E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,14 +9,20 @@
 import UIKit
 
 
-struct PlaceholderBundle {
+public struct PlaceholderBundle {
     var text: String? = nil
     var textColor: UIColor? = nil
     var font: UIFont? = nil
+    
+    public init(text: String?, textColor: UIColor?, font: UIFont?) {
+        self.text = text
+        self.textColor = textColor
+        self.font = font
+    }
 }
 
 
-class AutoGrowingTextView: UITextView {
+public class AutoGrowingTextView: UITextView {
     
     // MARK: LayoutComponents
     
@@ -30,7 +36,7 @@ class AutoGrowingTextView: UITextView {
     
     // MARK: UITextView-Variables
     
-    override var font: UIFont? {
+    override public var font: UIFont? {
         didSet {
             guard let bundle = placeholderBundle, let _ = bundle.text else {
                 return
@@ -42,7 +48,7 @@ class AutoGrowingTextView: UITextView {
         }
     }
     
-    override var contentSize: CGSize {
+    override public var contentSize: CGSize {
         didSet {
             updateHeight()
         }
@@ -50,7 +56,7 @@ class AutoGrowingTextView: UITextView {
     
     // MARK: Variables
     
-    var placeholderBundle: PlaceholderBundle? {
+    public var placeholderBundle: PlaceholderBundle? {
         didSet {
             placeholderLabel.text = placeholderBundle?.text
             
@@ -116,13 +122,13 @@ class AutoGrowingTextView: UITextView {
         addSubview(placeholderLabel)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: Layout
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         if canShowPlaceholder {

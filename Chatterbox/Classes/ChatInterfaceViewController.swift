@@ -54,7 +54,7 @@ ListDisplayDelegate {
     
     private(set) lazy var collectionView: ChatInterfaceCollectionView = ChatInterfaceCollectionView()
     
-    var chatInputAccessoryView: ChatInputAccessoryRepresentable {
+    open var chatInputAccessoryView: ChatInputAccessoryRepresentable {
         get {
             return collectionView.chatInputAccessoryView
         }

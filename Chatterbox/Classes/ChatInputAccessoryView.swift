@@ -10,11 +10,11 @@ import UIKit
 import SnapKit
 
 
-class ChatInputAccessoryView: UIView {
+open class ChatInputAccessoryView: UIView {
     
     // MARK: LayoutComponents
     
-    private(set) lazy var growingTextView: AutoGrowingTextView = {
+    open private(set) lazy var growingTextView: AutoGrowingTextView = {
         let textView = AutoGrowingTextView()
         
         textView.backgroundColor = UIColor.white
@@ -24,17 +24,17 @@ class ChatInputAccessoryView: UIView {
         return textView
     }()
     
-    private(set) lazy var sendButton: UIButton = {
+    open private(set) lazy var sendButton: UIButton = {
         let button = UIButton()
         
         button.contentEdgeInsets = UIEdgeInsets(top: 0.0, left: 10.0, bottom: 0.0, right: 10.0)
-        button.setTitle(NSLocalizedString("chat-message-button-title-send", comment: ""), for: .normal)
+        button.setTitle(NSLocalizedString("Send", comment: ""), for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 14.0)
         
         return button
     }()
     
-    private(set) lazy var sendingIndicator: UIActivityIndicatorView = {
+    open private(set) lazy var sendingIndicator: UIActivityIndicatorView = {
         let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .white)
         
         activityIndicator.hidesWhenStopped = true
@@ -45,7 +45,7 @@ class ChatInputAccessoryView: UIView {
     
     // MARK: Variables
     
-    var contentEdgeInsets = UIEdgeInsets(top: 8.0, left: 8.0, bottom: 8.0, right: 8.0) {
+    open var contentEdgeInsets = UIEdgeInsets(top: 8.0, left: 8.0, bottom: 8.0, right: 8.0) {
         didSet {
             if contentEdgeInsets == oldValue {
                 return
@@ -56,7 +56,7 @@ class ChatInputAccessoryView: UIView {
         }
     }
     
-    var textViewEdgeInsets = UIEdgeInsets.zero {
+    open var textViewEdgeInsets = UIEdgeInsets.zero {
         didSet {
             if textViewEdgeInsets == oldValue {
                 return
@@ -84,7 +84,7 @@ class ChatInputAccessoryView: UIView {
     private var sendButtonLeadingConstraint: Constraint?
     private var sendButtonTrailingConstraint: Constraint?
     
-    var isSendingText: Bool = false {
+    open var isSendingText: Bool = false {
         didSet {
             if isSendingText == oldValue {
                 return
@@ -104,11 +104,11 @@ class ChatInputAccessoryView: UIView {
         }
     }
     
-    weak var delegate: ChatInputAccessoryDelegate?
+    weak public var delegate: ChatInputAccessoryDelegate?
     
     // MARK: Initialization
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         minimumHeight = calculateMinimumumHeight()
@@ -118,13 +118,13 @@ class ChatInputAccessoryView: UIView {
         sendButton.addTarget(self, action: #selector(didTap(sendButton:)), for: .touchUpInside)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: Layout
     
-    override var intrinsicContentSize: CGSize {
+    override open var intrinsicContentSize: CGSize {
         let totalHeight = growingTextView.expectedHeight +
             contentEdgeInsets.top +
             contentEdgeInsets.bottom +
@@ -214,7 +214,7 @@ class ChatInputAccessoryView: UIView {
     
     // MARK: UIView
     
-    override func didMoveToSuperview() {
+    override open func didMoveToSuperview() {
         if superview == nil { // It is removed from superview
             return
         }
@@ -232,15 +232,15 @@ class ChatInputAccessoryView: UIView {
 // MARK: ChatInputAccessoryRepresentable
 
 extension ChatInputAccessoryView: ChatInputAccessoryRepresentable {
-    var view: UIView {
+    public var view: UIView {
         return self
     }
     
-    var textView: UITextView {
+    public var textView: UITextView {
         return growingTextView
     }
     
-    func textViewTextDidChange() {
+    public func textViewTextDidChange() {
         growingTextView.textDidChange()
         invalidateIntrinsicContentSize()
         

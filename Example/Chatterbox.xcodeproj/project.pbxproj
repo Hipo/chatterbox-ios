@@ -13,6 +13,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		95EB34EB1F73F002008F8FB7 /* ChatThreadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB34EA1F73F002008F8FB7 /* ChatThreadable.swift */; };
+		95EB34EE1F7500C5008F8FB7 /* FLChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB34ED1F7500C5008F8FB7 /* FLChatInputAccessoryView.swift */; };
 		9B86D8CC94A0D3AE518C9DD5 /* Pods_Chatterbox_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39980E236E7464A6C27A004D /* Pods_Chatterbox_Example.framework */; };
 		E296088D7643D2F8F574EAE6 /* Pods_Chatterbox_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0EE096FACDC1A545355767 /* Pods_Chatterbox_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D3F65AE219BE739FB981B47 /* Chatterbox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Chatterbox.podspec; path = ../Chatterbox.podspec; sourceTree = "<group>"; };
 		95EB34EA1F73F002008F8FB7 /* ChatThreadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatThreadable.swift; sourceTree = "<group>"; };
+		95EB34ED1F7500C5008F8FB7 /* FLChatInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLChatInputAccessoryView.swift; sourceTree = "<group>"; };
 		98BF544F6DE4C92495363150 /* Pods-Chatterbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox_Example/Pods-Chatterbox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4933C256808ABB1A6DF59F2 /* Pods-Chatterbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox_Tests/Pods-Chatterbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CD374B137CE3FD6F773273 /* Pods-Chatterbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox_Tests/Pods-Chatterbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for Chatterbox */ = {
 			isa = PBXGroup;
 			children = (
+				95EB34EC1F75007F008F8FB7 /* Views */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -157,6 +160,14 @@
 				E7CD374B137CE3FD6F773273 /* Pods-Chatterbox_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		95EB34EC1F75007F008F8FB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95EB34ED1F7500C5008F8FB7 /* FLChatInputAccessoryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +388,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				95EB34EE1F7500C5008F8FB7 /* FLChatInputAccessoryView.swift in Sources */,
 				95EB34EB1F73F002008F8FB7 /* ChatThreadable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

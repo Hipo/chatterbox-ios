@@ -10,6 +10,6 @@ import Foundation
 import UIKit
 
 
-protocol ViewRepresentable {
+public protocol ViewRepresentable {
     var view: UIView { get }
 }

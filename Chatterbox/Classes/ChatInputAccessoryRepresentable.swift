@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 
-protocol ChatInputAccessoryDelegate: class {
+public protocol ChatInputAccessoryDelegate: class {
     func chatInputAccessoryDidTapSendButton(_ chatInputAccessoryView: ChatInputAccessoryRepresentable)
 }
 
 
-protocol ChatInputAccessoryBuildable {
+public protocol ChatInputAccessoryBuildable {
     var textView: UITextView { get }
     var sendButton: UIButton { get }
     
@@ -26,4 +26,4 @@ protocol ChatInputAccessoryBuildable {
     func textViewTextDidChange()
 }
 
-typealias ChatInputAccessoryRepresentable = ViewRepresentable & ChatInputAccessoryBuildable
+public typealias ChatInputAccessoryRepresentable = ViewRepresentable & ChatInputAccessoryBuildable

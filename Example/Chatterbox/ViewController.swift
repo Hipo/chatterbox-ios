@@ -69,7 +69,11 @@ class DataProvider: BaseChatInterfaceDataProvider<ChatThreadable, ChatMessage> {
     
         let chatMessage = ChatMessage()
         
-        chatMessage.text = "Test chatbox"
+        if let message = chatDraftMessage.serialized()["text"] as? String {
+            chatMessage.text = message
+        } else {
+            chatMessage.text = NSLocalizedString("Unknow message type", comment: "")
+        }
         
         completion?(nil)
         

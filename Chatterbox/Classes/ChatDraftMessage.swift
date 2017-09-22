@@ -23,7 +23,7 @@ public struct ChatDraftMessage {
     
     // MARK: API
     
-    func serialized() -> [String: Any] {
+    public func serialized() -> [String: Any] {
         return ["text": serializedBody()]
     }
     

@@ -44,7 +44,7 @@ class FLChatInputAccessoryView: ChatInputAccessoryView {
             super.isSendingText = isSendingText
             
             if !isSendingText {
-                sendButton.setTitle(NSLocalizedString("chat-message-button-title-send", comment: ""), for: .normal)
+                sendButton.setTitle(NSLocalizedString("Send", comment: ""), for: .normal)
             }
         }
     }

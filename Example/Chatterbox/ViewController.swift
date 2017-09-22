@@ -13,8 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor.white
         
-        let dataProvider = DataProvider(thread: ChatThreadable())
-        let socketProvider = SocketProvider(thread: ChatThreadable())
+        let chatThread = ChatThreadable()
+        
+        let dataProvider = DataProvider(thread: chatThread)
+        let socketProvider = SocketProvider(thread: chatThread)
         
         let vc = ChatViewController(dataProvider: dataProvider,
                                     webSocketProvider: socketProvider)
@@ -50,26 +52,39 @@ class ChatViewController: ChatInterfaceViewController <ChatThreadable, ChatMessa
 }
 
 class DataProvider: BaseChatInterfaceDataProvider<ChatThreadable, ChatMessage> {
-    
-    // MARK: Variables
+    override var canLoadMoreChatMessages: Bool {
+        return false
+    }
     
     init(thread: ChatThreadable?) {
         super.init(chatThread: thread)
     }
     
     override func loadChatMessages(previous: Bool) {
-        
+        loadChatMessagesWasCompleted(previous: previous, with: nil)
     }
     
     override func send(_ chatDraftMessage: ChatDraftMessage,
                        onCompletion completion: ((Error?) -> Void)?) {
+    
+        let chatMessage = ChatMessage()
         
+        chatMessage.text = "Test chatbox"
+        
+        completion?(nil)
+        
+        //Insert chat message to chat thread
+        load(chatMessage)
     }
 }
 
 class SocketProvider: BaseChatInterfaceWebSocketProvider<ChatThreadable> {
     init(thread: ChatThreadable?) {
         super.init(chatThread: thread)
+    }
+    
+    override var chatServerUrl: String? {
+        return nil
     }
     
     override func setupConnection() {
@@ -83,5 +98,4 @@ class SocketProvider: BaseChatInterfaceWebSocketProvider<ChatThreadable> {
     override func closeConnection() {
         
     }
-    
 }

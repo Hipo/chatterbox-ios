@@ -79,7 +79,7 @@ open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMess
         return chatThreadStatus == .running
     }
     
-    var canLoadMoreChatMessages: Bool {
+    open var canLoadMoreChatMessages: Bool {
         return true
     }
     
@@ -108,7 +108,7 @@ open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMess
         fatalError("This method must be implemented by subclasses.")
     }
     
-    func load(_ chatMessage: ChatMessage) {
+    open func load(_ chatMessage: ChatMessage) {
         chatMessages.insert(chatMessage, at: 0)
         listener?.chatInterfaceDataProviderDidLoadNewChatMessage(animated: true)
         
@@ -132,7 +132,7 @@ open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMess
         fatalError("This method must be implemented by subclasses.")
     }
     
-    func loadChatMessagesWasCompleted(previous: Bool, with error: Error?) {
+    open func loadChatMessagesWasCompleted(previous: Bool, with error: Error?) {
         guard let error = error else {
             if previous {
                 listener?.chatInterfaceDataProviderDidLoadNextChatMessages(animated: false)

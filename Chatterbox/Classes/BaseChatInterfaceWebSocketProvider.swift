@@ -48,7 +48,7 @@ open class BaseChatInterfaceWebSocketProvider<T: ChatThreadRepresentable>: NSObj
     
     open var chatThread: ChatThread?
     
-    var chatServerUrl: String? {
+    open var chatServerUrl: String? {
         fatalError("This variable must be implemented by subclasses.")
     }
     

@@ -16,7 +16,7 @@ class ChatThreadable: ChatThreadRepresentable {
     }
     
     var isFault: Bool {
-        return false//
+        return false
     }
     
     var token: String? {
@@ -41,7 +41,7 @@ class ChatMessage: NSObject, ChatMessageRepresentable {
         return date == object.date
     }
     
-    fileprivate(set) var text: String? {
+    var text: String? {
         didSet {
             if text == oldValue {
                 return
@@ -92,4 +92,7 @@ class ChatMessage: NSObject, ChatMessageRepresentable {
         
         return info
     }
+}
+
+extension ChatMessage: ListDiffable {
 }

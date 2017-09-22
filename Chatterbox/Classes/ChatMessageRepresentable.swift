@@ -22,8 +22,6 @@ public protocol ChatMessageRepresentable: ListDiffable {
     
     var date: Date? { get }
     
-//    var owner: FLUser? { get }
-    
     var avatarUrl: String? { get }
     
     var isMe: Bool { get }

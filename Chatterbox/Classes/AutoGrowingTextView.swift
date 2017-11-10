@@ -26,13 +26,15 @@ public class AutoGrowingTextView: UITextView {
     
     // MARK: LayoutComponents
     
-    fileprivate lazy var placeholderLabel: UILabel = {
+    public lazy var placeholderLabel: UILabel = {
         let label = UILabel()
         
         label.isHidden = true
         
         return label
     }()
+    
+    public var shouldLayoutPlaceholderAutomatically: Bool = true
     
     // MARK: UITextView-Variables
     
@@ -133,8 +135,10 @@ public class AutoGrowingTextView: UITextView {
         
         if canShowPlaceholder {
             placeholderLabel.isHidden = false
-            placeholderLabel.frame = placeholderRectThatFits(bounds)
-            
+            if shouldLayoutPlaceholderAutomatically {
+                placeholderLabel.frame = placeholderRectThatFits(bounds)
+            }
+           
             sendSubview(toBack: placeholderLabel)
         }
     }

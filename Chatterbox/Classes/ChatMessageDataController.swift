@@ -11,17 +11,17 @@ import UIKit
 import IGListKit
 
 
-class ChatMessageDataController: ListSectionController {
+open class ChatMessageDataController: ListSectionController {
     
-    private(set) var chatMessage: ChatMessageRepresentable?
+    public var chatMessage: ChatMessageRepresentable?
     
     // MARK: ListSectionController
     
-    override func numberOfItems() -> Int {
+    override open func numberOfItems() -> Int {
         return 1
     }
     
-    func widthForItem(at index: Int) -> CGFloat {
+    public func widthForItem(at index: Int) -> CGFloat {
         let width: CGFloat
         
         if let collectionContext = collectionContext { // Precaution since collectionContext is force-wrap in samples.
@@ -33,15 +33,15 @@ class ChatMessageDataController: ListSectionController {
         return width
     }
     
-    override func sizeForItem(at index: Int) -> CGSize {
+    override open func sizeForItem(at index: Int) -> CGSize {
         return CGSize(width: widthForItem(at: index), height: CGFloat.leastNormalMagnitude)
     }
     
-    override func cellForItem(at index: Int) -> UICollectionViewCell {
+    override open func cellForItem(at index: Int) -> UICollectionViewCell {
         return UICollectionViewCell()
     }
     
-    final override func didUpdate(to object: Any) {
+    final override public func didUpdate(to object: Any) {
         chatMessage = object as? ChatMessageRepresentable
     }
 }

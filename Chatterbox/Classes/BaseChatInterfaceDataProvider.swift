@@ -69,7 +69,7 @@ open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMess
     }
     open var chatThreadStatus: ChatThreadStatus
     
-    var chatMessages = [ChatMessage]()
+    public var chatMessages = [ChatMessage]()
     
     var isNewChatThread: Bool {
         return chatThreadStatus == .unstarted
@@ -146,7 +146,7 @@ open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMess
         listener?.chatInterfaceDataProviderDidFailLoadChatMessages(with: error)
     }
 
-    func createChatMessageDataController(for chatMessage: ChatMessage) -> ChatMessageDataController {
+    open func createChatMessageDataController(for chatMessage: ChatMessage) -> ChatMessageDataController {
         switch chatMessage.type {
         case .none:
             return ChatMessageDataController()

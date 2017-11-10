@@ -11,7 +11,7 @@ import UIKit
 
 
 extension String {
-    func boundingSize(withAttributes attributes: [String: Any]?,
+    public func boundingSize(withAttributes attributes: [String: Any]?,
                       hasMultilines: Bool = true,
                       constrainedToSize size: CGSize) -> CGSize {
         if size == CGSize.zero {
@@ -55,7 +55,7 @@ extension String {
 
 
 extension NSAttributedString {
-    func boundingSize(hasMultilines: Bool = true,
+    public func boundingSize(hasMultilines: Bool = true,
                       constrainedToSize size: CGSize) -> CGSize {
         if size == CGSize.zero {
             return size

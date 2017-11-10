@@ -9,19 +9,19 @@
 import UIKit
 
 
-class ChatMessageCell<T: ChatMessageViewRepresentable>: UICollectionViewCell {
+open class ChatMessageCell<T: ChatMessageViewRepresentable>: UICollectionViewCell {
     
     // MARK: LayoutComponents
     
-    lazy var messageView: T = T()
+    public lazy var messageView: T = T()
     
     // MARK: Builder
     
-    private(set) var builder = ChatMessageViewBuilder<T>()
+    public var builder = ChatMessageViewBuilder<T>()
     
     // MARK: Initialization
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         contentView.transform = CGAffineTransform.identity.rotated(by: .pi)
@@ -29,19 +29,19 @@ class ChatMessageCell<T: ChatMessageViewRepresentable>: UICollectionViewCell {
         setupLayout()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: Layout
     
-    func setupLayout() {
+    open func setupLayout() {
         fatalError("This method must be overridden by subclasses.")
     }
     
     // MARK: API
     
-    class func calculateHeight(with chatMessage: ChatMessageRepresentable,
+    open class func calculateHeight(with chatMessage: ChatMessageRepresentable,
                                constrainedTo width: CGFloat) -> CGFloat {
         fatalError("This method must be overridden by subclasses.")
     }

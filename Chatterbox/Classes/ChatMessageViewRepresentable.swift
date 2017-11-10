@@ -8,15 +8,14 @@
 
 import UIKit
 
-
-enum ViewPosition {
+public enum ViewPosition {
     case none
     case left
     case right
 }
 
 
-protocol ChatMessageViewBuildable {
+public protocol ChatMessageViewBuildable {
     
     init()
     
@@ -35,4 +34,4 @@ protocol ChatMessageViewBuildable {
     static var contentEdgeInsets: UIEdgeInsets { get set }
 }
 
-typealias ChatMessageViewRepresentable = ViewRepresentable & ChatMessageViewBuildable
+public typealias ChatMessageViewRepresentable = ViewRepresentable & ChatMessageViewBuildable

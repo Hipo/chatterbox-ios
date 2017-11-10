@@ -15,13 +15,13 @@ func compose<A, B, C>(_ f1: @escaping ((A) -> B), _ f2: @escaping ((B) -> C)) ->
 }
 
 
-class ChatMessageViewBuilder<T: ChatMessageViewRepresentable>: NSObject {
+public class ChatMessageViewBuilder<T: ChatMessageViewRepresentable>: NSObject {
     
     fileprivate var fn: (T) -> T = { chatMessageView in
         return chatMessageView
     }
     
-    func contentBackgroundView() -> Self {
+    public func contentBackgroundView() -> Self {
         fn = compose(fn, { chatMessageView in
             if let backgroundView = chatMessageView.contentBackgroundView {
                 chatMessageView.contentView.addSubview(backgroundView)
@@ -37,7 +37,7 @@ class ChatMessageViewBuilder<T: ChatMessageViewRepresentable>: NSObject {
         return self
     }
     
-    func contentMessageView() -> Self {
+    public func contentMessageView() -> Self {
         fn = compose(fn, { chatMessageView in
             if let messageView = chatMessageView.contentMessageView {
                 chatMessageView.contentView.addSubview(messageView)
@@ -55,7 +55,7 @@ class ChatMessageViewBuilder<T: ChatMessageViewRepresentable>: NSObject {
         return self
     }
     
-    func contentFooterSupplementaryView() -> Self {
+    public func contentFooterSupplementaryView() -> Self {
         fn = compose(fn, { chatMessageView in
             if let supplementaryView = chatMessageView.contentFooterSupplementaryView {
                 chatMessageView.contentView.addSubview(supplementaryView)
@@ -73,7 +73,7 @@ class ChatMessageViewBuilder<T: ChatMessageViewRepresentable>: NSObject {
         return self
     }
     
-    func senderView(at position: ViewPosition) -> Self {
+    public func senderView(at position: ViewPosition) -> Self {
         fn = compose(fn, { chatMessageView in
             if let senderView = chatMessageView.senderView, position != .none {
                 chatMessageView.view.addSubview(senderView)
@@ -103,7 +103,7 @@ class ChatMessageViewBuilder<T: ChatMessageViewRepresentable>: NSObject {
         return self
     }
     
-    func build() -> T {
+    public func build() -> T {
         let simpleChatMessageView = T()
         
         simpleChatMessageView.view.addSubview(simpleChatMessageView.contentView)

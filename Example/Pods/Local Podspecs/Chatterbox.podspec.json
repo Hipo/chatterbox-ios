@@ -1,20 +1,21 @@
 {
   "name": "Chatterbox",
   "version": "0.1.0",
-  "summary": "A short description of Chatterbox.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Hakan Demiröz/Chatterbox",
+  "summary": "Plug and play chat library for iOS",
+  "description": "Plug and play chat library for iOS",
+  "homepage": "https://github.com/Hipo/chatterbox-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Hakan Demiröz": "mhdemiroz@gmail.com"
+    "Hipo": "hello@hipolabs.com"
   },
   "source": {
-    "git": "https://github.com/Hakan Demiröz/Chatterbox.git",
+    "git": "https://github.com/Hipo/chatterbox-ios.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/hipolabs",
   "platforms": {
     "ios": "9.0"
   },

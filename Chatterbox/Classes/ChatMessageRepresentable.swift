@@ -14,6 +14,7 @@ public enum ChatMessageType {
     case none
     case text(String?)
     case attributedText(NSAttributedString?)
+    case attachment(name: String?, url: String?)
 }
 
 

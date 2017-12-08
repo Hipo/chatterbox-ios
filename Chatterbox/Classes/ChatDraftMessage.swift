@@ -24,7 +24,7 @@ public struct ChatDraftMessage {
     // MARK: API
     
     public func serialized() -> [String: Any] {
-        return ["text": serializedBody()]
+        return ["text": serializedBody(), "attachment": serializedAttachment()]
     }
     
     private func serializedBody() -> String {
@@ -41,8 +41,27 @@ public struct ChatDraftMessage {
             if let validText = attributedText?.string {
                 body = validText
             }
-        }
         
+        case .attachment(_,_):
+            break
+        }
         return body
+    }
+    
+    private func serializedAttachment() -> [String: Any] {
+        var attachmentDictionary: [String: String] = [:]
+        switch type {
+        case .attachment(let name, let url):
+            if let validName = name {
+                attachmentDictionary["name"] = validName
+            }
+            if let validUrl = url {
+                attachmentDictionary["url"] = validUrl
+            }
+            return attachmentDictionary
+        default:
+            break
+        }
+        return attachmentDictionary
     }
 }

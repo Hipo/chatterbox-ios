@@ -103,6 +103,8 @@ class ChatTextMessageCell: ChatMessageCell<ChatTextMessageView> {
             height += calculateTextHeight(with: text, constrainedTo: maxSize)
         case .attributedText(let attributedText):
             height += calculateAttributedTextHeight(with: attributedText, constrainedTo: maxSize)
+        case .attachment(let name, let url):
+            break
         }
         
         return height

@@ -51,6 +51,8 @@ class ChatTextMessageDataController: ChatMessageDataController {
                 cell.messageView.textLabel.text = text
             case .attributedText(let attributedText):
                 cell.messageView.textLabel.attributedText = attributedText
+            case .attachment(let name, let url):
+                break
             }
         }
         

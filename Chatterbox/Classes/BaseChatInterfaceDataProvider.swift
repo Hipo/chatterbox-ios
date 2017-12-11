@@ -152,6 +152,8 @@ open class BaseChatInterfaceDataProvider<T: ChatThreadRepresentable, U: ChatMess
             return ChatMessageDataController()
         case .text, .attributedText:
             return ChatTextMessageDataController()
+        case .attachment(let name, let url):
+            return ChatTextMessageDataController()
         }
     }
     

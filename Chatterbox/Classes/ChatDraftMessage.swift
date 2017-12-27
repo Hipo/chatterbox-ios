@@ -13,11 +13,11 @@ public struct ChatDraftMessage {
     
     // MARK: Variables
     
-    var type: ChatMessageType
+    public var type: ChatMessageType
     
     // MARK: Initialization
     
-    init(type: ChatMessageType) {
+    public init(type: ChatMessageType) {
         self.type = type
     }
     
@@ -42,21 +42,24 @@ public struct ChatDraftMessage {
                 body = validText
             }
         
-        case .attachment(_,_):
+        case .attachment(_,_,_):
             break
         }
         return body
     }
     
     private func serializedAttachment() -> [String: Any] {
-        var attachmentDictionary: [String: String] = [:]
+        var attachmentDictionary: [String: Any] = [:]
         switch type {
-        case .attachment(let name, let url):
+        case .attachment(let name, let url, let identifier):
             if let validName = name {
                 attachmentDictionary["name"] = validName
             }
             if let validUrl = url {
                 attachmentDictionary["url"] = validUrl
+            }
+            if let validId = identifier {
+                attachmentDictionary["identifier"] = validId
             }
             return attachmentDictionary
         default:

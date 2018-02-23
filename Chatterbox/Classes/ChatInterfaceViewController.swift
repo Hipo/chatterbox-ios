@@ -318,7 +318,7 @@ ListDisplayDelegate {
         return ListSectionController()
     }
     
-    public func emptyView(for listAdapter: ListAdapter) -> UIView? {
+    open func emptyView(for listAdapter: ListAdapter) -> UIView? {
         return nil
     }
     

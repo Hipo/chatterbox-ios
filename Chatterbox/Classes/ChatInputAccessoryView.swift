@@ -77,6 +77,10 @@ open class ChatInputAccessoryView: UIView {
         }
     }
     
+    open var shouldInvalidateIntrinsicContentSizeWhenTextTyped: Bool {
+        return true
+    }
+    
     private var growingTextViewTopConstraint: Constraint?
     private var growingTextViewLeadingConstraint: Constraint?
     private var growingTextViewBottomConstraint: Constraint?
@@ -242,7 +246,10 @@ extension ChatInputAccessoryView: ChatInputAccessoryRepresentable {
     
     public func textViewTextDidChange() {
         growingTextView.textDidChange()
-        invalidateIntrinsicContentSize()
+        
+        if shouldInvalidateIntrinsicContentSizeWhenTextTyped {
+            invalidateIntrinsicContentSize()
+        }
         
         // TODO: It would be nice to find a way to animate height.
     }

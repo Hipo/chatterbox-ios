@@ -36,6 +36,12 @@ public class AutoGrowingTextView: UITextView {
     
     public var shouldLayoutPlaceholderAutomatically: Bool = true
     
+    public var fixedHeight: CGFloat? = nil {
+        didSet {
+            updateHeight()
+        }
+    }
+    
     // MARK: UITextView-Variables
     
     override public var font: UIFont? {
@@ -158,7 +164,13 @@ public class AutoGrowingTextView: UITextView {
 
 extension AutoGrowingTextView {
     fileprivate func updateHeight() {
-        let expectedHeight = calculateHeight()
+        let expectedHeight: CGFloat
+        
+        if let fixedHeight = fixedHeight {
+            expectedHeight = fixedHeight
+        } else {
+            expectedHeight = calculateHeight()
+        }
         
         if expectedHeight > maximumHeight {
             self.expectedHeight = maximumHeight

@@ -34,7 +34,7 @@ class MessageCell: ChatMessageCell<MessageView> {
         
         messageView.contentView.addSubview(textLabel)
         
-        textLabel.setContentHuggingPriority(999, for: .vertical)
+        textLabel.setContentHuggingPriority(UILayoutPriority(rawValue: 999), for: .vertical)
         textLabel.snp.remakeConstraints({ (make) in
             make.top.equalToSuperview().inset(10.0)
             make.leading.equalToSuperview().inset(10.0)
@@ -57,6 +57,8 @@ class MessageCell: ChatMessageCell<MessageView> {
             height += calculateTextHeight(with: text, constrainedTo: maxSize)
         case .attributedText(let attributedText):
             height += calculateAttributedTextHeight(with: attributedText, constrainedTo: maxSize)
+        case .attachment(let name, let url, let identifier):
+            break
         }
         
         return height
@@ -68,9 +70,9 @@ class MessageCell: ChatMessageCell<MessageView> {
             return 0.0
         }
         
-        var textAttributes = [String: Any]()
+        var textAttributes = [NSAttributedStringKey: Any]()
         
-        textAttributes[NSFontAttributeName] = UIFont.systemFont(ofSize: 14.0)
+        textAttributes[NSAttributedStringKey.font] = UIFont.systemFont(ofSize: 14.0)
         
         return text.boundingSize(withAttributes: textAttributes, constrainedToSize: size).height
     }

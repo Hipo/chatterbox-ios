@@ -190,16 +190,16 @@ extension AutoGrowingTextView {
             return minimumHeight
         }
         
-        var textAttributes = [String: Any]()
+        var textAttributes = [NSAttributedStringKey: Any]()
         
-        textAttributes[NSFontAttributeName] = font
+        textAttributes[NSAttributedStringKey.font] = font
         
         if lineHeightMultiple > 1.0 {
             let paragraphyStyle = NSMutableParagraphStyle()
             
             paragraphyStyle.lineHeightMultiple = lineHeightMultiple
             
-            textAttributes[NSParagraphStyleAttributeName] = paragraphyStyle
+            textAttributes[NSAttributedStringKey.paragraphStyle] = paragraphyStyle
         }
         
         let constrainedWidth = bounds.width -

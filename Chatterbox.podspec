@@ -17,7 +17,7 @@ Plug and play chat library for iOS
 
   s.source_files = 'Chatterbox/Classes/*.swift'
 
-  s.dependency 'IGListKit', '~> 3.0'
+  s.dependency 'IGListKit'
   s.dependency 'SocketRocket'
-  s.dependency 'SnapKit', '~> 3.0'
+  s.dependency 'SnapKit'
 end

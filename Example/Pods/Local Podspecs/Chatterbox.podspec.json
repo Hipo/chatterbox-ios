@@ -22,13 +22,13 @@
   "source_files": "Chatterbox/Classes/*.swift",
   "dependencies": {
     "IGListKit": [
-      "~> 3.0"
+
     ],
     "SocketRocket": [
 
     ],
     "SnapKit": [
-      "~> 3.0"
+      "~> 4.0"
     ]
   }
 }

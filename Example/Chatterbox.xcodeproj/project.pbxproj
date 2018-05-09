@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* Chatterbox_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chatterbox_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7D3F65AE219BE739FB981B47 /* Chatterbox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Chatterbox.podspec; path = ../Chatterbox.podspec; sourceTree = "<group>"; };
+		7D3F65AE219BE739FB981B47 /* Chatterbox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Chatterbox.podspec; path = ../Chatterbox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95EB34EA1F73F002008F8FB7 /* ChatThreadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatThreadable.swift; sourceTree = "<group>"; };
 		95EB34ED1F7500C5008F8FB7 /* FLChatInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLChatInputAccessoryView.swift; sourceTree = "<group>"; };
 		98BF544F6DE4C92495363150 /* Pods-Chatterbox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox_Example/Pods-Chatterbox_Example.release.xcconfig"; sourceTree = "<group>"; };

@@ -1,14 +1,14 @@
 PODS:
   - Chatterbox (0.1.0):
-    - IGListKit (~> 3.0)
-    - SnapKit (~> 3.0)
+    - IGListKit
+    - SnapKit (~> 4.0)
     - SocketRocket
-  - IGListKit (3.1.1):
-    - IGListKit/Default (= 3.1.1)
-  - IGListKit/Default (3.1.1):
+  - IGListKit (3.2.0):
+    - IGListKit/Default (= 3.2.0)
+  - IGListKit/Default (3.2.0):
     - IGListKit/Diffing
-  - IGListKit/Diffing (3.1.1)
-  - SnapKit (3.2.0)
+  - IGListKit/Diffing (3.2.0)
+  - SnapKit (4.0.0)
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
@@ -25,9 +25,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Chatterbox: 18e35f8110fb8b5849301e2348cf7ab84140cd80
-  IGListKit: cb97f405ae43e59fe1da74271e19427ec20d3c07
-  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Chatterbox: 77025c4e0561ca9235231bae37c78f966066eb2b
+  IGListKit: ffe6f98a728ab0250aceea22e7957aa5477c5048
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
 PODFILE CHECKSUM: 348e75b702dab330476fd44b9eccbd3eff0609e0

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Chatterbox'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Plug and play chat library for iOS'
   s.description      = <<-DESC
 Plug and play chat library for iOS
@@ -19,5 +19,5 @@ Plug and play chat library for iOS
 
   s.dependency 'IGListKit'
   s.dependency 'SocketRocket'
-  s.dependency 'SnapKit'
+  s.dependency 'SnapKit', '~> 4.0'
 end

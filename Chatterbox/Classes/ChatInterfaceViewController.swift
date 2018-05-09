@@ -362,7 +362,7 @@ ListDisplayDelegate {
     
     // MARK: Notifications+Action
     
-    func didReceive(keyboardWillShow notification: Notification) {
+    @objc func didReceive(keyboardWillShow notification: Notification) {
         if UIApplication.shared.applicationState != UIApplicationState.active {
             return
         }
@@ -386,7 +386,7 @@ ListDisplayDelegate {
         updateInsets(animated: !collectionView.isFirstResponder)
     }
     
-    func didReceive(keyboardWillHide notification: Notification) {
+    @objc func didReceive(keyboardWillHide notification: Notification) {
         if UIApplication.shared.applicationState != UIApplicationState.active {
             return
         }
@@ -396,7 +396,7 @@ ListDisplayDelegate {
         updateInsets()
     }
     
-    func didReceive(applicationWillEnterForeground notification: Notification) {
+    @objc func didReceive(applicationWillEnterForeground notification: Notification) {
         dataProvider.chatMessages.removeAll()
         reloadData()
         
@@ -406,7 +406,7 @@ ListDisplayDelegate {
         observeNewChatMessages()
     }
     
-    func didReceive(applicationDidEnterBackground notification: Notification) {
+    @objc func didReceive(applicationDidEnterBackground notification: Notification) {
         stopObservingNewChatMessages()
     }
 }

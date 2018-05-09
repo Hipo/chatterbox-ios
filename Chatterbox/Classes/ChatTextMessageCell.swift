@@ -116,9 +116,9 @@ class ChatTextMessageCell: ChatMessageCell<ChatTextMessageView> {
             return 0.0
         }
         
-        var textAttributes = [String: Any]()
+        var textAttributes = [NSAttributedStringKey: Any]()
         
-        textAttributes[NSFontAttributeName] = ChatTextMessageView.Style.Font.textLabelFont
+        textAttributes[NSAttributedStringKey.font] = ChatTextMessageView.Style.Font.textLabelFont
         
         return text.boundingSize(withAttributes: textAttributes, constrainedToSize: size).height
     }

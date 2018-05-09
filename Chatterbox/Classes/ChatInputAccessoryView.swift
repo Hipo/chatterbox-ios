@@ -163,8 +163,8 @@ open class ChatInputAccessoryView: UIView {
     private func prepareSendButtonLayout() {
         addSubview(sendButton)
         
-        sendButton.setContentHuggingPriority(UILayoutPriorityRequired, for: .horizontal)
-        sendButton.setContentCompressionResistancePriority(UILayoutPriorityRequired, for: .horizontal)
+        sendButton.setContentHuggingPriority(UILayoutPriority.required, for: .horizontal)
+        sendButton.setContentCompressionResistancePriority(UILayoutPriority.required, for: .horizontal)
         sendButton.snp.makeConstraints { (make) in
             make.bottom.equalToSuperview().inset(contentEdgeInsets.bottom)
             self.sendButtonHeightConstraint = make.height
@@ -228,7 +228,7 @@ open class ChatInputAccessoryView: UIView {
     
     // MARK: Action
     
-    func didTap(sendButton sender: UIButton) {
+    @objc func didTap(sendButton sender: UIButton) {
         delegate?.chatInputAccessoryDidTapSendButton(self)
     }
 }

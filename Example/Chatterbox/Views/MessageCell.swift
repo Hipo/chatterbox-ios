@@ -57,7 +57,7 @@ class MessageCell: ChatMessageCell<MessageView> {
             height += calculateTextHeight(with: text, constrainedTo: maxSize)
         case .attributedText(let attributedText):
             height += calculateAttributedTextHeight(with: attributedText, constrainedTo: maxSize)
-        case .attachment(let name, let url, let identifier):
+        case .attachment(_, _, _):
             break
         }
         
@@ -70,9 +70,9 @@ class MessageCell: ChatMessageCell<MessageView> {
             return 0.0
         }
         
-        var textAttributes = [NSAttributedStringKey: Any]()
+        var textAttributes = [NSAttributedString.Key: Any]()
         
-        textAttributes[NSAttributedStringKey.font] = UIFont.systemFont(ofSize: 14.0)
+        textAttributes[NSAttributedString.Key.font] = UIFont.systemFont(ofSize: 14.0)
         
         return text.boundingSize(withAttributes: textAttributes, constrainedToSize: size).height
     }

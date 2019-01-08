@@ -1,6 +1,6 @@
 {
   "name": "Chatterbox",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Plug and play chat library for iOS",
   "description": "Plug and play chat library for iOS",
   "homepage": "https://github.com/Hipo/chatterbox-ios",
@@ -13,12 +13,16 @@
   },
   "source": {
     "git": "https://github.com/Hipo/chatterbox-ios.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "social_media_url": "https://twitter.com/hipolabs",
   "platforms": {
     "ios": "9.0"
   },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
+  "swift_version": "4.0",
   "source_files": "Chatterbox/Classes/*.swift",
   "dependencies": {
     "IGListKit": [
@@ -28,7 +32,7 @@
 
     ],
     "SnapKit": [
-      "~> 4.0"
+      "~> 4.2.0"
     ]
   }
 }

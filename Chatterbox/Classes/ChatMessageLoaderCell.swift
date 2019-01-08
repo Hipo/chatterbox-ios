@@ -14,7 +14,7 @@ class ChatMessageLoaderCell: UICollectionViewCell {
     // MARK: LayoutComponents
     
     private(set) lazy var loader: UIActivityIndicatorView = {
-        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let activityIndicatorView = UIActivityIndicatorView(style: .gray)
         
         activityIndicatorView.hidesWhenStopped = true
         

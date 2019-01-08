@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         vc.chatInputAccessoryView = FLChatInputAccessoryView()
         
-        self.addChildViewController(vc)
+        self.addChild(vc)
         self.view.addSubview(vc.view)
         
         vc.view.snp.makeConstraints { (make) in

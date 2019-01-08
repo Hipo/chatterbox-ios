@@ -21,5 +21,5 @@ Plug and play chat library for iOS
 
   s.dependency 'IGListKit'
   s.dependency 'SocketRocket'
-  s.dependency 'SnapKit', '~> 4.0'
+  s.dependency 'SnapKit', '~> 4.2.0'
 end

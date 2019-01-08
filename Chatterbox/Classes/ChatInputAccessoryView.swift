@@ -35,7 +35,7 @@ open class ChatInputAccessoryView: UIView {
     }()
     
     open private(set) lazy var sendingIndicator: UIActivityIndicatorView = {
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .white)
+        let activityIndicator = UIActivityIndicatorView(style: .white)
         
         activityIndicator.hidesWhenStopped = true
         activityIndicator.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
@@ -135,7 +135,7 @@ open class ChatInputAccessoryView: UIView {
             textViewEdgeInsets.top +
             textViewEdgeInsets.bottom
         
-        return CGSize(width: UIViewNoIntrinsicMetric, height: totalHeight)
+        return CGSize(width: UIView.noIntrinsicMetric, height: totalHeight)
     }
     
     func setupLayout() {

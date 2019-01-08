@@ -7,257 +7,257 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0344B55529845195FE347F84060E1D32 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40EBBC67C3EBCA48ECC94800188F119 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0458D0BCCB62A740A524F4CE51E8A3A3 /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E77FD8C0B11787FD0175B78FBC1D6C68 /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04979E93227A090DFC572E03BDC6D2D1 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F6D874EB710F2ABC7600CB4C30021 /* ConstraintView.swift */; };
-		05B8CFBE132BA26613E9195B80C1224A /* ChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8904BB482EF479242EBE5CFA6E00C /* ChatInputAccessoryView.swift */; };
-		06A61B3510D816C851BE629308C6C297 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B6A31D8E06B34D020FE3DE520E9E1 /* ConstraintRelation.swift */; };
-		099B8662F2F9AF84C1408F17EC1352A6 /* NSString+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3AE524EAFBFD4D24554948EA77E10 /* NSString+IGListDiffable.m */; };
-		09F88C3C0C3F34CCB3480F83ED873136 /* ChatMessageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52807A0F0BEB97533E47687114696D /* ChatMessageRepresentable.swift */; };
-		0A9A555D1B8CE1DEBED3D003B93B1524 /* IGListSupplementaryViewSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8EC73A432D93E436A9D6CAE5CE32BD /* IGListSupplementaryViewSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D827158981047DA8851F999E0375AF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D96829E85B9B7BDB78923C41D77C48F /* UIKit.framework */; };
-		0D85F9CE8AE21343EB04AB4842AB0C3D /* IGListWorkingRangeHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 046838290FDE9221A798C6B435452C24 /* IGListWorkingRangeHandler.mm */; };
-		0E251965E984DEBE883CC010A7188BAB /* UICollectionView+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 210C778E167EE3E027AE2F882472A46B /* UICollectionView+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0FB66C83C006B3BE5816816328F444CE /* IGListAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FA683E4B90F4833B5204BCB4284CCD /* IGListAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11B6B560F40D96A4590F9EBB5D04E466 /* IGListBatchUpdateData+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A2E6D0274A5579036B8A31181F8FA9 /* IGListBatchUpdateData+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		132238DF2DF50AAEE096A77128D981DC /* IGListAdapterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F3046600210523CA4DABBB433FFDB5 /* IGListAdapterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		147F43408846EE5477106AD9D31DDC7D /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2DF8D4B1DC6E2D6E11710B94D97B3 /* ConstraintInsets.swift */; };
-		14A80EFE1FF08A3988306D60C77C447B /* IGListBindingSectionControllerSelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB7AC7A512E1D281F9CCA4799133577 /* IGListBindingSectionControllerSelectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14EDBC63C67F6C18E8DFBF9A7E1922E3 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3841808B9BFDDC76CFE2208AAF49B598 /* ConstraintPriority.swift */; };
-		185AD6D73210ACAEE5E466FD976CCB77 /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B284C0DB05DDC91E1DA4FDAFAC609DC /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18CFF854FE34570AFDDBB761643EFCBB /* IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C0FB5835713BDAC499F13A95622CE0 /* IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A34FC97A396EFCCC1F4F44EC014533D /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0B73947B7449F042A70DED63DA2E71 /* IGListKit.framework */; };
-		1A883424765581BFB5D2B6AEC06AA415 /* Chatterbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC25145DCE31FE9A5B5E545CAD4FE2D /* Chatterbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ACB7BB245CC82EA4099BDB477E491D1 /* IGListSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6468B401547FA9ADD18A2A74AA205F13 /* IGListSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1BA4667A5D1691C194164AECE5BF3BC6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C9DF431965AB8145122C03E9EC926 /* Constraint.swift */; };
-		21A3ED8ED02E482B572AF7B421833F62 /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCED13F11CEB99E0B7C7D210BDD43FF /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21B518B29EF9416C4CFEC233D0B5D0E1 /* IGListAdapterProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDCBB9D3C3459BFC678B838BC076935 /* IGListAdapterProxy.m */; };
-		22228E6C1B9EE393EF4B683884DD27BA /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3BFB205F8EE7B3D372CB4B5FC0A41 /* ConstraintLayoutGuideDSL.swift */; };
-		236C1BCAF9CACFF3C59E6BA347399E06 /* IGListScrollDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C72EC2A6FBA409747D163CAE262259D /* IGListScrollDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24692ECB93177EEFD432DE77E690FF42 /* IGListReloadIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9A8F886E2197A1B3D4D884D3E475CF /* IGListReloadIndexPath.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		275EA3BDE53EDD618441CE5F52DF8CDE /* IGListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6081FB944F0E92DF262606B067CBF /* IGListCollectionView.m */; };
-		2778A27130F753914A3BB2624D133BA1 /* IGListSectionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB882B46F6AF39871D00B599A28303 /* IGListSectionMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		2DF80B26B00B99EC7A730B71CC416315 /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB719EFD0E5D9CEE4ED292C245CD948 /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		2F578A2938DF6BAB16E17C87A97CF068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
-		2FED691A9FED554868093FEF22855200 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4EEBDE2E79156DAE1B7DE91EF2AE63 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		303D461494AEE970063C174022300983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
-		32586AD90AD9CCA31AEF0DDC297FD166 /* IGListArrayUtilsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F308E88246F11BE67EC7CF437D3B33 /* IGListArrayUtilsInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3271F6D78C62DB665F6E696A6CDC9A9E /* IGListBatchUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4563DD4566D4F59914EBE50B4E7E3 /* IGListBatchUpdates.m */; };
-		3543F93602AFA9D44ADB2812AF5FA275 /* IGListWorkingRangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F46A3C2660FA01DDD780AC69F9B9 /* IGListWorkingRangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		378A0C7E13BA554FD344FB6342A71C82 /* IGListAdapterUpdateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C63BE9BF78D91BFE48552FB26D4BCCB /* IGListAdapterUpdateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EFE2A20D8C2F8BC6405F835EBA3EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
-		3B19A434168F24C03D278F76426D921B /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF56482D4823CB9E029A2F63D8DBCAD /* Debugging.swift */; };
-		3C168F3F27C31290A3D94EE09305A361 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299A06916F1A29EC42BFA19845439C8 /* ConstraintInsetTarget.swift */; };
-		3E465884EBCCE55F5A78257E15E552F5 /* IGListKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B2C5F7C93104093C0A1D69F1825DD /* IGListKit-dummy.m */; };
-		40231A7146C2731CBD9C8E1C58C98FB2 /* IGListAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 966377A7DFE99A982126F5A8B3A0E97F /* IGListAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4286DA03CE010293869BCA4024240B3D /* ChatTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137FE8A274A8791B8E0A5D0D402E04C8 /* ChatTextMessageCell.swift */; };
-		4312E03151D6F4503D8FE9A1AEA4F005 /* IGListReloadIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDBA61E4E07BBCB4C08C72B1FAA32B /* IGListReloadIndexPath.m */; };
-		434D71482F24822777E388D212B54C21 /* Pods-Chatterbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B125D860411540470A9E85F231D63 /* Pods-Chatterbox_Tests-dummy.m */; };
-		437F439E00922772BF20B411F8252A22 /* NSNumber+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF48D7661B736F4D801BA4E969539AD /* NSNumber+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47ED2ABE31AC732AC27E3CF957D3106E /* IGListBatchUpdateData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 744677F9FE383D37F8BB5D9F29BC1006 /* IGListBatchUpdateData.mm */; };
-		4847791C9A1ABC57809AF5BF8802FE24 /* IGListDebuggingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA3EE5CC4AC007176992D49A1D7FE8 /* IGListDebuggingUtilities.m */; };
-		48A2161401CDAD20DF560D185EC5116C /* IGListBindingSectionController+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FF2D737ACEBF219AFC8CFE921B3B7B /* IGListBindingSectionController+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		492B8568CABF4CC93DAE507E5B57F9F1 /* BaseChatInterfaceDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDCF8ECBD104D845FF56EA99A92E68 /* BaseChatInterfaceDataProvider.swift */; };
-		4B423A8E0F55735B6A5FE6A46C3F199E /* IGListSingleSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B095240E7C6C11AE7A6BDE2CDD7057 /* IGListSingleSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B6D516E247E31C270E1640B277F9E66 /* IGListUpdatingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6674B288786CB9C06C2DE640F235E6A6 /* IGListUpdatingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51A885D8DF9D0D7646C07D54A9800E08 /* IGListAdapter+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1F30FEBBD7F8F7401AF097E653D124 /* IGListAdapter+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5432B734A201E0010D0AD8A741B70A66 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887F2B104E278F940ECC9C1025500 /* ConstraintLayoutGuide+Extensions.swift */; };
-		55A7B3573D01D0C2F698E718DAB981CC /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C00ABD1586A4F7BC76005A96593D70 /* ChatInterfaceViewController.swift */; };
-		584BAEC7AA2E3B375C624E8CA32F0096 /* ChatMessageLoaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40875D5A1896382679A5A5AE20D5D5C4 /* ChatMessageLoaderCell.swift */; };
-		59099F4680FDA38E63CE17BD2A2DAE2B /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCE8F07A5E84AC6434C77335DDBBA8 /* ConstraintMakerEditable.swift */; };
-		5AD51A7F4F3A20AD043ECCEC25BED908 /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = C05AE0BFFA237334C4718EBCAB966B53 /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5B14C1468A63E50AAE7937A3FD156588 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6B2B80689FC1071DAE7BCBFE2BB29 /* ConstraintMakerFinalizable.swift */; };
-		5B38DD531EE371D428F0E96CD1FE4E89 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE72FC5903D91029645CAA0240D6571F /* ConstraintMakerPriortizable.swift */; };
-		5D4502AC3FBF6066A48E62FF451B1650 /* UIScrollView+IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5A4733F27D86B1B1E1FA592099FF46 /* UIScrollView+IGListKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5D4971D047CF5D78B204D69C7478EDE2 /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAF9EB378354FDEEF9945FBD07920AA /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5E4FDEC8029BF54350776F949F9ABEBD /* IGListDiffKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6BCC6CAD0821F552321BADAF010254 /* IGListDiffKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E946FE33ED2C5EAF02488CB793544BC /* IGListDisplayHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B934C6A20EC947973388903D69F06DBE /* IGListDisplayHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5F1A4BE9CBFBC154A3292B418E958096 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E2B7287E190058170B7D7589AFBFC0 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F5B41C4B01753FD89E6842F25A3D659 /* IGListReloadDataUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C414D52272ABEEC2EDB165598ED94C /* IGListReloadDataUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		611EB15B9912D9F340E8996922CC095E /* IGListIndexPathResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A80766E7340E67906AB1A8645D8101 /* IGListIndexPathResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		622A3693D4C097EA5B747E3FCC6A47F8 /* ChatInterfaceCommonRepresentables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A25E1728D858FD94258F202D6318C3 /* ChatInterfaceCommonRepresentables.swift */; };
-		63CA4C61F68304EAC8E2042B9384771F /* IGListAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1439CEEDD20591C682F9D89318C9A440 /* IGListAdapter.m */; };
-		67149931CAACAE21E0DCF6A4A00D81E7 /* IGListDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9641F58794D58E539996172E9B4212 /* IGListDebugger.m */; };
-		67E309969495F937EC5FA9A7AACE45A4 /* IGListBindable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B539319F4085DA20F47DCE3057214F4 /* IGListBindable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A06354A8220C584D0DDFC930067DC60 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0851ABAA59610143D6AD1D979E436 /* LayoutConstraint.swift */; };
-		6A9D5A9285DBF9E4FE59D7E9680A1D27 /* IGListCollectionViewLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70280D80E8AB885FD88DF37B61410B0D /* IGListCollectionViewLayout.mm */; };
-		6B041E2542B8CC57892AD71AF4707284 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB683129AFDD536BC866742CC56B20E /* ConstraintConstantTarget.swift */; };
-		6BC1F85AECBCCAFE2987DAE4C716831A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DE00AC437F6758285DB263A9526DA /* ConstraintAttributes.swift */; };
-		6C4A2ABA768CC5904C0DC803DB5FCB44 /* IGListStackedSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BB600694AB50F31803204AE47D3EE18C /* IGListStackedSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6D8581DB2195E9AA2F452AE182AB301E /* ChatDraftMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B6C138D68EACD27C8A72B2DADD69 /* ChatDraftMessage.swift */; };
-		6E2E5E3E196B4A85466C4974557FF757 /* IGListAdapterUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A64C287DC2D6491EF09405C685F9935 /* IGListAdapterUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70A619A345A4B2BDDFB4D38344CAF54F /* IGListAdapterUpdater+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F6F7D3482FA9EFB39A6E0BCF812AE /* IGListAdapterUpdater+DebugDescription.m */; };
-		70AD0340295B4476324B275675B3446C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BADE93D066E1BB4E05A236971C02D5 /* ConstraintViewDSL.swift */; };
-		74ACB606DD8E63EE60FED537D60073C5 /* Pods-Chatterbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B4A77406E88934DCCB233057ECF04 /* Pods-Chatterbox_Example-dummy.m */; };
-		74C8884305F518AA874BA19E34795064 /* IGListAdapterUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B952F5D3A869AB711A67A82B841FD0 /* IGListAdapterUpdater.m */; };
-		751E4933487EA1DE1966333E1F528B1C /* IGListStackedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F842BD2E7DDADB8B535138BA7E49E3 /* IGListStackedSectionController.m */; };
-		7530D9E0D5D0655F3BE27FE00991D43C /* UIScrollView+IGListKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 409517FB693C0F778CD1BD45952D45AE /* UIScrollView+IGListKit.m */; };
-		78F4014CE94EA050B687243EBC34A7E8 /* IGListSectionMap+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = E80770630EF3252812C4D4800B0CE6A9 /* IGListSectionMap+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7C75A266DD137B239767782D62205C6C /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 318FC27EEB375828EDC5ECCA2AB7AC7C /* IGListMoveIndex.m */; };
-		7C83B2031EBDD3D38281C7F7A9C903AB /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3658C8B09EE7D738C216E949B427EF /* Typealiases.swift */; };
-		7D44836C594A2C9DDECCA53A4A962EDC /* IGListGenericSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BAA97EC6E329FC0BC44CE2F8F949EE /* IGListGenericSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F7B8F6E282F39983EFDB153BE489BBA /* IGListAdapterProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E7B652C5B53EAE1B8121ACDA3C1662 /* IGListAdapterProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7FD4CF58CE4961461007AA0830A914B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE108738C303371FA38C63E23AEE3281 /* Security.framework */; };
-		7FFB90054231046B495BDC0D31CC225F /* IGListDiff.mm in Sources */ = {isa = PBXBuildFile; fileRef = DADA74775BB12D82FB3F60C9BB93D40F /* IGListDiff.mm */; };
-		8047CDBB3212D261769C51E1E1E1C5C9 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64407B40393AE3DEBD3BC2470EF0CEC6 /* ConstraintLayoutGuide.swift */; };
-		82E54F20511A48570C6557C946FD7B3F /* IGListCollectionViewLayoutInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15825BD788AB26781BCE8C7A26743691 /* IGListCollectionViewLayoutInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		839B07195613B61BD63C7E4ABF882B90 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF083D07F5EE5B09844D408554E79CC4 /* ConstraintConfig.swift */; };
-		85F42E967CA69817E4A52599C1161B82 /* IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDE003D8B71651ABE5A6C774A6AC97C /* IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87D815CA32BA542AAFC2FFEC76DF8F48 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F27D7EBCAD1F768625F08752BD9678 /* ConstraintView+Extensions.swift */; };
-		886BA0963027454E9577B8A12FCEE7E0 /* IGListBindingSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DEA471A94EB06618D3CFB69AF28A40 /* IGListBindingSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		890BC5ABDC7A5593DC986B698E4475D3 /* UICollectionView+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B61A7EA08471037E848CDB0524944E /* UICollectionView+DebugDescription.m */; };
-		89550B5ADF2E92E9AD9D67D7092F203A /* ChatInterfaceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E928A94111951DA5629B847891EDCB /* ChatInterfaceCollectionView.swift */; };
-		8A56219C8DA3837FB817929005D3CD5C /* ChatMessageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847E1A30EE7AC26B92057AE89AC3774 /* ChatMessageViewBuilder.swift */; };
-		8CBC82198F224262813B361CAE4663AA /* IGListIndexPathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B560D8C0EC8B552DD795417F086BCC0E /* IGListIndexPathResult.m */; };
-		904B0FD18A0AE14351F54088919C2AFD /* NSNumber+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F7EB5F3443313C3360E02055B0DB6 /* NSNumber+IGListDiffable.m */; };
-		929A4B4F3146F6FBCB2BEF6782FD0194 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CF797AD58C77AAF91AF057CDCCEB5D /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9462600172838E5F92AF1A13427B7B3B /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB7B2B4A44E4067C2756E828D2B4E0 /* LayoutConstraintItem.swift */; };
-		94D23FDD2A3235F06D6C44ADC44646C2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85768F1A4C31358B1E9BCCE99237202F /* SnapKit.framework */; };
-		967857452E7D06B5DE2166FA1C3A8E78 /* IGListDebuggingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FB17A29951C94F969F0ECA065F257B48 /* IGListDebuggingUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		970FD438DEAA7B18739707BDF2A4C7D3 /* IGListAdapter+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B72D5B157F3C44D95511C3FD050B9A /* IGListAdapter+UICollectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9A68D4EB1B747ADDC28A5386D7E46BB1 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7150D1165293AD7D4B2CFB6FFAC48B9 /* ConstraintPriorityTarget.swift */; };
-		9B8D8F1F8EC959215B7A2777C78BCBB8 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49487BE3779EC63216706F95C94BB5F /* ConstraintMultiplierTarget.swift */; };
-		9C8E7A61AAC1B01C9D686291FF50DBA9 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DBEED965FD06BD8ADBEE6C4A4A2BA /* ConstraintMakerRelatable.swift */; };
-		9CEEEC932063B8AA5D2C30926922AE2B /* ChatInterfaceViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46CCF58AA6EA94FC1A02757ECED53E /* ChatInterfaceViewController+Helpers.swift */; };
-		9D8B04AF21CAB43899B238953F709024 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC5413E925843EF72E0553F8883F6D7 /* ConstraintMaker.swift */; };
-		A172D7BC8A909429DBD5194E99D1D935 /* IGListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 753D337928ACA553C6D9F460F3395D1C /* IGListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A771266FC9E66E5F3620804D5C0D9122 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A5D562C5282BB4FB26681730A888C /* SocketRocket-dummy.m */; };
-		A7AE5CDD6781518F7BE27F198C8A063C /* IGListExperiments.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B7BFE294D1EA1992F980D06415E30D /* IGListExperiments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAFECFBBD60E44F166144583D0F983C1 /* IGListSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9510478C9976ECC5E2C7CAD93CE45712 /* IGListSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABE10F38824A2A0EB2AE36BA666DA553 /* IGListCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C63C8C9E999B51A2501EBB12E3B6A4F1 /* IGListCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC63665A3EDDF88593FAF707C45CEE81 /* UICollectionView+IGListBatchUpdateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DB4EC61D09DA611781356200C72FDE /* UICollectionView+IGListBatchUpdateData.m */; };
-		AE5723A3699FCD3DD9AC9E4961DF5B83 /* NSString+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 210F5FC28592804CB32488873377002C /* NSString+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF989EEA35F3E4BDB2BE890A9121F272 /* Pods-Chatterbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8EE9AF64172C389261F7D38CC0A7FC /* Pods-Chatterbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B28BCB528F67242EDACF9D27C830BE01 /* IGListBatchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 591A93523297376368DCEED98CD904A5 /* IGListBatchContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B41C13D6B2C8D14D386B84340FAC1FA2 /* IGListDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D232F6809D74F7F09978FDF45888E7 /* IGListDebugger.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B4BD7DAAE52C8BF727C5A023262F2D82 /* ChatTextMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784708ACE0F1367F02C26599D71BE945 /* ChatTextMessageDataController.swift */; };
-		B5F5A75B297B640944EE70597B990292 /* Chatterbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D851DBC1FC711E7333571BB7786ED107 /* Chatterbox-dummy.m */; };
-		B6ABA89903A17D5E6566F62931BB3BC0 /* IGListCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D884BFA5A739A3A5565C6F104D9D0A6 /* IGListCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9DD066FFE6AFB83864E0371F1BA2907 /* IGListBatchUpdates.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDCCD132D1E51C18CD7A576EB79F8DC /* IGListBatchUpdates.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B9FA678F7F4869175EC68D87D0BF77AF /* IGListCollectionViewDelegateLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D265E48821C0700084F5418F35B48A95 /* IGListCollectionViewDelegateLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB8ACC2265CB42CDAA895E7074030B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
-		BBB0773123B2B001A445134396DCA1DD /* IGListBindingSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6967C320EF45EF95E30AE0C45E50A600 /* IGListBindingSectionController.m */; };
-		BDD5CB3C7037BB42C4A4778FC8C8888D /* IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3807DF8520AE950BB582679435808C8 /* IGListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE8416035A62F813669C7C6AA2DA127F /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592BCFB3D9CFBA414290F700115704B0 /* ConstraintLayoutSupportDSL.swift */; };
-		C1CAD08201146F4822623397BB3AEB3A /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2673154FF0CCC2CDAEB21A10FD9683B4 /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3612F07592CD7B3C00F2479B4AE5104 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C29D8C3CD8C3E6E9F59B4FCC2BFB6 /* ConstraintOffsetTarget.swift */; };
-		C450F0E0CE67B92D0B1CE7C7AAD0F25E /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D1767A8C4B92E0D36D8348BDAB49C1 /* ConstraintItem.swift */; };
-		C50C760838C8B649633BDB343233C386 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1075C1AAD50D5CFB14F59445846BF9 /* SocketRocket.framework */; };
-		C56739848317BC8E928E90C67912F45A /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 635C374F364D3F244C8311AC7D34F4F5 /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C6F4ECAFADBB47B1C6B94A829DB79B09 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9697549E23675E9A96001EDAC09C9B03 /* CFNetwork.framework */; };
-		C75D328A93A6D76EB0D0E952DFEC8EDD /* IGListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E30BA550C18382A55BBF52B9D8E0B /* IGListSectionController.m */; };
-		C83CA3CC7AF2C4D3893A55F8E043F50E /* ChatMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532F6CA90608641AFE27CA687E8B2267 /* ChatMessageDataController.swift */; };
-		CAEC5AC28FEC73946DA6C503AC041E7E /* ChatMessageViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A55C1CDFAD43EAA7F50F7EE6D69CB /* ChatMessageViewRepresentable.swift */; };
-		CDB6F51CD1E85A5D69CE61950545CB48 /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3E94857C28197705506870093BE610 /* IGListIndexSetResult.m */; };
-		CDF2DC97FAAB49213A72AFB4A0648C98 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F9CE0750DCFC336F4B8BC48A1A30B /* ConstraintDescription.swift */; };
-		CEA5109680CE1964850F26A8656786C8 /* IGListBatchUpdateData+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F40DC1F3DB964523B57B62CBD2786 /* IGListBatchUpdateData+DebugDescription.m */; };
-		CEA9DEBF2CF80742983E337AD0C52F6B /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD055CCEDFF4886B2492C38A225550BD /* ConstraintDSL.swift */; };
-		CF63833D26056F4F5C58E5D856722FC5 /* IGListWorkingRangeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D49BA2AED52744B617551CD8D13E0ABA /* IGListWorkingRangeHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D09607D8AFB9FC37A6FBB65DB70A04B2 /* ChatMessageLoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192762C1AAF0C73EF861B5077833739 /* ChatMessageLoaderController.swift */; };
-		D21C6C095A15321158D64BBEABDA8124 /* BaseChatInterfaceWebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62935941F73FC86FD6C56292D312149E /* BaseChatInterfaceWebSocketProvider.swift */; };
-		D2E07D4DAEED70CB286D1E92A9B735FB /* IGListAdapterUpdater+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E87E0B2EA20510DD27C8B2BD387B82 /* IGListAdapterUpdater+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D3590919B1CF474AB993CD9CDCEB89CF /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D185017BE24FBC82930E14A17B5D075 /* ConstraintLayoutSupport.swift */; };
-		D5BECCB7DACA7F65A21B688275EBD701 /* IGListAdapter+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EEA65E901BFCE09A5EB1B2F9A70794 /* IGListAdapter+DebugDescription.m */; };
-		D8E3C03A8AE5CE396DF63779788DE296 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00ACD8DC42EBF5A5249C29C9607F35A /* SnapKit-dummy.m */; };
-		D8F13994C2A0070C3661CCC9FE4C8AD1 /* IGListAdapter+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B243D75CA5A3337F48FFD4CCCE13D0E4 /* IGListAdapter+UICollectionView.m */; };
-		DA1DEB740CB46464226027A7566226D5 /* UICollectionView+IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8EE9836A71B3A9CFE4B79CF47A1C60 /* UICollectionView+IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DA2EEE5D8B908C52BD3BD43A80B9341F /* IGListTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC2FA736FB653C2C44C23F2DCA905A9 /* IGListTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC467AF19BB25FF336605A490328472A /* AutoGrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F372E32F6AAD47FB496ECD6870D88AA /* AutoGrowingTextView.swift */; };
-		DD10543ED6743E023D9B7C4A3567D370 /* IGListStackedSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FD5ECDBD2EB3BA649A01F1CDDA1765 /* IGListStackedSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD5FD06403D2CF8E6EFD2D5E734CEC4B /* IGListSectionMap+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 323B1E0A52B5EA2C2E69B2413788AC51 /* IGListSectionMap+DebugDescription.m */; };
-		DD81558A43D08D790377380511910D76 /* IGListCollectionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CF94D690D9D96729D7452ACFB61867 /* IGListCollectionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE743456FCA958C59ED544E7F6AA8006 /* IGListDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E235B5FDDF81A95C14A5F1182728BD4 /* IGListDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF306DE9AA991AFBA206304FA97592D6 /* IGListReloadDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB9899A197762A46707BB4A4336DF7 /* IGListReloadDataUpdater.m */; };
-		E1A08D8D9B814DC2657D6B9D99DC5635 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32957147486599E3FCF3A68F70419FD /* ConstraintRelatableTarget.swift */; };
-		E25364C882C1B6E1ED854F387976D0AB /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A333E6CA6733C12B57A1E9B3E908EB4 /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E291CF96BDD4AD9AC082A7891D631B9E /* IGListSectionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC916FF18AED610C3572402C718355 /* IGListSectionMap.m */; };
-		E505CDBCC877F5B75A77301094FC4D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
-		E78F3C677FEE5C32A4C0666D7EA34E10 /* IGListAdapterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8236C11015CD6755DFD9CD3523D4AE /* IGListAdapterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E80C8D328B71423ACCDFEC33769986F4 /* IGListBindingSectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CFB38E28D1374F216DA82FB2049E7C /* IGListBindingSectionControllerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBD524E52DC14502C5D89F219059F202 /* Pods-Chatterbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA566E6AB850CE65C52EA444D079D855 /* Pods-Chatterbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC1F34606C1132E264C3B056CCDD3048 /* IGListBindingSectionController+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A23AAECF5F14C2BA139483048A838C /* IGListBindingSectionController+DebugDescription.m */; };
-		ECA3ADF340F9557C7DEBF298C921E7E2 /* IGListMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 22333E148825DA158A8109E2DC849F9B /* IGListMoveIndexPath.m */; };
-		ED6BC88FC98A8803726F67AF0553285D /* IGListDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7521AC1AA41A28F8DC48DFE642CF00 /* IGListDisplayHandler.m */; };
-		ED92EF1ABACD84C28F1A209002D5AED4 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DDDB67BA6B1DF7EDFDC5EDEAA660E6 /* ChatMessageCell.swift */; };
-		EF3A7AE826D3BDC1EA8D541C9BD92D58 /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D82250BF3C8D829B2122D0D505DCDC /* IGListSingleSectionController.m */; };
-		F0A77CDD2FAB306454041F11B25CD656 /* IGListDisplayDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DA779A41D49A03087F7EC723813869 /* IGListDisplayDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F233C5E5D60D102701CAC7E5CFA720CC /* SRChatInterfaceWebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D3DC6982FF9CFE5F1165B5D921D15 /* SRChatInterfaceWebSocketProvider.swift */; };
-		F2F89FDC7428359C4AB35A1C35DF2FFB /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B719A04B6E992FFCE6C9B6143AB6858 /* ConstraintMakerExtendable.swift */; };
-		F40BB66E089EE7585DB155FE8BE42620 /* IGListBatchUpdateState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC857C42A7BF10E875D5233E5BBC61C /* IGListBatchUpdateState.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F50630B50532C6B4A6266BED9A7CDE1B /* ChatThreadRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2180631279D9A343C6BC67621D28C /* ChatThreadRepresentable.swift */; };
-		F794D0D7DF423C0F7A2A255A3290559B /* IGListAdapterUpdaterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D56464A893DB60ECD1CBBA357EFE49C /* IGListAdapterUpdaterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8E42E5D9E277425361EC8D6BB7020D5 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3889BE7AA782A12F6B8CD67286D47 /* SRWebSocket.m */; };
-		FA2C59AB63ADF56156E94F858DA7BC2B /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 893882FA07D8377C77E5986A2E0D37A6 /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FB009CF8C73EA57CE6111AEA067F8A68 /* IGListGenericSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5B4F9B2C4942A879848D8DDD04FB2 /* IGListGenericSectionController.m */; };
-		FB84CD5B798292AEFAC1780DC3A267B5 /* ChatInputAccessoryRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052F65F79D6628CE7CBD7C663438B2D2 /* ChatInputAccessoryRepresentable.swift */; };
-		FC3DF89CA5DD7DBC209970E3780290F2 /* IGListCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 479AD1094C2210DAB36D87FCBCD1F1FE /* IGListCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC723CEDB5DA0AC9E505AF99092B469C /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83077C6D9E0B653E61D6FB2680AA715 /* UILayoutSupport+Extensions.swift */; };
-		FE5EC19F4093098422DA92DD35DEC0BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */; };
+		0134615D5E5F9C5ABAD83160F57D5EC2 /* ChatInterfaceViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46CCF58AA6EA94FC1A02757ECED53E /* ChatInterfaceViewController+Helpers.swift */; };
+		027762473A120197085B73F61E09D660 /* Pods-Chatterbox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8EE9AF64172C389261F7D38CC0A7FC /* Pods-Chatterbox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02CF50741E6AFF7A356FA6968ACDDE04 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F27D7EBCAD1F768625F08752BD9678 /* ConstraintView+Extensions.swift */; };
+		06EBCCDCE380E4136F28BA987BD24D53 /* IGListStackedSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FD5ECDBD2EB3BA649A01F1CDDA1765 /* IGListStackedSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077D401251F86492B6C01E5E20D18B84 /* ChatDraftMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22B6C138D68EACD27C8A72B2DADD69 /* ChatDraftMessage.swift */; };
+		07A2CCB973682A7628E75107B5D7C386 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299A06916F1A29EC42BFA19845439C8 /* ConstraintInsetTarget.swift */; };
+		08116A26B42771A2368057AC95CD4ADA /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3841808B9BFDDC76CFE2208AAF49B598 /* ConstraintPriority.swift */; };
+		08DEE41D1909B25CF0A3159B417D2ABB /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D1767A8C4B92E0D36D8348BDAB49C1 /* ConstraintItem.swift */; };
+		09CFB34278E9C22B7F49C64FA3ACF159 /* IGListAdapterUpdater+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E87E0B2EA20510DD27C8B2BD387B82 /* IGListAdapterUpdater+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0ADCC3A16B487C3CE1B37D103D381F54 /* IGListArrayUtilsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F308E88246F11BE67EC7CF437D3B33 /* IGListArrayUtilsInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0C75CEDE5F156FB8A6D76C99C0470DCB /* IGListUpdatingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6674B288786CB9C06C2DE640F235E6A6 /* IGListUpdatingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D06E1EAAD1DCE57A9DC5E4014FDEB92 /* IGListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 753D337928ACA553C6D9F460F3395D1C /* IGListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDFE665CE25AD1B39D594EEBED97104 /* IGListWorkingRangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F46A3C2660FA01DDD780AC69F9B9 /* IGListWorkingRangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5E43EA44B874364B4BE99F43DB5E43 /* IGListCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D884BFA5A739A3A5565C6F104D9D0A6 /* IGListCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF00C6738083B8B14AAD75BF0E07897 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC5413E925843EF72E0553F8883F6D7 /* ConstraintMaker.swift */; };
+		132D494D5739560E80D1C599A0A931F4 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB683129AFDD536BC866742CC56B20E /* ConstraintConstantTarget.swift */; };
+		16A01D0A9101EAE2A78B07AB23543853 /* ChatInterfaceCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E928A94111951DA5629B847891EDCB /* ChatInterfaceCollectionView.swift */; };
+		173F3F55D5BEDA1337142031284BD246 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CF797AD58C77AAF91AF057CDCCEB5D /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187D52BF5F2FDE44190B553695DE0CD7 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B719A04B6E992FFCE6C9B6143AB6858 /* ConstraintMakerExtendable.swift */; };
+		1A6A01B1A6CC71EF98D4454613AAFB97 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64407B40393AE3DEBD3BC2470EF0CEC6 /* ConstraintLayoutGuide.swift */; };
+		1B273CEEE7CCAD644F469CFD3A252182 /* IGListSectionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB882B46F6AF39871D00B599A28303 /* IGListSectionMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1F61D761BB5732109851B7F6D3D9FB11 /* IGListAdapterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8236C11015CD6755DFD9CD3523D4AE /* IGListAdapterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2419228FB9ED99FED1FC162DFE523FC2 /* IGListBatchUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4563DD4566D4F59914EBE50B4E7E3 /* IGListBatchUpdates.m */; };
+		247498B2758438350DD89D625A626515 /* BaseChatInterfaceDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDCF8ECBD104D845FF56EA99A92E68 /* BaseChatInterfaceDataProvider.swift */; };
+		2790BDBBADE4323C7DF6D97016BCB49F /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BADE93D066E1BB4E05A236971C02D5 /* ConstraintViewDSL.swift */; };
+		2ACB97C84FDA0AF2CFB50951A5C34C0C /* IGListAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1439CEEDD20591C682F9D89318C9A440 /* IGListAdapter.m */; };
+		2FE8FF38786189245D1F15E45AABC4F3 /* IGListAdapterUpdaterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D56464A893DB60ECD1CBBA357EFE49C /* IGListAdapterUpdaterDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		301C701C5B0327598E104DD16BB5EBC4 /* IGListMoveIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 22333E148825DA158A8109E2DC849F9B /* IGListMoveIndexPath.m */; };
+		3273FFB095BF082FD758D86012C60F65 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DDDB67BA6B1DF7EDFDC5EDEAA660E6 /* ChatMessageCell.swift */; };
+		32C50F1728B3E96F11ABCFB8D49CE155 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DBEED965FD06BD8ADBEE6C4A4A2BA /* ConstraintMakerRelatable.swift */; };
+		32FFF7EE9BD41F15FCC63305CC59C16E /* IGListReloadDataUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C414D52272ABEEC2EDB165598ED94C /* IGListReloadDataUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35B2F261BDE8D49F5C185D41262399ED /* IGListSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6468B401547FA9ADD18A2A74AA205F13 /* IGListSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3692A2A79E164E5A4A01225D8DE00516 /* IGListBindingSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DEA471A94EB06618D3CFB69AF28A40 /* IGListBindingSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		375D0688682EAA22EBF49D668DA5BFD9 /* IGListDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9641F58794D58E539996172E9B4212 /* IGListDebugger.m */; };
+		399784107F7D9669E7DF8F10EA8774D1 /* IGListAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 966377A7DFE99A982126F5A8B3A0E97F /* IGListAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6EA15A4BDD9EA138D7894F3AEE9ABB /* Chatterbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D851DBC1FC711E7333571BB7786ED107 /* Chatterbox-dummy.m */; };
+		3B6A327E49B0AB6E12E53CE870D0743B /* IGListBindingSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6967C320EF45EF95E30AE0C45E50A600 /* IGListBindingSectionController.m */; };
+		3CD82682988CD6F3564A54D4F89B6C61 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3BFB205F8EE7B3D372CB4B5FC0A41 /* ConstraintLayoutGuideDSL.swift */; };
+		3CDAFACC4D82C0079448668EAC05E5F7 /* AutoGrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F372E32F6AAD47FB496ECD6870D88AA /* AutoGrowingTextView.swift */; };
+		3D199DE93578953069846B621FFACB25 /* IGListDisplayDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DA779A41D49A03087F7EC723813869 /* IGListDisplayDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FBB0D3C145C972748C37841FAA846E6 /* UIScrollView+IGListKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 409517FB693C0F778CD1BD45952D45AE /* UIScrollView+IGListKit.m */; };
+		3FDFD6E74C574F7B04B8DB5417A4AE65 /* ChatTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137FE8A274A8791B8E0A5D0D402E04C8 /* ChatTextMessageCell.swift */; };
+		406CCA4DC2C244C296941363BD82877B /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0851ABAA59610143D6AD1D979E436 /* LayoutConstraint.swift */; };
+		439ABB895F391F5F43DA633722E38051 /* IGListAdapterProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDCBB9D3C3459BFC678B838BC076935 /* IGListAdapterProxy.m */; };
+		44D00BB966ACB923AFC6979F5234B222 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498887F2B104E278F940ECC9C1025500 /* ConstraintLayoutGuide+Extensions.swift */; };
+		4BCE14F54C0C70336B4C9BCCCEAC4221 /* Pods-Chatterbox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B125D860411540470A9E85F231D63 /* Pods-Chatterbox_Tests-dummy.m */; };
+		4CEC05A72EF93577AB0E988B1B1AAB6A /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4C9DF431965AB8145122C03E9EC926 /* Constraint.swift */; };
+		4D652CC9ABFB87C3E01BC0865B58F78C /* IGListSectionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC916FF18AED610C3572402C718355 /* IGListSectionMap.m */; };
+		4E3113F31E0CCD85F720903610BD706D /* ChatInterfaceCommonRepresentables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A25E1728D858FD94258F202D6318C3 /* ChatInterfaceCommonRepresentables.swift */; };
+		50689C8EC13818965B03E99B233F392E /* IGListBatchUpdateData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 744677F9FE383D37F8BB5D9F29BC1006 /* IGListBatchUpdateData.mm */; };
+		50BADE2F3B398C205603947B4BBF706C /* UICollectionView+IGListBatchUpdateData.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DB4EC61D09DA611781356200C72FDE /* UICollectionView+IGListBatchUpdateData.m */; };
+		51DC4F59DDFC167C70347DF7C5C418B7 /* UICollectionView+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 210C778E167EE3E027AE2F882472A46B /* UICollectionView+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		542C5C60FA0C4F4E57376C173F3D21EF /* ChatThreadRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2180631279D9A343C6BC67621D28C /* ChatThreadRepresentable.swift */; };
+		56FF7DD87F01F936BFF8213CAD91AAD3 /* IGListCollectionViewLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70280D80E8AB885FD88DF37B61410B0D /* IGListCollectionViewLayout.mm */; };
+		57BAD1076543079F29F41758C2DB75D4 /* IGListAdapterProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 80E7B652C5B53EAE1B8121ACDA3C1662 /* IGListAdapterProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		57CE6E2A4F1AC4CDE2494A126E451555 /* NSString+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 210F5FC28592804CB32488873377002C /* NSString+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AE313D335E3B4E32CCB4D5E7076742 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592BCFB3D9CFBA414290F700115704B0 /* ConstraintLayoutSupportDSL.swift */; };
+		59224482E938255A7C2FA2A0CC64539C /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1075C1AAD50D5CFB14F59445846BF9 /* SocketRocket.framework */; };
+		596B2691FE59AE2F11431190FD1F5963 /* IGListSupplementaryViewSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8EC73A432D93E436A9D6CAE5CE32BD /* IGListSupplementaryViewSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A71DEF68A0502BE6667DBB82708A59B /* ChatMessageLoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192762C1AAF0C73EF861B5077833739 /* ChatMessageLoaderController.swift */; };
+		5B2F4C652D29B2314C83BF7DE066A848 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4EEBDE2E79156DAE1B7DE91EF2AE63 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B46ADD249CC7B5FECC66F13DACAA713 /* IGListBindingSectionController+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FF2D737ACEBF219AFC8CFE921B3B7B /* IGListBindingSectionController+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5B8DB32B98D824AF407DA877CAA9251D /* IGListBindingSectionController+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A23AAECF5F14C2BA139483048A838C /* IGListBindingSectionController+DebugDescription.m */; };
+		5DC734BFCC522446F514860B072F6F6E /* IGListBindable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B539319F4085DA20F47DCE3057214F4 /* IGListBindable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2E4DE6799C912BD4522D2599E10BF9 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D6B2B80689FC1071DAE7BCBFE2BB29 /* ConstraintMakerFinalizable.swift */; };
+		5E32619B3B041EE58B27B8F8346BC471 /* Pods-Chatterbox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA566E6AB850CE65C52EA444D079D855 /* Pods-Chatterbox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EA19B515301EE0046B089A59E505F47 /* Chatterbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC25145DCE31FE9A5B5E545CAD4FE2D /* Chatterbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFC6B6376225EC01196F2907D846617 /* IGListAdapter+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1F30FEBBD7F8F7401AF097E653D124 /* IGListAdapter+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6127687492E41D7C5EB68A73E4E788AC /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C00ABD1586A4F7BC76005A96593D70 /* ChatInterfaceViewController.swift */; };
+		61AB47EAC0826B1637D90DFF74FAD60D /* IGListStackedSectionControllerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BB600694AB50F31803204AE47D3EE18C /* IGListStackedSectionControllerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		625EFA799149CFDC1F1E202224DA62B3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF083D07F5EE5B09844D408554E79CC4 /* ConstraintConfig.swift */; };
+		62C190AB2191F4739FE0C5ECCC57690D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3658C8B09EE7D738C216E949B427EF /* Typealiases.swift */; };
+		64D5DB8097F96CD00FA06E5E38DDBF31 /* IGListBindingSectionControllerSelectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB7AC7A512E1D281F9CCA4799133577 /* IGListBindingSectionControllerSelectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65D191D95C660D387B141067EE79B53B /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE72FC5903D91029645CAA0240D6571F /* ConstraintMakerPriortizable.swift */; };
+		68B2AC7B71978B481D105F775FA76CC4 /* IGListGenericSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BAA97EC6E329FC0BC44CE2F8F949EE /* IGListGenericSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B428AE76C1E8748B4D01D559DDCE72E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85768F1A4C31358B1E9BCCE99237202F /* SnapKit.framework */; };
+		6C40EE30EAA8F99F62BAFEE6F80DA501 /* Pods-Chatterbox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B4A77406E88934DCCB233057ECF04 /* Pods-Chatterbox_Example-dummy.m */; };
+		6FB7DB296C171382590069A6D7B0A895 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E2B7287E190058170B7D7589AFBFC0 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702764AC7639946E08570204C1AC6520 /* IGListAdapterUpdater+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F6F7D3482FA9EFB39A6E0BCF812AE /* IGListAdapterUpdater+DebugDescription.m */; };
+		72243D3047A76967410A8AE4207A159A /* IGListCollectionViewDelegateLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D265E48821C0700084F5418F35B48A95 /* IGListCollectionViewDelegateLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A26B671B0C2015E604481B6734150F /* IGListCollectionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CF94D690D9D96729D7452ACFB61867 /* IGListCollectionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A4BCCA4EFFDABEC07E97F9A2921D7E /* IGListMoveIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FCED13F11CEB99E0B7C7D210BDD43FF /* IGListMoveIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		749CDB1F1A09730D8EE29D89EB351C36 /* ChatMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532F6CA90608641AFE27CA687E8B2267 /* ChatMessageDataController.swift */; };
+		75099D69F696E11136541BD1D7B28BA1 /* ChatInputAccessoryRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052F65F79D6628CE7CBD7C663438B2D2 /* ChatInputAccessoryRepresentable.swift */; };
+		7514E87378CF3088E314154334C7EFE8 /* IGListMoveIndexInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAF9EB378354FDEEF9945FBD07920AA /* IGListMoveIndexInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		758411C2EE9C9D6EE362830E4553A398 /* IGListAdapterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F3046600210523CA4DABBB433FFDB5 /* IGListAdapterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		75E192299A1643A8D4E699C5281DC2AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105480E867E970E236F27913E23640 /* Foundation.framework */; };
+		7B329757C8DDEF2EDCC297FF700D29BD /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83077C6D9E0B653E61D6FB2680AA715 /* UILayoutSupport+Extensions.swift */; };
+		7BC64E94501FB23ECA7386B05812B60D /* IGListAdapter+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EEA65E901BFCE09A5EB1B2F9A70794 /* IGListAdapter+DebugDescription.m */; };
+		7BF1EE1A91C3EBAD42137BC9855B3061 /* IGListMoveIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 318FC27EEB375828EDC5ECCA2AB7AC7C /* IGListMoveIndex.m */; };
+		7CC641953D39FB0D37D92E44A942BD99 /* IGListAdapterUpdateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C63BE9BF78D91BFE48552FB26D4BCCB /* IGListAdapterUpdateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9DE7A36DFA987AE2CCC287FE46B1C6 /* BaseChatInterfaceWebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62935941F73FC86FD6C56292D312149E /* BaseChatInterfaceWebSocketProvider.swift */; };
+		7DB9D23EFE08E18A71E5BD9FFD165171 /* NSNumber+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F7EB5F3443313C3360E02055B0DB6 /* NSNumber+IGListDiffable.m */; };
+		7E7FC20D0E4C006574477988609CA928 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D185017BE24FBC82930E14A17B5D075 /* ConstraintLayoutSupport.swift */; };
+		7FC0E62DBACABE27905BD8688855190B /* IGListSectionMap+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = E80770630EF3252812C4D4800B0CE6A9 /* IGListSectionMap+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		80AF2525A83B9A9D9933B73FB75BF413 /* SRChatInterfaceWebSocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D3DC6982FF9CFE5F1165B5D921D15 /* SRChatInterfaceWebSocketProvider.swift */; };
+		80B2CF287170174407C4D26D89729680 /* IGListDebuggingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA3EE5CC4AC007176992D49A1D7FE8 /* IGListDebuggingUtilities.m */; };
+		81F0BAC51C27DDDA69391D9CBDBB1F46 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C095BD369B000F41D9A052C20B9530CD /* Security.framework */; };
+		8261DACE441FEE3584C962F50D9006C4 /* IGListScrollDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C72EC2A6FBA409747D163CAE262259D /* IGListScrollDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		828AAF9281A327181A1F3AD3D28C3873 /* IGListTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC2FA736FB653C2C44C23F2DCA905A9 /* IGListTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833586CFA755BDE2B511556319CB1BCD /* IGListIndexSetResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 635C374F364D3F244C8311AC7D34F4F5 /* IGListIndexSetResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85897AE3F5297FA6E9EE27D2E608692F /* IGListBatchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 591A93523297376368DCEED98CD904A5 /* IGListBatchContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883663549D58FF2E283DEEC4CBEB7529 /* IGListSingleSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D82250BF3C8D829B2122D0D505DCDC /* IGListSingleSectionController.m */; };
+		88CA81378E2171F4D9B251427F5BCEA9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB7B2B4A44E4067C2756E828D2B4E0 /* LayoutConstraintItem.swift */; };
+		8ADF121D02DD39FEEA63E1630AD3D7F6 /* IGListBindingSectionControllerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CFB38E28D1374F216DA82FB2049E7C /* IGListBindingSectionControllerDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB27B6DACD61F4325F2D609A629F3E3 /* IGListDiff.mm in Sources */ = {isa = PBXBuildFile; fileRef = DADA74775BB12D82FB3F60C9BB93D40F /* IGListDiff.mm */; };
+		8CCCCD3DB15E05D1DEF2A75D7D8BF87D /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 487A5D562C5282BB4FB26681730A888C /* SocketRocket-dummy.m */; };
+		8DD606B2D19012030AC374C8FE883666 /* IGListIndexPathResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A80766E7340E67906AB1A8645D8101 /* IGListIndexPathResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ECB4791BA056DEFCC1BE3F961A07BE4 /* IGListSingleSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B095240E7C6C11AE7A6BDE2CDD7057 /* IGListSingleSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF2DB0C39C84F290D35576B61AB231F /* IGListDiffKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6BCC6CAD0821F552321BADAF010254 /* IGListDiffKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FD5853FB8F10DC0D738090A75384F58 /* IGListBatchUpdateData+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 382F40DC1F3DB964523B57B62CBD2786 /* IGListBatchUpdateData+DebugDescription.m */; };
+		916C1DFDAA0290C7D2D4520E8A9F027C /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF56482D4823CB9E029A2F63D8DBCAD /* Debugging.swift */; };
+		920546B3A6F9964CCD5BABE22C71C391 /* IGListIndexSetResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2673154FF0CCC2CDAEB21A10FD9683B4 /* IGListIndexSetResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932B17D1029F8A7EED7830C2E8F5C4AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105480E867E970E236F27913E23640 /* Foundation.framework */; };
+		9405785C6E31FF1DC458E9F7C430A716 /* ChatMessageViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A55C1CDFAD43EAA7F50F7EE6D69CB /* ChatMessageViewRepresentable.swift */; };
+		96D685EF3F248FBC140EE9BC3C390A7F /* IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C0FB5835713BDAC499F13A95622CE0 /* IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		979BF61CB50D06B1478F3055BC584B6D /* IGListDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D232F6809D74F7F09978FDF45888E7 /* IGListDebugger.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		98BA37117EA7808C62783CD6B7FC8502 /* IGListDebuggingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FB17A29951C94F969F0ECA065F257B48 /* IGListDebuggingUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		98CE7A3EBC5A629D1A41EE0CE86CABD3 /* IGListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6081FB944F0E92DF262606B067CBF /* IGListCollectionView.m */; };
+		998A46E800CF5B5C31CD317FF2BE9741 /* IGListWorkingRangeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D49BA2AED52744B617551CD8D13E0ABA /* IGListWorkingRangeHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9E274C5B29AD8E3DCA116B8448177709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105480E867E970E236F27913E23640 /* Foundation.framework */; };
+		9F39F1E8A439E1DBAAEC21A3C163AC0A /* ChatTextMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784708ACE0F1367F02C26599D71BE945 /* ChatTextMessageDataController.swift */; };
+		9F9E2CA90AE44946E43D23F003ECB7A8 /* IGListAdapterUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B952F5D3A869AB711A67A82B841FD0 /* IGListAdapterUpdater.m */; };
+		A0A93F5AB561E56A76CDE9F17FF0B103 /* IGListExperiments.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B7BFE294D1EA1992F980D06415E30D /* IGListExperiments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B105EA6A936F891AAC8C183CA69B39 /* IGListMoveIndexPathInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 893882FA07D8377C77E5986A2E0D37A6 /* IGListMoveIndexPathInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A100E0534B49CBDE1EC8D9A56B095BDB /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD055CCEDFF4886B2492C38A225550BD /* ConstraintDSL.swift */; };
+		A2534C1C959069F47ECDE1C2633DCC6B /* IGListReloadDataUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB9899A197762A46707BB4A4336DF7 /* IGListReloadDataUpdater.m */; };
+		A27F89408F4A7C0A4205EE9D9C952AFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B21343DABE0B72C0119459BC881BA2 /* CFNetwork.framework */; };
+		A4A395EA035616C9B17282ACE084B29B /* ChatMessageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52807A0F0BEB97533E47687114696D /* ChatMessageRepresentable.swift */; };
+		A4ACDFF1AE9771E0B8046C7C04ED8D4E /* IGListSectionMap+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 323B1E0A52B5EA2C2E69B2413788AC51 /* IGListSectionMap+DebugDescription.m */; };
+		A60C017227A5C04D690AAF814348D479 /* IGListDisplayHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B934C6A20EC947973388903D69F06DBE /* IGListDisplayHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A9746E870D41BCBEF6C678C472E89CB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105480E867E970E236F27913E23640 /* Foundation.framework */; };
+		AAE687B1182C38E3B1AAC941D6476253 /* IGListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E30BA550C18382A55BBF52B9D8E0B /* IGListSectionController.m */; };
+		AC113BF272D3D66CE9A89A005FF0F56F /* ChatInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8904BB482EF479242EBE5CFA6E00C /* ChatInputAccessoryView.swift */; };
+		AC713C92577C44FA168C592A0E1E7261 /* IGListAdapterUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A64C287DC2D6491EF09405C685F9935 /* IGListAdapterUpdater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD28A1D0C4566948E87D0F6717E51169 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7150D1165293AD7D4B2CFB6FFAC48B9 /* ConstraintPriorityTarget.swift */; };
+		ADEB2A29A96061C1310D428563BFB5B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB0E1D3BAA13631781EE439A66AF32D /* UIKit.framework */; };
+		AEC92EB030FEC4AA37B8084AA962F8C7 /* IGListDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E235B5FDDF81A95C14A5F1182728BD4 /* IGListDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA1CE3EA2DDA1650C14D079C91B6BD2 /* IGListWorkingRangeHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 046838290FDE9221A798C6B435452C24 /* IGListWorkingRangeHandler.mm */; };
+		B0F438B21F26BA6C491CBB148C86C441 /* IGListReloadIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDBA61E4E07BBCB4C08C72B1FAA32B /* IGListReloadIndexPath.m */; };
+		B2A29F48F80807276CBC23FDFC509F49 /* IGListBatchUpdateData+DebugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A2E6D0274A5579036B8A31181F8FA9 /* IGListBatchUpdateData+DebugDescription.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B386C7FF6ECDB51D3D65A211751B3F20 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C29D8C3CD8C3E6E9F59B4FCC2BFB6 /* ConstraintOffsetTarget.swift */; };
+		B44D1F518B8FC5316A26E8A3535CB315 /* IGListKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B2C5F7C93104093C0A1D69F1825DD /* IGListKit-dummy.m */; };
+		B69E75EA3742B53465DBB05BADA5E4BE /* IGListStackedSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F842BD2E7DDADB8B535138BA7E49E3 /* IGListStackedSectionController.m */; };
+		B71DCEF86CB1558C87E0751EE8F791FE /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40EBBC67C3EBCA48ECC94800188F119 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B922B48443F0F86773B8E2D2C1F2BEC7 /* IGListIndexSetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3E94857C28197705506870093BE610 /* IGListIndexSetResult.m */; };
+		BB32E358DDF3B5D396EBA96E398BB833 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49487BE3779EC63216706F95C94BB5F /* ConstraintMultiplierTarget.swift */; };
+		BD4A3BF9B8D3169955D8402D88EA30B2 /* IGListMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E77FD8C0B11787FD0175B78FBC1D6C68 /* IGListMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE2594785C0B2833FEA2870743563FA /* IGListBatchUpdates.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDCCD132D1E51C18CD7A576EB79F8DC /* IGListBatchUpdates.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C206AD6FA846BA7594EBB3EDEF4CCA5F /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DE00AC437F6758285DB263A9526DA /* ConstraintAttributes.swift */; };
+		C6CB6609DCB43B066310AF534407B372 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3889BE7AA782A12F6B8CD67286D47 /* SRWebSocket.m */; };
+		C94FF979AB065C1D8229FFFCBB21626B /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32957147486599E3FCF3A68F70419FD /* ConstraintRelatableTarget.swift */; };
+		CA5B2DC73AAE5B2D8AC8CA320188A5D0 /* NSNumber+IGListDiffable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF48D7661B736F4D801BA4E969539AD /* NSNumber+IGListDiffable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3478E49FDA1227CCE48ABD9CC9877D /* IGListGenericSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C5B4F9B2C4942A879848D8DDD04FB2 /* IGListGenericSectionController.m */; };
+		CD524B9126794800649CF7B15106FE5E /* IGListBatchUpdateState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC857C42A7BF10E875D5233E5BBC61C /* IGListBatchUpdateState.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CEAD3FE0252F1EE0100EFE53E76B8414 /* IGListAdapter+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B72D5B157F3C44D95511C3FD050B9A /* IGListAdapter+UICollectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CF1DF3E7271695915BFE7D4DAFEF1BC1 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCE8F07A5E84AC6434C77335DDBBA8 /* ConstraintMakerEditable.swift */; };
+		D081F9B6D95125D83D87EE82598713FC /* UICollectionView+IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8EE9836A71B3A9CFE4B79CF47A1C60 /* UICollectionView+IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D2581495C09F96A5E64918E16D67D48A /* IGListSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9510478C9976ECC5E2C7CAD93CE45712 /* IGListSectionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B622B6221DEBE9AC31C9F84BA1AC6E /* NSString+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3AE524EAFBFD4D24554948EA77E10 /* NSString+IGListDiffable.m */; };
+		D32943AF6B011CE0B08D611D3B94EAF8 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00ACD8DC42EBF5A5249C29C9607F35A /* SnapKit-dummy.m */; };
+		D661E3A87964B8FD7DB0741855383CDE /* IGListAdapter+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B243D75CA5A3337F48FFD4CCCE13D0E4 /* IGListAdapter+UICollectionView.m */; };
+		D6E531950EB09E506BBE8771A320896C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105480E867E970E236F27913E23640 /* Foundation.framework */; };
+		D7D19C7CDC7793D74B8F4E1B221AC102 /* IGListAdapterUpdaterInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB719EFD0E5D9CEE4ED292C245CD948 /* IGListAdapterUpdaterInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC2604114A217ABA464D0F2D93D4C1F2 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F9CE0750DCFC336F4B8BC48A1A30B /* ConstraintDescription.swift */; };
+		DC3C614B2962B49964854FC65B13C1C6 /* IGListDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7521AC1AA41A28F8DC48DFE642CF00 /* IGListDisplayHandler.m */; };
+		E00E8A747A7BECD53CF0DD13B12C7B8C /* IGListBatchUpdateData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDE003D8B71651ABE5A6C774A6AC97C /* IGListBatchUpdateData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E094F8F2F233C771E127DF9C5B75D9EA /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0B73947B7449F042A70DED63DA2E71 /* IGListKit.framework */; };
+		E15069E2E7F3CD8F6D95E5557AAF132C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B6A31D8E06B34D020FE3DE520E9E1 /* ConstraintRelation.swift */; };
+		E1F30A0DE91B9134785CEE575FE67D32 /* IGListAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FA683E4B90F4833B5204BCB4284CCD /* IGListAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E3E7FC4E605F707870473E701A094A /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F6D874EB710F2ABC7600CB4C30021 /* ConstraintView.swift */; };
+		E73B87FE95F011369C9F5989EF5C1470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F105480E867E970E236F27913E23640 /* Foundation.framework */; };
+		E91271196009813B7F53157D7715151B /* IGListIndexPathResultInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = C05AE0BFFA237334C4718EBCAB966B53 /* IGListIndexPathResultInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA0E6D535664B1EF8A459301057A0882 /* ChatMessageViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7847E1A30EE7AC26B92057AE89AC3774 /* ChatMessageViewBuilder.swift */; };
+		ECB05D784D755D7C001A956FB1E9AF46 /* IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3807DF8520AE950BB582679435808C8 /* IGListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED11026A3E8F91DA444A86057E7152F8 /* IGListCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 479AD1094C2210DAB36D87FCBCD1F1FE /* IGListCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE88507F63633FD6ED026930CD22D98D /* IGListCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = C63C8C9E999B51A2501EBB12E3B6A4F1 /* IGListCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EF4857E46C29419211DF28D3E97705 /* IGListMoveIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B284C0DB05DDC91E1DA4FDAFAC609DC /* IGListMoveIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2146D2A23D48D2850F9391C960DFBCF /* IGListReloadIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9A8F886E2197A1B3D4D884D3E475CF /* IGListReloadIndexPath.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F371D45C83EC19530EC1723A75AB0391 /* ChatMessageLoaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40875D5A1896382679A5A5AE20D5D5C4 /* ChatMessageLoaderCell.swift */; };
+		F4D5A71CEEB5E1987C048CE49DF042BD /* IGListCollectionViewLayoutInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15825BD788AB26781BCE8C7A26743691 /* IGListCollectionViewLayoutInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F67BB20A5870725A689D1864C372F574 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2DF8D4B1DC6E2D6E11710B94D97B3 /* ConstraintInsets.swift */; };
+		F728EE21A4D6ABD145FCDCC5FF6FBB27 /* UICollectionView+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B61A7EA08471037E848CDB0524944E /* UICollectionView+DebugDescription.m */; };
+		F7E5AB102B94596C1318A2DE05E31493 /* IGListAdapterDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A333E6CA6733C12B57A1E9B3E908EB4 /* IGListAdapterDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB269E3D8DF60752AB22AB085355D415 /* IGListIndexPathResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B560D8C0EC8B552DD795417F086BCC0E /* IGListIndexPathResult.m */; };
+		FE1DE49896FE24785146D8EA0A27AEEC /* UIScrollView+IGListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5A4733F27D86B1B1E1FA592099FF46 /* UIScrollView+IGListKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B19AF37D337399090534FC63F52D345 /* PBXContainerItemProxy */ = {
+		0B6F3CED23F3A7E1B8656827C803D3A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D4D6BC4CD6F674D07936776F679A6E4;
-			remoteInfo = IGListKit;
+			remoteGlobalIDString = BB466073387655E42F7E9F0529650A0D;
+			remoteInfo = SocketRocket;
 		};
-		35207912053206C56F40C451FBA25557 /* PBXContainerItemProxy */ = {
+		3B0CD7B5426F1E9DFFE212E1084BA866 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D4D6BC4CD6F674D07936776F679A6E4;
-			remoteInfo = IGListKit;
-		};
-		41B6A6ACF8434C955EE160A1946A66EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2AC8961B89066AA71C73E92066B1E6DF;
-			remoteInfo = "Pods-Chatterbox_Example";
-		};
-		477A4F411552C61C84DAC8CD9BAE4EC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C966ABE94F153822248A1EA0A4E33A40;
+			remoteGlobalIDString = B3A2DE6319687906B37CADA2A45EACA6;
 			remoteInfo = Chatterbox;
 		};
-		61946A1CF4B9C3A5BB6B1C4058D067C3 /* PBXContainerItemProxy */ = {
+		964731E9BA70AD6950C1EB2190845EAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C0B24D9EE441340054A6EC3676FDAE2;
+			remoteGlobalIDString = CC430324153986C9471173427441A685;
+			remoteInfo = "Pods-Chatterbox_Example";
+		};
+		97CDEC192BDCB2DC73B4E1C9E0DD4753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94921E264DD070C4BBB143D9468AC78;
+			remoteInfo = IGListKit;
+		};
+		AC9C116D1AFAC883874C756626F723BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB466073387655E42F7E9F0529650A0D;
 			remoteInfo = SocketRocket;
 		};
-		812BEBD88294C29F236E9C7CFD662588 /* PBXContainerItemProxy */ = {
+		B461E38FD2A5608976D791004FDA1104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B34DE36B0185339388C5C140C9553F7;
+			remoteGlobalIDString = E94921E264DD070C4BBB143D9468AC78;
+			remoteInfo = IGListKit;
+		};
+		C95C68BDD727D1F1829EDE9498C1A0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4633AECF01D2AB3DA2E6D570E15D611;
 			remoteInfo = SnapKit;
 		};
-		AE55E30B9712C3EE85728B01CED7D313 /* PBXContainerItemProxy */ = {
+		E91055F7E8B0F3CBA257FB110E03DE19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B34DE36B0185339388C5C140C9553F7;
+			remoteGlobalIDString = B4633AECF01D2AB3DA2E6D570E15D611;
 			remoteInfo = SnapKit;
-		};
-		B1433D96858355B42CF5DAC72FF320C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C0B24D9EE441340054A6EC3676FDAE2;
-			remoteInfo = SocketRocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00BDCF8ECBD104D845FF56EA99A92E68 /* BaseChatInterfaceDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseChatInterfaceDataProvider.swift; path = Chatterbox/Classes/BaseChatInterfaceDataProvider.swift; sourceTree = "<group>"; };
 		03A6081FB944F0E92DF262606B067CBF /* IGListCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListCollectionView.m; path = Source/IGListCollectionView.m; sourceTree = "<group>"; };
-		046838290FDE9221A798C6B435452C24 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
+		046838290FDE9221A798C6B435452C24 /* IGListWorkingRangeHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListWorkingRangeHandler.mm; path = Source/Internal/IGListWorkingRangeHandler.mm; sourceTree = "<group>"; };
 		052F65F79D6628CE7CBD7C663438B2D2 /* ChatInputAccessoryRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatInputAccessoryRepresentable.swift; path = Chatterbox/Classes/ChatInputAccessoryRepresentable.swift; sourceTree = "<group>"; };
 		07C00ABD1586A4F7BC76005A96593D70 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatInterfaceViewController.swift; path = Chatterbox/Classes/ChatInterfaceViewController.swift; sourceTree = "<group>"; };
 		0A52807A0F0BEB97533E47687114696D /* ChatMessageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessageRepresentable.swift; path = Chatterbox/Classes/ChatMessageRepresentable.swift; sourceTree = "<group>"; };
@@ -283,9 +283,9 @@
 		20B61A7EA08471037E848CDB0524944E /* UICollectionView+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+DebugDescription.m"; path = "Source/Internal/UICollectionView+DebugDescription.m"; sourceTree = "<group>"; };
 		210C778E167EE3E027AE2F882472A46B /* UICollectionView+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DebugDescription.h"; path = "Source/Internal/UICollectionView+DebugDescription.h"; sourceTree = "<group>"; };
 		210F5FC28592804CB32488873377002C /* NSString+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+IGListDiffable.h"; path = "Source/Common/NSString+IGListDiffable.h"; sourceTree = "<group>"; };
-		2173A5E1C7410EDDD288BC6077F4C920 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGListKit.framework; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173A5E1C7410EDDD288BC6077F4C920 /* IGListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22333E148825DA158A8109E2DC849F9B /* IGListMoveIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListMoveIndexPath.m; path = Source/Common/IGListMoveIndexPath.m; sourceTree = "<group>"; };
-		224E323E213067B1C5578D9A99450B44 /* Chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Chatterbox.framework; path = Chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224E323E213067B1C5578D9A99450B44 /* Chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D211C340D8735B673BEB4F0EC72DD3 /* Pods-Chatterbox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Chatterbox_Tests.modulemap"; sourceTree = "<group>"; };
 		23210BCEE184D8B82DA44F2C8FE74FD4 /* Chatterbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chatterbox.xcconfig; sourceTree = "<group>"; };
 		23DEA471A94EB06618D3CFB69AF28A40 /* IGListBindingSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionController.h; path = Source/IGListBindingSectionController.h; sourceTree = "<group>"; };
@@ -308,10 +308,9 @@
 		3B539319F4085DA20F47DCE3057214F4 /* IGListBindable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListBindable.h; path = Source/IGListBindable.h; sourceTree = "<group>"; };
 		3BF48D7661B736F4D801BA4E969539AD /* NSNumber+IGListDiffable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+IGListDiffable.h"; path = "Source/Common/NSNumber+IGListDiffable.h"; sourceTree = "<group>"; };
 		3D56464A893DB60ECD1CBBA357EFE49C /* IGListAdapterUpdaterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterDelegate.h; path = Source/IGListAdapterUpdaterDelegate.h; sourceTree = "<group>"; };
-		4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		40875D5A1896382679A5A5AE20D5D5C4 /* ChatMessageLoaderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessageLoaderCell.swift; path = Chatterbox/Classes/ChatMessageLoaderCell.swift; sourceTree = "<group>"; };
 		409517FB693C0F778CD1BD45952D45AE /* UIScrollView+IGListKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+IGListKit.m"; path = "Source/Internal/UIScrollView+IGListKit.m"; sourceTree = "<group>"; };
-		44BEEFC560EB74307508FCBE43BF9C7C /* Pods_Chatterbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chatterbox_Example.framework; path = "Pods-Chatterbox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BEEFC560EB74307508FCBE43BF9C7C /* Pods_Chatterbox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatterbox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FA683E4B90F4833B5204BCB4284CCD /* IGListAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAssert.h; path = Source/Common/IGListAssert.h; sourceTree = "<group>"; };
 		44FF2D737ACEBF219AFC8CFE921B3B7B /* IGListBindingSectionController+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListBindingSectionController+DebugDescription.h"; path = "Source/Internal/IGListBindingSectionController+DebugDescription.h"; sourceTree = "<group>"; };
 		479AD1094C2210DAB36D87FCBCD1F1FE /* IGListCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCompatibility.h; path = Source/Common/IGListCompatibility.h; sourceTree = "<group>"; };
@@ -351,23 +350,22 @@
 		6C63BE9BF78D91BFE48552FB26D4BCCB /* IGListAdapterUpdateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdateListener.h; path = Source/IGListAdapterUpdateListener.h; sourceTree = "<group>"; };
 		6E235B5FDDF81A95C14A5F1182728BD4 /* IGListDiff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiff.h; path = Source/Common/IGListDiff.h; sourceTree = "<group>"; };
 		6E8EE9836A71B3A9CFE4B79CF47A1C60 /* UICollectionView+IGListBatchUpdateData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+IGListBatchUpdateData.h"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.h"; sourceTree = "<group>"; };
-		6F715DE390FC05BDA93932A417C043C9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70280D80E8AB885FD88DF37B61410B0D /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
+		6F715DE390FC05BDA93932A417C043C9 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70280D80E8AB885FD88DF37B61410B0D /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListCollectionViewLayout.mm; path = Source/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
 		70B72D5B157F3C44D95511C3FD050B9A /* IGListAdapter+UICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapter+UICollectionView.h"; path = "Source/Internal/IGListAdapter+UICollectionView.h"; sourceTree = "<group>"; };
 		73F27D7EBCAD1F768625F08752BD9678 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
-		744677F9FE383D37F8BB5D9F29BC1006 /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
+		744677F9FE383D37F8BB5D9F29BC1006 /* IGListBatchUpdateData.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListBatchUpdateData.mm; path = Source/Common/IGListBatchUpdateData.mm; sourceTree = "<group>"; };
 		753D337928ACA553C6D9F460F3395D1C /* IGListKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-umbrella.h"; sourceTree = "<group>"; };
-		7687D994E9D8B7190AF7CAC306120078 /* Pods_Chatterbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chatterbox_Tests.framework; path = "Pods-Chatterbox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7687D994E9D8B7190AF7CAC306120078 /* Pods_Chatterbox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatterbox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		784708ACE0F1367F02C26599D71BE945 /* ChatTextMessageDataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatTextMessageDataController.swift; path = Chatterbox/Classes/ChatTextMessageDataController.swift; sourceTree = "<group>"; };
 		7847E1A30EE7AC26B92057AE89AC3774 /* ChatMessageViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessageViewBuilder.swift; path = Chatterbox/Classes/ChatMessageViewBuilder.swift; sourceTree = "<group>"; };
 		79C414D52272ABEEC2EDB165598ED94C /* IGListReloadDataUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListReloadDataUpdater.h; path = Source/IGListReloadDataUpdater.h; sourceTree = "<group>"; };
 		7A64C287DC2D6491EF09405C685F9935 /* IGListAdapterUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdater.h; path = Source/IGListAdapterUpdater.h; sourceTree = "<group>"; };
 		7ABA3EE5CC4AC007176992D49A1D7FE8 /* IGListDebuggingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDebuggingUtilities.m; path = Source/Internal/IGListDebuggingUtilities.m; sourceTree = "<group>"; };
 		7B1B125D860411540470A9E85F231D63 /* Pods-Chatterbox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chatterbox_Tests-dummy.m"; sourceTree = "<group>"; };
-		7D96829E85B9B7BDB78923C41D77C48F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7ED0851ABAA59610143D6AD1D979E436 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		7F4EEBDE2E79156DAE1B7DE91EF2AE63 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
-		7F63F34443F74CA297902275C95253C2 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F63F34443F74CA297902275C95253C2 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB3889BE7AA782A12F6B8CD67286D47 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
 		80E7B652C5B53EAE1B8121ACDA3C1662 /* IGListAdapterProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterProxy.h; path = Source/Internal/IGListAdapterProxy.h; sourceTree = "<group>"; };
 		8192762C1AAF0C73EF861B5077833739 /* ChatMessageLoaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatMessageLoaderController.swift; path = Chatterbox/Classes/ChatMessageLoaderController.swift; sourceTree = "<group>"; };
@@ -378,22 +376,23 @@
 		8A333E6CA6733C12B57A1E9B3E908EB4 /* IGListAdapterDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDataSource.h; path = Source/IGListAdapterDataSource.h; sourceTree = "<group>"; };
 		8B22B6C138D68EACD27C8A72B2DADD69 /* ChatDraftMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatDraftMessage.swift; path = Chatterbox/Classes/ChatDraftMessage.swift; sourceTree = "<group>"; };
 		8B284C0DB05DDC91E1DA4FDAFAC609DC /* IGListMoveIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListMoveIndexPath.h; path = Source/Common/IGListMoveIndexPath.h; sourceTree = "<group>"; };
-		8C3C3D5FBEA54842070FDEA63EE1488A /* Chatterbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Chatterbox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BB0E1D3BAA13631781EE439A66AF32D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C3C3D5FBEA54842070FDEA63EE1488A /* Chatterbox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Chatterbox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D9A3D01B51DBED3284D64EEBA9B8BD9 /* Pods-Chatterbox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chatterbox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8EF3AE524EAFBFD4D24554948EA77E10 /* NSString+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+IGListDiffable.m"; path = "Source/Common/NSString+IGListDiffable.m"; sourceTree = "<group>"; };
+		8F105480E867E970E236F27913E23640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		914F6F7D3482FA9EFB39A6E0BCF812AE /* IGListAdapterUpdater+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapterUpdater+DebugDescription.m"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.m"; sourceTree = "<group>"; };
 		91BADE93D066E1BB4E05A236971C02D5 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		93A25E1728D858FD94258F202D6318C3 /* ChatInterfaceCommonRepresentables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatInterfaceCommonRepresentables.swift; path = Chatterbox/Classes/ChatInterfaceCommonRepresentables.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E87E0B2EA20510DD27C8B2BD387B82 /* IGListAdapterUpdater+DebugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IGListAdapterUpdater+DebugDescription.h"; path = "Source/Internal/IGListAdapterUpdater+DebugDescription.h"; sourceTree = "<group>"; };
 		9510478C9976ECC5E2C7CAD93CE45712 /* IGListSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSectionController.h; path = Source/IGListSectionController.h; sourceTree = "<group>"; };
 		95ED359D77D34F1D1CACC2459F972F91 /* Pods-Chatterbox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chatterbox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		966377A7DFE99A982126F5A8B3A0E97F /* IGListAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapter.h; path = Source/IGListAdapter.h; sourceTree = "<group>"; };
-		9697549E23675E9A96001EDAC09C9B03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		96F842BD2E7DDADB8B535138BA7E49E3 /* IGListStackedSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListStackedSectionController.m; path = Source/IGListStackedSectionController.m; sourceTree = "<group>"; };
 		981C04936ADC3B7058626DFCDA56F8D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99DB4EC61D09DA611781356200C72FDE /* UICollectionView+IGListBatchUpdateData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+IGListBatchUpdateData.m"; path = "Source/Internal/UICollectionView+IGListBatchUpdateData.m"; sourceTree = "<group>"; };
-		9C15B446620CCA1C4CF83392CDA00215 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9C15B446620CCA1C4CF83392CDA00215 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9C46864E3F41D68D0DDDAA110976455A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C9B2C5F7C93104093C0A1D69F1825DD /* IGListKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGListKit-dummy.m"; sourceTree = "<group>"; };
 		9D3F7EB5F3443313C3360E02055B0DB6 /* NSNumber+IGListDiffable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+IGListDiffable.m"; path = "Source/Common/NSNumber+IGListDiffable.m"; sourceTree = "<group>"; };
@@ -402,6 +401,7 @@
 		A0E928A94111951DA5629B847891EDCB /* ChatInterfaceCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatInterfaceCollectionView.swift; path = Chatterbox/Classes/ChatInterfaceCollectionView.swift; sourceTree = "<group>"; };
 		A1A23AAECF5F14C2BA139483048A838C /* IGListBindingSectionController+DebugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListBindingSectionController+DebugDescription.m"; path = "Source/Internal/IGListBindingSectionController+DebugDescription.m"; sourceTree = "<group>"; };
 		A32957147486599E3FCF3A68F70419FD /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		A3B21343DABE0B72C0119459BC881BA2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		A6D6B2B80689FC1071DAE7BCBFE2BB29 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		A708A5C1B27627E68BFFF0B070B74B8E /* Pods-Chatterbox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chatterbox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9FD5ECDBD2EB3BA649A01F1CDDA1765 /* IGListStackedSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListStackedSectionController.h; path = Source/IGListStackedSectionController.h; sourceTree = "<group>"; };
@@ -411,7 +411,6 @@
 		AA8EE9AF64172C389261F7D38CC0A7FC /* Pods-Chatterbox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chatterbox_Example-umbrella.h"; sourceTree = "<group>"; };
 		ABB719EFD0E5D9CEE4ED292C245CD948 /* IGListAdapterUpdaterInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterUpdaterInternal.h; path = Source/Internal/IGListAdapterUpdaterInternal.h; sourceTree = "<group>"; };
 		AD8236C11015CD6755DFD9CD3523D4AE /* IGListAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListAdapterDelegate.h; path = Source/IGListAdapterDelegate.h; sourceTree = "<group>"; };
-		AE108738C303371FA38C63E23AEE3281 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		B243D75CA5A3337F48FFD4CCCE13D0E4 /* IGListAdapter+UICollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IGListAdapter+UICollectionView.m"; path = "Source/Internal/IGListAdapter+UICollectionView.m"; sourceTree = "<group>"; };
 		B560D8C0EC8B552DD795417F086BCC0E /* IGListIndexPathResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListIndexPathResult.m; path = Source/Common/IGListIndexPathResult.m; sourceTree = "<group>"; };
 		B58F9CE0750DCFC336F4B8BC48A1A30B /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
@@ -425,6 +424,7 @@
 		BC9641F58794D58E539996172E9B4212 /* IGListDebugger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListDebugger.m; path = Source/Internal/IGListDebugger.m; sourceTree = "<group>"; };
 		BE72FC5903D91029645CAA0240D6571F /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		C05AE0BFFA237334C4718EBCAB966B53 /* IGListIndexPathResultInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListIndexPathResultInternal.h; path = Source/Common/Internal/IGListIndexPathResultInternal.h; sourceTree = "<group>"; };
+		C095BD369B000F41D9A052C20B9530CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		C2D82250BF3C8D829B2122D0D505DCDC /* IGListSingleSectionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IGListSingleSectionController.m; path = Source/IGListSingleSectionController.m; sourceTree = "<group>"; };
 		C455DE484B27A601D73AE4BADCBF1FE7 /* Pods-Chatterbox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatterbox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C63C8C9E999B51A2501EBB12E3B6A4F1 /* IGListCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionView.h; path = Source/IGListCollectionView.h; sourceTree = "<group>"; };
@@ -437,7 +437,7 @@
 		CE8EC73A432D93E436A9D6CAE5CE32BD /* IGListSupplementaryViewSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListSupplementaryViewSource.h; path = Source/IGListSupplementaryViewSource.h; sourceTree = "<group>"; };
 		D07EB3F69126F3BE9580A3A527F59B4A /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
 		D0F8904BB482EF479242EBE5CFA6E00C /* ChatInputAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatInputAccessoryView.swift; path = Chatterbox/Classes/ChatInputAccessoryView.swift; sourceTree = "<group>"; };
-		D2528CF8E20DABD1AE4E831AD5A29032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D2528CF8E20DABD1AE4E831AD5A29032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D265E48821C0700084F5418F35B48A95 /* IGListCollectionViewDelegateLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewDelegateLayout.h; path = Source/IGListCollectionViewDelegateLayout.h; sourceTree = "<group>"; };
 		D3DFF285CC5BA33AC542E40B464F774A /* IGListKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGListKit-prefix.pch"; sourceTree = "<group>"; };
 		D49BA2AED52744B617551CD8D13E0ABA /* IGListWorkingRangeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListWorkingRangeHandler.h; path = Source/Internal/IGListWorkingRangeHandler.h; sourceTree = "<group>"; };
@@ -448,7 +448,7 @@
 		D9C2DF8D4B1DC6E2D6E11710B94D97B3 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		DA6BCC6CAD0821F552321BADAF010254 /* IGListDiffKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListDiffKit.h; path = Source/Common/IGListDiffKit.h; sourceTree = "<group>"; };
 		DA788375F1429C0F1366C2CFBB72FD63 /* Pods-Chatterbox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chatterbox_Example-resources.sh"; sourceTree = "<group>"; };
-		DADA74775BB12D82FB3F60C9BB93D40F /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
+		DADA74775BB12D82FB3F60C9BB93D40F /* IGListDiff.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IGListDiff.mm; path = Source/Common/IGListDiff.mm; sourceTree = "<group>"; };
 		DB2F567B27F626981A621B9185C0C819 /* Pods-Chatterbox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chatterbox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCC2FA736FB653C2C44C23F2DCA905A9 /* IGListTransitionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListTransitionDelegate.h; path = Source/IGListTransitionDelegate.h; sourceTree = "<group>"; };
 		DD055CCEDFF4886B2492C38A225550BD /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
@@ -481,57 +481,57 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1096C8747072D76F1B17FC27331E069C /* Frameworks */ = {
+		54CFA0EE6C0D4A3E5E19C7DDFFAFC448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F578A2938DF6BAB16E17C87A97CF068 /* Foundation.framework in Frameworks */,
+				A9746E870D41BCBEF6C678C472E89CB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		156EE87DA493094E3DEE30D246A37BF3 /* Frameworks */ = {
+		9B1E8B2AE5525BA8CE526AC2766CB48B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F4ECAFADBB47B1C6B94A829DB79B09 /* CFNetwork.framework in Frameworks */,
-				E505CDBCC877F5B75A77301094FC4D8F /* Foundation.framework in Frameworks */,
-				7FD4CF58CE4961461007AA0830A914B0 /* Security.framework in Frameworks */,
+				932B17D1029F8A7EED7830C2E8F5C4AB /* Foundation.framework in Frameworks */,
+				ADEB2A29A96061C1310D428563BFB5B5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703209D2A6997D22FDB2EB330C6C4F9C /* Frameworks */ = {
+		B4DBE97461EB1FA67E0D5D2D6D152F42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5EC19F4093098422DA92DD35DEC0BF /* Foundation.framework in Frameworks */,
-				0D827158981047DA8851F999E0375AF3 /* UIKit.framework in Frameworks */,
+				E73B87FE95F011369C9F5989EF5C1470 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		851BC3AA40667BCFEFA822968D86B2BE /* Frameworks */ = {
+		F3EFC9E481360E0409BE6B8B6FE0E237 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303D461494AEE970063C174022300983 /* Foundation.framework in Frameworks */,
+				9E274C5B29AD8E3DCA116B8448177709 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B17780E6DB95E0FED34F309EC6103ED8 /* Frameworks */ = {
+		F727DB3FA6B2ECF8D9A51B0210AB64F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8ACC2265CB42CDAA895E7074030B89 /* Foundation.framework in Frameworks */,
-				1A34FC97A396EFCCC1F4F44EC014533D /* IGListKit.framework in Frameworks */,
-				94D23FDD2A3235F06D6C44ADC44646C2 /* SnapKit.framework in Frameworks */,
-				C50C760838C8B649633BDB343233C386 /* SocketRocket.framework in Frameworks */,
+				A27F89408F4A7C0A4205EE9D9C952AFD /* CFNetwork.framework in Frameworks */,
+				75E192299A1643A8D4E699C5281DC2AF /* Foundation.framework in Frameworks */,
+				81F0BAC51C27DDDA69391D9CBDBB1F46 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D48C35E85FC5CCBD0E172788045827BC /* Frameworks */ = {
+		F85389D08561DEE053341D2F22A1D3E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EFE2A20D8C2F8BC6405F835EBA3EE2 /* Foundation.framework in Frameworks */,
+				D6E531950EB09E506BBE8771A320896C /* Foundation.framework in Frameworks */,
+				E094F8F2F233C771E127DF9C5B75D9EA /* IGListKit.framework in Frameworks */,
+				6B428AE76C1E8748B4D01D559DDCE72E /* SnapKit.framework in Frameworks */,
+				59224482E938255A7C2FA2A0CC64539C /* SocketRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +551,7 @@
 				AA0B73947B7449F042A70DED63DA2E71 /* IGListKit.framework */,
 				85768F1A4C31358B1E9BCCE99237202F /* SnapKit.framework */,
 				2D1075C1AAD50D5CFB14F59445846BF9 /* SocketRocket.framework */,
-				6346F958D094F36CE8E43D3679446C5F /* iOS */,
+				992793FE5446F289411AE85F867E6D71 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -623,17 +623,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SocketRocket";
-			sourceTree = "<group>";
-		};
-		6346F958D094F36CE8E43D3679446C5F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9697549E23675E9A96001EDAC09C9B03 /* CFNetwork.framework */,
-				4077CF7AFCEFE1A33413357DEF988740 /* Foundation.framework */,
-				AE108738C303371FA38C63E23AEE3281 /* Security.framework */,
-				7D96829E85B9B7BDB78923C41D77C48F /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -773,6 +762,17 @@
 			name = Default;
 			sourceTree = "<group>";
 		};
+		992793FE5446F289411AE85F867E6D71 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3B21343DABE0B72C0119459BC881BA2 /* CFNetwork.framework */,
+				8F105480E867E970E236F27913E23640 /* Foundation.framework */,
+				C095BD369B000F41D9A052C20B9530CD /* Security.framework */,
+				8BB0E1D3BAA13631781EE439A66AF32D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		9EA3A0D79081FCBC4901DF1DFA661A90 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -844,7 +844,6 @@
 				08D7CDC697F7D8536800E78F504D9EA6 /* Diffing */,
 				8547D59B6473E5460D3E92A906CDEF20 /* Support Files */,
 			);
-			name = IGListKit;
 			path = IGListKit;
 			sourceTree = "<group>";
 		};
@@ -887,7 +886,6 @@
 				E83077C6D9E0B653E61D6FB2680AA715 /* UILayoutSupport+Extensions.swift */,
 				560885522AD2511698AB32C3F89D5D42 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -907,7 +905,6 @@
 				7FB3889BE7AA782A12F6B8CD67286D47 /* SRWebSocket.m */,
 				6288C78DAA935E27DF4148C57719DF53 /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
@@ -932,135 +929,176 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29A243F0FA717CFE7A7C8F83395301D5 /* Headers */ = {
+		0AC4A5F91BDA30A6A748CC9D0CFA4B5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD524E52DC14502C5D89F219059F202 /* Pods-Chatterbox_Tests-umbrella.h in Headers */,
+				5EA19B515301EE0046B089A59E505F47 /* Chatterbox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68304353BE9BBBD59943971714E4EBB0 /* Headers */ = {
+		175E52ECDEFE1F3D6C6D39E74BEEFC09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A883424765581BFB5D2B6AEC06AA415 /* Chatterbox-umbrella.h in Headers */,
+				5E32619B3B041EE58B27B8F8346BC471 /* Pods-Chatterbox_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F7ED72FFB659035A8668A60DB8C2764 /* Headers */ = {
+		42496D810CB80E2C501235DFA08C4EAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929A4B4F3146F6FBCB2BEF6782FD0194 /* SocketRocket-umbrella.h in Headers */,
-				2FED691A9FED554868093FEF22855200 /* SocketRocket.h in Headers */,
-				5F1A4BE9CBFBC154A3292B418E958096 /* SRWebSocket.h in Headers */,
+				5EFC6B6376225EC01196F2907D846617 /* IGListAdapter+DebugDescription.h in Headers */,
+				CEAD3FE0252F1EE0100EFE53E76B8414 /* IGListAdapter+UICollectionView.h in Headers */,
+				399784107F7D9669E7DF8F10EA8774D1 /* IGListAdapter.h in Headers */,
+				F7E5AB102B94596C1318A2DE05E31493 /* IGListAdapterDataSource.h in Headers */,
+				1F61D761BB5732109851B7F6D3D9FB11 /* IGListAdapterDelegate.h in Headers */,
+				758411C2EE9C9D6EE362830E4553A398 /* IGListAdapterInternal.h in Headers */,
+				57BAD1076543079F29F41758C2DB75D4 /* IGListAdapterProxy.h in Headers */,
+				7CC641953D39FB0D37D92E44A942BD99 /* IGListAdapterUpdateListener.h in Headers */,
+				09CFB34278E9C22B7F49C64FA3ACF159 /* IGListAdapterUpdater+DebugDescription.h in Headers */,
+				AC713C92577C44FA168C592A0E1E7261 /* IGListAdapterUpdater.h in Headers */,
+				2FE8FF38786189245D1F15E45AABC4F3 /* IGListAdapterUpdaterDelegate.h in Headers */,
+				D7D19C7CDC7793D74B8F4E1B221AC102 /* IGListAdapterUpdaterInternal.h in Headers */,
+				0ADCC3A16B487C3CE1B37D103D381F54 /* IGListArrayUtilsInternal.h in Headers */,
+				E1F30A0DE91B9134785CEE575FE67D32 /* IGListAssert.h in Headers */,
+				85897AE3F5297FA6E9EE27D2E608692F /* IGListBatchContext.h in Headers */,
+				B2A29F48F80807276CBC23FDFC509F49 /* IGListBatchUpdateData+DebugDescription.h in Headers */,
+				E00E8A747A7BECD53CF0DD13B12C7B8C /* IGListBatchUpdateData.h in Headers */,
+				BDE2594785C0B2833FEA2870743563FA /* IGListBatchUpdates.h in Headers */,
+				CD524B9126794800649CF7B15106FE5E /* IGListBatchUpdateState.h in Headers */,
+				5DC734BFCC522446F514860B072F6F6E /* IGListBindable.h in Headers */,
+				5B46ADD249CC7B5FECC66F13DACAA713 /* IGListBindingSectionController+DebugDescription.h in Headers */,
+				3692A2A79E164E5A4A01225D8DE00516 /* IGListBindingSectionController.h in Headers */,
+				8ADF121D02DD39FEEA63E1630AD3D7F6 /* IGListBindingSectionControllerDataSource.h in Headers */,
+				64D5DB8097F96CD00FA06E5E38DDBF31 /* IGListBindingSectionControllerSelectionDelegate.h in Headers */,
+				72A26B671B0C2015E604481B6734150F /* IGListCollectionContext.h in Headers */,
+				EE88507F63633FD6ED026930CD22D98D /* IGListCollectionView.h in Headers */,
+				72243D3047A76967410A8AE4207A159A /* IGListCollectionViewDelegateLayout.h in Headers */,
+				0E5E43EA44B874364B4BE99F43DB5E43 /* IGListCollectionViewLayout.h in Headers */,
+				F4D5A71CEEB5E1987C048CE49DF042BD /* IGListCollectionViewLayoutInternal.h in Headers */,
+				ED11026A3E8F91DA444A86057E7152F8 /* IGListCompatibility.h in Headers */,
+				979BF61CB50D06B1478F3055BC584B6D /* IGListDebugger.h in Headers */,
+				98BA37117EA7808C62783CD6B7FC8502 /* IGListDebuggingUtilities.h in Headers */,
+				AEC92EB030FEC4AA37B8084AA962F8C7 /* IGListDiff.h in Headers */,
+				96D685EF3F248FBC140EE9BC3C390A7F /* IGListDiffable.h in Headers */,
+				8EF2DB0C39C84F290D35576B61AB231F /* IGListDiffKit.h in Headers */,
+				3D199DE93578953069846B621FFACB25 /* IGListDisplayDelegate.h in Headers */,
+				A60C017227A5C04D690AAF814348D479 /* IGListDisplayHandler.h in Headers */,
+				A0A93F5AB561E56A76CDE9F17FF0B103 /* IGListExperiments.h in Headers */,
+				68B2AC7B71978B481D105F775FA76CC4 /* IGListGenericSectionController.h in Headers */,
+				8DD606B2D19012030AC374C8FE883666 /* IGListIndexPathResult.h in Headers */,
+				E91271196009813B7F53157D7715151B /* IGListIndexPathResultInternal.h in Headers */,
+				920546B3A6F9964CCD5BABE22C71C391 /* IGListIndexSetResult.h in Headers */,
+				833586CFA755BDE2B511556319CB1BCD /* IGListIndexSetResultInternal.h in Headers */,
+				0D06E1EAAD1DCE57A9DC5E4014FDEB92 /* IGListKit-umbrella.h in Headers */,
+				ECB05D784D755D7C001A956FB1E9AF46 /* IGListKit.h in Headers */,
+				BD4A3BF9B8D3169955D8402D88EA30B2 /* IGListMacros.h in Headers */,
+				72A4BCCA4EFFDABEC07E97F9A2921D7E /* IGListMoveIndex.h in Headers */,
+				7514E87378CF3088E314154334C7EFE8 /* IGListMoveIndexInternal.h in Headers */,
+				F0EF4857E46C29419211DF28D3E97705 /* IGListMoveIndexPath.h in Headers */,
+				A0B105EA6A936F891AAC8C183CA69B39 /* IGListMoveIndexPathInternal.h in Headers */,
+				32FFF7EE9BD41F15FCC63305CC59C16E /* IGListReloadDataUpdater.h in Headers */,
+				F2146D2A23D48D2850F9391C960DFBCF /* IGListReloadIndexPath.h in Headers */,
+				8261DACE441FEE3584C962F50D9006C4 /* IGListScrollDelegate.h in Headers */,
+				D2581495C09F96A5E64918E16D67D48A /* IGListSectionController.h in Headers */,
+				35B2F261BDE8D49F5C185D41262399ED /* IGListSectionControllerInternal.h in Headers */,
+				7FC0E62DBACABE27905BD8688855190B /* IGListSectionMap+DebugDescription.h in Headers */,
+				1B273CEEE7CCAD644F469CFD3A252182 /* IGListSectionMap.h in Headers */,
+				8ECB4791BA056DEFCC1BE3F961A07BE4 /* IGListSingleSectionController.h in Headers */,
+				06EBCCDCE380E4136F28BA987BD24D53 /* IGListStackedSectionController.h in Headers */,
+				61AB47EAC0826B1637D90DFF74FAD60D /* IGListStackedSectionControllerInternal.h in Headers */,
+				596B2691FE59AE2F11431190FD1F5963 /* IGListSupplementaryViewSource.h in Headers */,
+				828AAF9281A327181A1F3AD3D28C3873 /* IGListTransitionDelegate.h in Headers */,
+				0C75CEDE5F156FB8A6D76C99C0470DCB /* IGListUpdatingDelegate.h in Headers */,
+				0DDFE665CE25AD1B39D594EEBED97104 /* IGListWorkingRangeDelegate.h in Headers */,
+				998A46E800CF5B5C31CD317FF2BE9741 /* IGListWorkingRangeHandler.h in Headers */,
+				CA5B2DC73AAE5B2D8AC8CA320188A5D0 /* NSNumber+IGListDiffable.h in Headers */,
+				57CE6E2A4F1AC4CDE2494A126E451555 /* NSString+IGListDiffable.h in Headers */,
+				51DC4F59DDFC167C70347DF7C5C418B7 /* UICollectionView+DebugDescription.h in Headers */,
+				D081F9B6D95125D83D87EE82598713FC /* UICollectionView+IGListBatchUpdateData.h in Headers */,
+				FE1DE49896FE24785146D8EA0A27AEEC /* UIScrollView+IGListKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76C1405960A154E2A92FF78D71DF5180 /* Headers */ = {
+		6ED3DFC90DDE80BB5C178285C81D8B50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A885D8DF9D0D7646C07D54A9800E08 /* IGListAdapter+DebugDescription.h in Headers */,
-				970FD438DEAA7B18739707BDF2A4C7D3 /* IGListAdapter+UICollectionView.h in Headers */,
-				40231A7146C2731CBD9C8E1C58C98FB2 /* IGListAdapter.h in Headers */,
-				E25364C882C1B6E1ED854F387976D0AB /* IGListAdapterDataSource.h in Headers */,
-				E78F3C677FEE5C32A4C0666D7EA34E10 /* IGListAdapterDelegate.h in Headers */,
-				132238DF2DF50AAEE096A77128D981DC /* IGListAdapterInternal.h in Headers */,
-				7F7B8F6E282F39983EFDB153BE489BBA /* IGListAdapterProxy.h in Headers */,
-				378A0C7E13BA554FD344FB6342A71C82 /* IGListAdapterUpdateListener.h in Headers */,
-				D2E07D4DAEED70CB286D1E92A9B735FB /* IGListAdapterUpdater+DebugDescription.h in Headers */,
-				6E2E5E3E196B4A85466C4974557FF757 /* IGListAdapterUpdater.h in Headers */,
-				F794D0D7DF423C0F7A2A255A3290559B /* IGListAdapterUpdaterDelegate.h in Headers */,
-				2DF80B26B00B99EC7A730B71CC416315 /* IGListAdapterUpdaterInternal.h in Headers */,
-				32586AD90AD9CCA31AEF0DDC297FD166 /* IGListArrayUtilsInternal.h in Headers */,
-				0FB66C83C006B3BE5816816328F444CE /* IGListAssert.h in Headers */,
-				B28BCB528F67242EDACF9D27C830BE01 /* IGListBatchContext.h in Headers */,
-				11B6B560F40D96A4590F9EBB5D04E466 /* IGListBatchUpdateData+DebugDescription.h in Headers */,
-				85F42E967CA69817E4A52599C1161B82 /* IGListBatchUpdateData.h in Headers */,
-				B9DD066FFE6AFB83864E0371F1BA2907 /* IGListBatchUpdates.h in Headers */,
-				F40BB66E089EE7585DB155FE8BE42620 /* IGListBatchUpdateState.h in Headers */,
-				67E309969495F937EC5FA9A7AACE45A4 /* IGListBindable.h in Headers */,
-				48A2161401CDAD20DF560D185EC5116C /* IGListBindingSectionController+DebugDescription.h in Headers */,
-				886BA0963027454E9577B8A12FCEE7E0 /* IGListBindingSectionController.h in Headers */,
-				E80C8D328B71423ACCDFEC33769986F4 /* IGListBindingSectionControllerDataSource.h in Headers */,
-				14A80EFE1FF08A3988306D60C77C447B /* IGListBindingSectionControllerSelectionDelegate.h in Headers */,
-				DD81558A43D08D790377380511910D76 /* IGListCollectionContext.h in Headers */,
-				ABE10F38824A2A0EB2AE36BA666DA553 /* IGListCollectionView.h in Headers */,
-				B9FA678F7F4869175EC68D87D0BF77AF /* IGListCollectionViewDelegateLayout.h in Headers */,
-				B6ABA89903A17D5E6566F62931BB3BC0 /* IGListCollectionViewLayout.h in Headers */,
-				82E54F20511A48570C6557C946FD7B3F /* IGListCollectionViewLayoutInternal.h in Headers */,
-				FC3DF89CA5DD7DBC209970E3780290F2 /* IGListCompatibility.h in Headers */,
-				B41C13D6B2C8D14D386B84340FAC1FA2 /* IGListDebugger.h in Headers */,
-				967857452E7D06B5DE2166FA1C3A8E78 /* IGListDebuggingUtilities.h in Headers */,
-				DE743456FCA958C59ED544E7F6AA8006 /* IGListDiff.h in Headers */,
-				18CFF854FE34570AFDDBB761643EFCBB /* IGListDiffable.h in Headers */,
-				5E4FDEC8029BF54350776F949F9ABEBD /* IGListDiffKit.h in Headers */,
-				F0A77CDD2FAB306454041F11B25CD656 /* IGListDisplayDelegate.h in Headers */,
-				5E946FE33ED2C5EAF02488CB793544BC /* IGListDisplayHandler.h in Headers */,
-				A7AE5CDD6781518F7BE27F198C8A063C /* IGListExperiments.h in Headers */,
-				7D44836C594A2C9DDECCA53A4A962EDC /* IGListGenericSectionController.h in Headers */,
-				611EB15B9912D9F340E8996922CC095E /* IGListIndexPathResult.h in Headers */,
-				5AD51A7F4F3A20AD043ECCEC25BED908 /* IGListIndexPathResultInternal.h in Headers */,
-				C1CAD08201146F4822623397BB3AEB3A /* IGListIndexSetResult.h in Headers */,
-				C56739848317BC8E928E90C67912F45A /* IGListIndexSetResultInternal.h in Headers */,
-				A172D7BC8A909429DBD5194E99D1D935 /* IGListKit-umbrella.h in Headers */,
-				BDD5CB3C7037BB42C4A4778FC8C8888D /* IGListKit.h in Headers */,
-				0458D0BCCB62A740A524F4CE51E8A3A3 /* IGListMacros.h in Headers */,
-				21A3ED8ED02E482B572AF7B421833F62 /* IGListMoveIndex.h in Headers */,
-				5D4971D047CF5D78B204D69C7478EDE2 /* IGListMoveIndexInternal.h in Headers */,
-				185AD6D73210ACAEE5E466FD976CCB77 /* IGListMoveIndexPath.h in Headers */,
-				FA2C59AB63ADF56156E94F858DA7BC2B /* IGListMoveIndexPathInternal.h in Headers */,
-				5F5B41C4B01753FD89E6842F25A3D659 /* IGListReloadDataUpdater.h in Headers */,
-				24692ECB93177EEFD432DE77E690FF42 /* IGListReloadIndexPath.h in Headers */,
-				236C1BCAF9CACFF3C59E6BA347399E06 /* IGListScrollDelegate.h in Headers */,
-				AAFECFBBD60E44F166144583D0F983C1 /* IGListSectionController.h in Headers */,
-				1ACB7BB245CC82EA4099BDB477E491D1 /* IGListSectionControllerInternal.h in Headers */,
-				78F4014CE94EA050B687243EBC34A7E8 /* IGListSectionMap+DebugDescription.h in Headers */,
-				2778A27130F753914A3BB2624D133BA1 /* IGListSectionMap.h in Headers */,
-				4B423A8E0F55735B6A5FE6A46C3F199E /* IGListSingleSectionController.h in Headers */,
-				DD10543ED6743E023D9B7C4A3567D370 /* IGListStackedSectionController.h in Headers */,
-				6C4A2ABA768CC5904C0DC803DB5FCB44 /* IGListStackedSectionControllerInternal.h in Headers */,
-				0A9A555D1B8CE1DEBED3D003B93B1524 /* IGListSupplementaryViewSource.h in Headers */,
-				DA2EEE5D8B908C52BD3BD43A80B9341F /* IGListTransitionDelegate.h in Headers */,
-				4B6D516E247E31C270E1640B277F9E66 /* IGListUpdatingDelegate.h in Headers */,
-				3543F93602AFA9D44ADB2812AF5FA275 /* IGListWorkingRangeDelegate.h in Headers */,
-				CF63833D26056F4F5C58E5D856722FC5 /* IGListWorkingRangeHandler.h in Headers */,
-				437F439E00922772BF20B411F8252A22 /* NSNumber+IGListDiffable.h in Headers */,
-				AE5723A3699FCD3DD9AC9E4961DF5B83 /* NSString+IGListDiffable.h in Headers */,
-				0E251965E984DEBE883CC010A7188BAB /* UICollectionView+DebugDescription.h in Headers */,
-				DA1DEB740CB46464226027A7566226D5 /* UICollectionView+IGListBatchUpdateData.h in Headers */,
-				5D4502AC3FBF6066A48E62FF451B1650 /* UIScrollView+IGListKit.h in Headers */,
+				027762473A120197085B73F61E09D660 /* Pods-Chatterbox_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7F1E4AB1229DB6A5076BB658801F939 /* Headers */ = {
+		EAEE92E19183D6A38171571446D43930 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF989EEA35F3E4BDB2BE890A9121F272 /* Pods-Chatterbox_Example-umbrella.h in Headers */,
+				173F3F55D5BEDA1337142031284BD246 /* SocketRocket-umbrella.h in Headers */,
+				5B2F4C652D29B2314C83BF7DE066A848 /* SocketRocket.h in Headers */,
+				6FB7DB296C171382590069A6D7B0A895 /* SRWebSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC48306206414BEACDC37E4050BB7E0F /* Headers */ = {
+		EB02D09F319DBA2C18E894BAD2F538CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0344B55529845195FE347F84060E1D32 /* SnapKit-umbrella.h in Headers */,
+				B71DCEF86CB1558C87E0751EE8F791FE /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B34DE36B0185339388C5C140C9553F7 /* SnapKit */ = {
+		62F4877F7494541DA2ACA9F6A5B40CA4 /* Pods-Chatterbox_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53F29EF0F4226819197763DDF4777D2A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = D07E83AB90FF1D49A152F6972253805F /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Tests" */;
 			buildPhases = (
-				5F5C20FFD11CA05DF5F42E93742B5509 /* Sources */,
-				D48C35E85FC5CCBD0E172788045827BC /* Frameworks */,
-				CC48306206414BEACDC37E4050BB7E0F /* Headers */,
+				175E52ECDEFE1F3D6C6D39E74BEEFC09 /* Headers */,
+				A10244068B0233B033610782AA03C912 /* Sources */,
+				54CFA0EE6C0D4A3E5E19C7DDFFAFC448 /* Frameworks */,
+				EECEE6494DFC53083B3DC804027F4B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D86AF28675589DE34773464D152CBC /* PBXTargetDependency */,
+			);
+			name = "Pods-Chatterbox_Tests";
+			productName = "Pods-Chatterbox_Tests";
+			productReference = 7687D994E9D8B7190AF7CAC306120078 /* Pods_Chatterbox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3A2DE6319687906B37CADA2A45EACA6 /* Chatterbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18758479401AE520A90F4BE130179048 /* Build configuration list for PBXNativeTarget "Chatterbox" */;
+			buildPhases = (
+				0AC4A5F91BDA30A6A748CC9D0CFA4B5E /* Headers */,
+				58B644FAFD02D3D2D49F11269110D5A4 /* Sources */,
+				F85389D08561DEE053341D2F22A1D3E3 /* Frameworks */,
+				4AFF606DCAEEE72D1F3783FB2AB56250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67284C4F465E63DC2912FF413619C029 /* PBXTargetDependency */,
+				B2057628887205A855B9B4EB32AA4CD5 /* PBXTargetDependency */,
+				37E8BD1E75C5D27F22C15DC39DCA18F1 /* PBXTargetDependency */,
+			);
+			name = Chatterbox;
+			productName = Chatterbox;
+			productReference = 224E323E213067B1C5578D9A99450B44 /* Chatterbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4633AECF01D2AB3DA2E6D570E15D611 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CEFC965D2C61568BB1EFA2C736DDDDD /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				EB02D09F319DBA2C18E894BAD2F538CE /* Headers */,
+				C562066750C2C668B9D5ABABAF11A59B /* Sources */,
+				F3EFC9E481360E0409BE6B8B6FE0E237 /* Frameworks */,
+				10AE0A289BFA591B8BA0C67A8591DBB0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1071,51 +1109,14 @@
 			productReference = 6F715DE390FC05BDA93932A417C043C9 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2AC8961B89066AA71C73E92066B1E6DF /* Pods-Chatterbox_Example */ = {
+		BB466073387655E42F7E9F0529650A0D /* SocketRocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0C6D8C33F89B306F46FD18229FED376 /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Example" */;
+			buildConfigurationList = A267682DC27D210042F49AF60001D3ED /* Build configuration list for PBXNativeTarget "SocketRocket" */;
 			buildPhases = (
-				7049DB5631B4C36540BD9EAF00B8715B /* Sources */,
-				851BC3AA40667BCFEFA822968D86B2BE /* Frameworks */,
-				A7F1E4AB1229DB6A5076BB658801F939 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8C6E80E84882895253C2A8CCB151F1E /* PBXTargetDependency */,
-				ED0FD9BB4F4FC122565E2C25971C8B71 /* PBXTargetDependency */,
-				9A0CDA5AE95C182AF5F1F4C7E7EEB462 /* PBXTargetDependency */,
-				B884F47445C78B5AB8609EC40D3C46F6 /* PBXTargetDependency */,
-			);
-			name = "Pods-Chatterbox_Example";
-			productName = "Pods-Chatterbox_Example";
-			productReference = 44BEEFC560EB74307508FCBE43BF9C7C /* Pods_Chatterbox_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4D4D6BC4CD6F674D07936776F679A6E4 /* IGListKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF9D0070FB1A51F5F377BB645E7EC605 /* Build configuration list for PBXNativeTarget "IGListKit" */;
-			buildPhases = (
-				53E02D7BEE38BF3EDA0664050613BC26 /* Sources */,
-				703209D2A6997D22FDB2EB330C6C4F9C /* Frameworks */,
-				76C1405960A154E2A92FF78D71DF5180 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IGListKit;
-			productName = IGListKit;
-			productReference = 2173A5E1C7410EDDD288BC6077F4C920 /* IGListKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6C0B24D9EE441340054A6EC3676FDAE2 /* SocketRocket */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B3777AD379ACEF8C8482594728F097A /* Build configuration list for PBXNativeTarget "SocketRocket" */;
-			buildPhases = (
-				C68512A96F9F798557B523C732D35063 /* Sources */,
-				156EE87DA493094E3DEE30D246A37BF3 /* Frameworks */,
-				6F7ED72FFB659035A8668A60DB8C2764 /* Headers */,
+				EAEE92E19183D6A38171571446D43930 /* Headers */,
+				5317ED7ADD53B13C955FC577312B9DF5 /* Sources */,
+				F727DB3FA6B2ECF8D9A51B0210AB64F2 /* Frameworks */,
+				9DABCA2333C5F64363CAC44C76180F22 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1126,42 +1127,44 @@
 			productReference = 7F63F34443F74CA297902275C95253C2 /* SocketRocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		95B7AEF44B4719661C7CB01A6DA85F3B /* Pods-Chatterbox_Tests */ = {
+		CC430324153986C9471173427441A685 /* Pods-Chatterbox_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AE4C0FBD90C551B75809F015510E5E4 /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Tests" */;
+			buildConfigurationList = 82337581CA98038BF4A4FEE8E45ADFB3 /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Example" */;
 			buildPhases = (
-				2ED6955BCA1E4F4533D3C8506080B892 /* Sources */,
-				1096C8747072D76F1B17FC27331E069C /* Frameworks */,
-				29A243F0FA717CFE7A7C8F83395301D5 /* Headers */,
+				6ED3DFC90DDE80BB5C178285C81D8B50 /* Headers */,
+				2100F044CD22AFFEED0CEC1572190817 /* Sources */,
+				B4DBE97461EB1FA67E0D5D2D6D152F42 /* Frameworks */,
+				91ADB35ACA8EB5970B539C8CF03DD8B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B91ED6CB786BDEB1DD45F4C2C4051D9 /* PBXTargetDependency */,
+				84937ABE3153086F76F26398010964B5 /* PBXTargetDependency */,
+				DA2D335F4B9DB202689D19169287BB6A /* PBXTargetDependency */,
+				B6EBBD4261F99C8E2D3FA49EB6234928 /* PBXTargetDependency */,
+				F3114BEF3C7F59000D64195B23B9EAAB /* PBXTargetDependency */,
 			);
-			name = "Pods-Chatterbox_Tests";
-			productName = "Pods-Chatterbox_Tests";
-			productReference = 7687D994E9D8B7190AF7CAC306120078 /* Pods_Chatterbox_Tests.framework */;
+			name = "Pods-Chatterbox_Example";
+			productName = "Pods-Chatterbox_Example";
+			productReference = 44BEEFC560EB74307508FCBE43BF9C7C /* Pods_Chatterbox_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C966ABE94F153822248A1EA0A4E33A40 /* Chatterbox */ = {
+		E94921E264DD070C4BBB143D9468AC78 /* IGListKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30D504CCC8CBF08BB2D87DDDC1312B2C /* Build configuration list for PBXNativeTarget "Chatterbox" */;
+			buildConfigurationList = 9A9D071A29117D1EB20EDAD16FFBA56E /* Build configuration list for PBXNativeTarget "IGListKit" */;
 			buildPhases = (
-				E3F5F04B0A690AC00F6EDCBCAEEA7BDE /* Sources */,
-				B17780E6DB95E0FED34F309EC6103ED8 /* Frameworks */,
-				68304353BE9BBBD59943971714E4EBB0 /* Headers */,
+				42496D810CB80E2C501235DFA08C4EAA /* Headers */,
+				9C6A8156728732952D2A6E11E040F311 /* Sources */,
+				9B1E8B2AE5525BA8CE526AC2766CB48B /* Frameworks */,
+				31F8A28DB9A93E0BC3E4370F0294384F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				021CA62C2A8E9CBC806283917CABA69E /* PBXTargetDependency */,
-				A550947BD1ED7596C70DD20CB2AF0CD0 /* PBXTargetDependency */,
-				24932D9C60F7E75F5AD3F640C4CFDA8A /* PBXTargetDependency */,
 			);
-			name = Chatterbox;
-			productName = Chatterbox;
-			productReference = 224E323E213067B1C5578D9A99450B44 /* Chatterbox.framework */;
+			name = IGListKit;
+			productName = IGListKit;
+			productReference = 2173A5E1C7410EDDD288BC6077F4C920 /* IGListKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1171,7 +1174,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					B3A2DE6319687906B37CADA2A45EACA6 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1185,211 +1193,385 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C966ABE94F153822248A1EA0A4E33A40 /* Chatterbox */,
-				4D4D6BC4CD6F674D07936776F679A6E4 /* IGListKit */,
-				2AC8961B89066AA71C73E92066B1E6DF /* Pods-Chatterbox_Example */,
-				95B7AEF44B4719661C7CB01A6DA85F3B /* Pods-Chatterbox_Tests */,
-				1B34DE36B0185339388C5C140C9553F7 /* SnapKit */,
-				6C0B24D9EE441340054A6EC3676FDAE2 /* SocketRocket */,
+				B3A2DE6319687906B37CADA2A45EACA6 /* Chatterbox */,
+				E94921E264DD070C4BBB143D9468AC78 /* IGListKit */,
+				CC430324153986C9471173427441A685 /* Pods-Chatterbox_Example */,
+				62F4877F7494541DA2ACA9F6A5B40CA4 /* Pods-Chatterbox_Tests */,
+				B4633AECF01D2AB3DA2E6D570E15D611 /* SnapKit */,
+				BB466073387655E42F7E9F0529650A0D /* SocketRocket */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		10AE0A289BFA591B8BA0C67A8591DBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F8A28DB9A93E0BC3E4370F0294384F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AFF606DCAEEE72D1F3783FB2AB56250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91ADB35ACA8EB5970B539C8CF03DD8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABCA2333C5F64363CAC44C76180F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECEE6494DFC53083B3DC804027F4B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2ED6955BCA1E4F4533D3C8506080B892 /* Sources */ = {
+		2100F044CD22AFFEED0CEC1572190817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434D71482F24822777E388D212B54C21 /* Pods-Chatterbox_Tests-dummy.m in Sources */,
+				6C40EE30EAA8F99F62BAFEE6F80DA501 /* Pods-Chatterbox_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53E02D7BEE38BF3EDA0664050613BC26 /* Sources */ = {
+		5317ED7ADD53B13C955FC577312B9DF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BECCB7DACA7F65A21B688275EBD701 /* IGListAdapter+DebugDescription.m in Sources */,
-				D8F13994C2A0070C3661CCC9FE4C8AD1 /* IGListAdapter+UICollectionView.m in Sources */,
-				63CA4C61F68304EAC8E2042B9384771F /* IGListAdapter.m in Sources */,
-				21B518B29EF9416C4CFEC233D0B5D0E1 /* IGListAdapterProxy.m in Sources */,
-				70A619A345A4B2BDDFB4D38344CAF54F /* IGListAdapterUpdater+DebugDescription.m in Sources */,
-				74C8884305F518AA874BA19E34795064 /* IGListAdapterUpdater.m in Sources */,
-				CEA5109680CE1964850F26A8656786C8 /* IGListBatchUpdateData+DebugDescription.m in Sources */,
-				47ED2ABE31AC732AC27E3CF957D3106E /* IGListBatchUpdateData.mm in Sources */,
-				3271F6D78C62DB665F6E696A6CDC9A9E /* IGListBatchUpdates.m in Sources */,
-				EC1F34606C1132E264C3B056CCDD3048 /* IGListBindingSectionController+DebugDescription.m in Sources */,
-				BBB0773123B2B001A445134396DCA1DD /* IGListBindingSectionController.m in Sources */,
-				275EA3BDE53EDD618441CE5F52DF8CDE /* IGListCollectionView.m in Sources */,
-				6A9D5A9285DBF9E4FE59D7E9680A1D27 /* IGListCollectionViewLayout.mm in Sources */,
-				67149931CAACAE21E0DCF6A4A00D81E7 /* IGListDebugger.m in Sources */,
-				4847791C9A1ABC57809AF5BF8802FE24 /* IGListDebuggingUtilities.m in Sources */,
-				7FFB90054231046B495BDC0D31CC225F /* IGListDiff.mm in Sources */,
-				ED6BC88FC98A8803726F67AF0553285D /* IGListDisplayHandler.m in Sources */,
-				FB009CF8C73EA57CE6111AEA067F8A68 /* IGListGenericSectionController.m in Sources */,
-				8CBC82198F224262813B361CAE4663AA /* IGListIndexPathResult.m in Sources */,
-				CDB6F51CD1E85A5D69CE61950545CB48 /* IGListIndexSetResult.m in Sources */,
-				3E465884EBCCE55F5A78257E15E552F5 /* IGListKit-dummy.m in Sources */,
-				7C75A266DD137B239767782D62205C6C /* IGListMoveIndex.m in Sources */,
-				ECA3ADF340F9557C7DEBF298C921E7E2 /* IGListMoveIndexPath.m in Sources */,
-				DF306DE9AA991AFBA206304FA97592D6 /* IGListReloadDataUpdater.m in Sources */,
-				4312E03151D6F4503D8FE9A1AEA4F005 /* IGListReloadIndexPath.m in Sources */,
-				C75D328A93A6D76EB0D0E952DFEC8EDD /* IGListSectionController.m in Sources */,
-				DD5FD06403D2CF8E6EFD2D5E734CEC4B /* IGListSectionMap+DebugDescription.m in Sources */,
-				E291CF96BDD4AD9AC082A7891D631B9E /* IGListSectionMap.m in Sources */,
-				EF3A7AE826D3BDC1EA8D541C9BD92D58 /* IGListSingleSectionController.m in Sources */,
-				751E4933487EA1DE1966333E1F528B1C /* IGListStackedSectionController.m in Sources */,
-				0D85F9CE8AE21343EB04AB4842AB0C3D /* IGListWorkingRangeHandler.mm in Sources */,
-				904B0FD18A0AE14351F54088919C2AFD /* NSNumber+IGListDiffable.m in Sources */,
-				099B8662F2F9AF84C1408F17EC1352A6 /* NSString+IGListDiffable.m in Sources */,
-				890BC5ABDC7A5593DC986B698E4475D3 /* UICollectionView+DebugDescription.m in Sources */,
-				AC63665A3EDDF88593FAF707C45CEE81 /* UICollectionView+IGListBatchUpdateData.m in Sources */,
-				7530D9E0D5D0655F3BE27FE00991D43C /* UIScrollView+IGListKit.m in Sources */,
+				8CCCCD3DB15E05D1DEF2A75D7D8BF87D /* SocketRocket-dummy.m in Sources */,
+				C6CB6609DCB43B066310AF534407B372 /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F5C20FFD11CA05DF5F42E93742B5509 /* Sources */ = {
+		58B644FAFD02D3D2D49F11269110D5A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA4667A5D1691C194164AECE5BF3BC6 /* Constraint.swift in Sources */,
-				6BC1F85AECBCCAFE2987DAE4C716831A /* ConstraintAttributes.swift in Sources */,
-				839B07195613B61BD63C7E4ABF882B90 /* ConstraintConfig.swift in Sources */,
-				6B041E2542B8CC57892AD71AF4707284 /* ConstraintConstantTarget.swift in Sources */,
-				CDF2DC97FAAB49213A72AFB4A0648C98 /* ConstraintDescription.swift in Sources */,
-				CEA9DEBF2CF80742983E337AD0C52F6B /* ConstraintDSL.swift in Sources */,
-				147F43408846EE5477106AD9D31DDC7D /* ConstraintInsets.swift in Sources */,
-				3C168F3F27C31290A3D94EE09305A361 /* ConstraintInsetTarget.swift in Sources */,
-				C450F0E0CE67B92D0B1CE7C7AAD0F25E /* ConstraintItem.swift in Sources */,
-				5432B734A201E0010D0AD8A741B70A66 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				8047CDBB3212D261769C51E1E1E1C5C9 /* ConstraintLayoutGuide.swift in Sources */,
-				22228E6C1B9EE393EF4B683884DD27BA /* ConstraintLayoutGuideDSL.swift in Sources */,
-				D3590919B1CF474AB993CD9CDCEB89CF /* ConstraintLayoutSupport.swift in Sources */,
-				BE8416035A62F813669C7C6AA2DA127F /* ConstraintLayoutSupportDSL.swift in Sources */,
-				9D8B04AF21CAB43899B238953F709024 /* ConstraintMaker.swift in Sources */,
-				59099F4680FDA38E63CE17BD2A2DAE2B /* ConstraintMakerEditable.swift in Sources */,
-				F2F89FDC7428359C4AB35A1C35DF2FFB /* ConstraintMakerExtendable.swift in Sources */,
-				5B14C1468A63E50AAE7937A3FD156588 /* ConstraintMakerFinalizable.swift in Sources */,
-				5B38DD531EE371D428F0E96CD1FE4E89 /* ConstraintMakerPriortizable.swift in Sources */,
-				9C8E7A61AAC1B01C9D686291FF50DBA9 /* ConstraintMakerRelatable.swift in Sources */,
-				9B8D8F1F8EC959215B7A2777C78BCBB8 /* ConstraintMultiplierTarget.swift in Sources */,
-				C3612F07592CD7B3C00F2479B4AE5104 /* ConstraintOffsetTarget.swift in Sources */,
-				14EDBC63C67F6C18E8DFBF9A7E1922E3 /* ConstraintPriority.swift in Sources */,
-				9A68D4EB1B747ADDC28A5386D7E46BB1 /* ConstraintPriorityTarget.swift in Sources */,
-				E1A08D8D9B814DC2657D6B9D99DC5635 /* ConstraintRelatableTarget.swift in Sources */,
-				06A61B3510D816C851BE629308C6C297 /* ConstraintRelation.swift in Sources */,
-				87D815CA32BA542AAFC2FFEC76DF8F48 /* ConstraintView+Extensions.swift in Sources */,
-				04979E93227A090DFC572E03BDC6D2D1 /* ConstraintView.swift in Sources */,
-				70AD0340295B4476324B275675B3446C /* ConstraintViewDSL.swift in Sources */,
-				3B19A434168F24C03D278F76426D921B /* Debugging.swift in Sources */,
-				6A06354A8220C584D0DDFC930067DC60 /* LayoutConstraint.swift in Sources */,
-				9462600172838E5F92AF1A13427B7B3B /* LayoutConstraintItem.swift in Sources */,
-				D8E3C03A8AE5CE396DF63779788DE296 /* SnapKit-dummy.m in Sources */,
-				7C83B2031EBDD3D38281C7F7A9C903AB /* Typealiases.swift in Sources */,
-				FC723CEDB5DA0AC9E505AF99092B469C /* UILayoutSupport+Extensions.swift in Sources */,
+				3CDAFACC4D82C0079448668EAC05E5F7 /* AutoGrowingTextView.swift in Sources */,
+				247498B2758438350DD89D625A626515 /* BaseChatInterfaceDataProvider.swift in Sources */,
+				7D9DE7A36DFA987AE2CCC287FE46B1C6 /* BaseChatInterfaceWebSocketProvider.swift in Sources */,
+				077D401251F86492B6C01E5E20D18B84 /* ChatDraftMessage.swift in Sources */,
+				75099D69F696E11136541BD1D7B28BA1 /* ChatInputAccessoryRepresentable.swift in Sources */,
+				AC113BF272D3D66CE9A89A005FF0F56F /* ChatInputAccessoryView.swift in Sources */,
+				16A01D0A9101EAE2A78B07AB23543853 /* ChatInterfaceCollectionView.swift in Sources */,
+				4E3113F31E0CCD85F720903610BD706D /* ChatInterfaceCommonRepresentables.swift in Sources */,
+				0134615D5E5F9C5ABAD83160F57D5EC2 /* ChatInterfaceViewController+Helpers.swift in Sources */,
+				6127687492E41D7C5EB68A73E4E788AC /* ChatInterfaceViewController.swift in Sources */,
+				3273FFB095BF082FD758D86012C60F65 /* ChatMessageCell.swift in Sources */,
+				749CDB1F1A09730D8EE29D89EB351C36 /* ChatMessageDataController.swift in Sources */,
+				F371D45C83EC19530EC1723A75AB0391 /* ChatMessageLoaderCell.swift in Sources */,
+				5A71DEF68A0502BE6667DBB82708A59B /* ChatMessageLoaderController.swift in Sources */,
+				A4A395EA035616C9B17282ACE084B29B /* ChatMessageRepresentable.swift in Sources */,
+				EA0E6D535664B1EF8A459301057A0882 /* ChatMessageViewBuilder.swift in Sources */,
+				9405785C6E31FF1DC458E9F7C430A716 /* ChatMessageViewRepresentable.swift in Sources */,
+				3A6EA15A4BDD9EA138D7894F3AEE9ABB /* Chatterbox-dummy.m in Sources */,
+				3FDFD6E74C574F7B04B8DB5417A4AE65 /* ChatTextMessageCell.swift in Sources */,
+				9F39F1E8A439E1DBAAEC21A3C163AC0A /* ChatTextMessageDataController.swift in Sources */,
+				542C5C60FA0C4F4E57376C173F3D21EF /* ChatThreadRepresentable.swift in Sources */,
+				80AF2525A83B9A9D9933B73FB75BF413 /* SRChatInterfaceWebSocketProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7049DB5631B4C36540BD9EAF00B8715B /* Sources */ = {
+		9C6A8156728732952D2A6E11E040F311 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74ACB606DD8E63EE60FED537D60073C5 /* Pods-Chatterbox_Example-dummy.m in Sources */,
+				7BC64E94501FB23ECA7386B05812B60D /* IGListAdapter+DebugDescription.m in Sources */,
+				D661E3A87964B8FD7DB0741855383CDE /* IGListAdapter+UICollectionView.m in Sources */,
+				2ACB97C84FDA0AF2CFB50951A5C34C0C /* IGListAdapter.m in Sources */,
+				439ABB895F391F5F43DA633722E38051 /* IGListAdapterProxy.m in Sources */,
+				702764AC7639946E08570204C1AC6520 /* IGListAdapterUpdater+DebugDescription.m in Sources */,
+				9F9E2CA90AE44946E43D23F003ECB7A8 /* IGListAdapterUpdater.m in Sources */,
+				8FD5853FB8F10DC0D738090A75384F58 /* IGListBatchUpdateData+DebugDescription.m in Sources */,
+				50689C8EC13818965B03E99B233F392E /* IGListBatchUpdateData.mm in Sources */,
+				2419228FB9ED99FED1FC162DFE523FC2 /* IGListBatchUpdates.m in Sources */,
+				5B8DB32B98D824AF407DA877CAA9251D /* IGListBindingSectionController+DebugDescription.m in Sources */,
+				3B6A327E49B0AB6E12E53CE870D0743B /* IGListBindingSectionController.m in Sources */,
+				98CE7A3EBC5A629D1A41EE0CE86CABD3 /* IGListCollectionView.m in Sources */,
+				56FF7DD87F01F936BFF8213CAD91AAD3 /* IGListCollectionViewLayout.mm in Sources */,
+				375D0688682EAA22EBF49D668DA5BFD9 /* IGListDebugger.m in Sources */,
+				80B2CF287170174407C4D26D89729680 /* IGListDebuggingUtilities.m in Sources */,
+				8CB27B6DACD61F4325F2D609A629F3E3 /* IGListDiff.mm in Sources */,
+				DC3C614B2962B49964854FC65B13C1C6 /* IGListDisplayHandler.m in Sources */,
+				CC3478E49FDA1227CCE48ABD9CC9877D /* IGListGenericSectionController.m in Sources */,
+				FB269E3D8DF60752AB22AB085355D415 /* IGListIndexPathResult.m in Sources */,
+				B922B48443F0F86773B8E2D2C1F2BEC7 /* IGListIndexSetResult.m in Sources */,
+				B44D1F518B8FC5316A26E8A3535CB315 /* IGListKit-dummy.m in Sources */,
+				7BF1EE1A91C3EBAD42137BC9855B3061 /* IGListMoveIndex.m in Sources */,
+				301C701C5B0327598E104DD16BB5EBC4 /* IGListMoveIndexPath.m in Sources */,
+				A2534C1C959069F47ECDE1C2633DCC6B /* IGListReloadDataUpdater.m in Sources */,
+				B0F438B21F26BA6C491CBB148C86C441 /* IGListReloadIndexPath.m in Sources */,
+				AAE687B1182C38E3B1AAC941D6476253 /* IGListSectionController.m in Sources */,
+				A4ACDFF1AE9771E0B8046C7C04ED8D4E /* IGListSectionMap+DebugDescription.m in Sources */,
+				4D652CC9ABFB87C3E01BC0865B58F78C /* IGListSectionMap.m in Sources */,
+				883663549D58FF2E283DEEC4CBEB7529 /* IGListSingleSectionController.m in Sources */,
+				B69E75EA3742B53465DBB05BADA5E4BE /* IGListStackedSectionController.m in Sources */,
+				AFA1CE3EA2DDA1650C14D079C91B6BD2 /* IGListWorkingRangeHandler.mm in Sources */,
+				7DB9D23EFE08E18A71E5BD9FFD165171 /* NSNumber+IGListDiffable.m in Sources */,
+				D2B622B6221DEBE9AC31C9F84BA1AC6E /* NSString+IGListDiffable.m in Sources */,
+				F728EE21A4D6ABD145FCDCC5FF6FBB27 /* UICollectionView+DebugDescription.m in Sources */,
+				50BADE2F3B398C205603947B4BBF706C /* UICollectionView+IGListBatchUpdateData.m in Sources */,
+				3FBB0D3C145C972748C37841FAA846E6 /* UIScrollView+IGListKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C68512A96F9F798557B523C732D35063 /* Sources */ = {
+		A10244068B0233B033610782AA03C912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A771266FC9E66E5F3620804D5C0D9122 /* SocketRocket-dummy.m in Sources */,
-				F8E42E5D9E277425361EC8D6BB7020D5 /* SRWebSocket.m in Sources */,
+				4BCE14F54C0C70336B4C9BCCCEAC4221 /* Pods-Chatterbox_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3F5F04B0A690AC00F6EDCBCAEEA7BDE /* Sources */ = {
+		C562066750C2C668B9D5ABABAF11A59B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC467AF19BB25FF336605A490328472A /* AutoGrowingTextView.swift in Sources */,
-				492B8568CABF4CC93DAE507E5B57F9F1 /* BaseChatInterfaceDataProvider.swift in Sources */,
-				D21C6C095A15321158D64BBEABDA8124 /* BaseChatInterfaceWebSocketProvider.swift in Sources */,
-				6D8581DB2195E9AA2F452AE182AB301E /* ChatDraftMessage.swift in Sources */,
-				FB84CD5B798292AEFAC1780DC3A267B5 /* ChatInputAccessoryRepresentable.swift in Sources */,
-				05B8CFBE132BA26613E9195B80C1224A /* ChatInputAccessoryView.swift in Sources */,
-				89550B5ADF2E92E9AD9D67D7092F203A /* ChatInterfaceCollectionView.swift in Sources */,
-				622A3693D4C097EA5B747E3FCC6A47F8 /* ChatInterfaceCommonRepresentables.swift in Sources */,
-				9CEEEC932063B8AA5D2C30926922AE2B /* ChatInterfaceViewController+Helpers.swift in Sources */,
-				55A7B3573D01D0C2F698E718DAB981CC /* ChatInterfaceViewController.swift in Sources */,
-				ED92EF1ABACD84C28F1A209002D5AED4 /* ChatMessageCell.swift in Sources */,
-				C83CA3CC7AF2C4D3893A55F8E043F50E /* ChatMessageDataController.swift in Sources */,
-				584BAEC7AA2E3B375C624E8CA32F0096 /* ChatMessageLoaderCell.swift in Sources */,
-				D09607D8AFB9FC37A6FBB65DB70A04B2 /* ChatMessageLoaderController.swift in Sources */,
-				09F88C3C0C3F34CCB3480F83ED873136 /* ChatMessageRepresentable.swift in Sources */,
-				8A56219C8DA3837FB817929005D3CD5C /* ChatMessageViewBuilder.swift in Sources */,
-				CAEC5AC28FEC73946DA6C503AC041E7E /* ChatMessageViewRepresentable.swift in Sources */,
-				B5F5A75B297B640944EE70597B990292 /* Chatterbox-dummy.m in Sources */,
-				4286DA03CE010293869BCA4024240B3D /* ChatTextMessageCell.swift in Sources */,
-				B4BD7DAAE52C8BF727C5A023262F2D82 /* ChatTextMessageDataController.swift in Sources */,
-				F50630B50532C6B4A6266BED9A7CDE1B /* ChatThreadRepresentable.swift in Sources */,
-				F233C5E5D60D102701CAC7E5CFA720CC /* SRChatInterfaceWebSocketProvider.swift in Sources */,
+				4CEC05A72EF93577AB0E988B1B1AAB6A /* Constraint.swift in Sources */,
+				C206AD6FA846BA7594EBB3EDEF4CCA5F /* ConstraintAttributes.swift in Sources */,
+				625EFA799149CFDC1F1E202224DA62B3 /* ConstraintConfig.swift in Sources */,
+				132D494D5739560E80D1C599A0A931F4 /* ConstraintConstantTarget.swift in Sources */,
+				DC2604114A217ABA464D0F2D93D4C1F2 /* ConstraintDescription.swift in Sources */,
+				A100E0534B49CBDE1EC8D9A56B095BDB /* ConstraintDSL.swift in Sources */,
+				F67BB20A5870725A689D1864C372F574 /* ConstraintInsets.swift in Sources */,
+				07A2CCB973682A7628E75107B5D7C386 /* ConstraintInsetTarget.swift in Sources */,
+				08DEE41D1909B25CF0A3159B417D2ABB /* ConstraintItem.swift in Sources */,
+				44D00BB966ACB923AFC6979F5234B222 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				1A6A01B1A6CC71EF98D4454613AAFB97 /* ConstraintLayoutGuide.swift in Sources */,
+				3CD82682988CD6F3564A54D4F89B6C61 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				7E7FC20D0E4C006574477988609CA928 /* ConstraintLayoutSupport.swift in Sources */,
+				58AE313D335E3B4E32CCB4D5E7076742 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				0EF00C6738083B8B14AAD75BF0E07897 /* ConstraintMaker.swift in Sources */,
+				CF1DF3E7271695915BFE7D4DAFEF1BC1 /* ConstraintMakerEditable.swift in Sources */,
+				187D52BF5F2FDE44190B553695DE0CD7 /* ConstraintMakerExtendable.swift in Sources */,
+				5E2E4DE6799C912BD4522D2599E10BF9 /* ConstraintMakerFinalizable.swift in Sources */,
+				65D191D95C660D387B141067EE79B53B /* ConstraintMakerPriortizable.swift in Sources */,
+				32C50F1728B3E96F11ABCFB8D49CE155 /* ConstraintMakerRelatable.swift in Sources */,
+				BB32E358DDF3B5D396EBA96E398BB833 /* ConstraintMultiplierTarget.swift in Sources */,
+				B386C7FF6ECDB51D3D65A211751B3F20 /* ConstraintOffsetTarget.swift in Sources */,
+				08116A26B42771A2368057AC95CD4ADA /* ConstraintPriority.swift in Sources */,
+				AD28A1D0C4566948E87D0F6717E51169 /* ConstraintPriorityTarget.swift in Sources */,
+				C94FF979AB065C1D8229FFFCBB21626B /* ConstraintRelatableTarget.swift in Sources */,
+				E15069E2E7F3CD8F6D95E5557AAF132C /* ConstraintRelation.swift in Sources */,
+				02CF50741E6AFF7A356FA6968ACDDE04 /* ConstraintView+Extensions.swift in Sources */,
+				E4E3E7FC4E605F707870473E701A094A /* ConstraintView.swift in Sources */,
+				2790BDBBADE4323C7DF6D97016BCB49F /* ConstraintViewDSL.swift in Sources */,
+				916C1DFDAA0290C7D2D4520E8A9F027C /* Debugging.swift in Sources */,
+				406CCA4DC2C244C296941363BD82877B /* LayoutConstraint.swift in Sources */,
+				88CA81378E2171F4D9B251427F5BCEA9 /* LayoutConstraintItem.swift in Sources */,
+				D32943AF6B011CE0B08D611D3B94EAF8 /* SnapKit-dummy.m in Sources */,
+				62C190AB2191F4739FE0C5ECCC57690D /* Typealiases.swift in Sources */,
+				7B329757C8DDEF2EDCC297FF700D29BD /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		021CA62C2A8E9CBC806283917CABA69E /* PBXTargetDependency */ = {
+		37E8BD1E75C5D27F22C15DC39DCA18F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = BB466073387655E42F7E9F0529650A0D /* SocketRocket */;
+			targetProxy = AC9C116D1AFAC883874C756626F723BA /* PBXContainerItemProxy */;
+		};
+		67284C4F465E63DC2912FF413619C029 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IGListKit;
-			target = 4D4D6BC4CD6F674D07936776F679A6E4 /* IGListKit */;
-			targetProxy = 35207912053206C56F40C451FBA25557 /* PBXContainerItemProxy */;
+			target = E94921E264DD070C4BBB143D9468AC78 /* IGListKit */;
+			targetProxy = B461E38FD2A5608976D791004FDA1104 /* PBXContainerItemProxy */;
 		};
-		0B91ED6CB786BDEB1DD45F4C2C4051D9 /* PBXTargetDependency */ = {
+		78D86AF28675589DE34773464D152CBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Chatterbox_Example";
-			target = 2AC8961B89066AA71C73E92066B1E6DF /* Pods-Chatterbox_Example */;
-			targetProxy = 41B6A6ACF8434C955EE160A1946A66EE /* PBXContainerItemProxy */;
+			target = CC430324153986C9471173427441A685 /* Pods-Chatterbox_Example */;
+			targetProxy = 964731E9BA70AD6950C1EB2190845EAA /* PBXContainerItemProxy */;
 		};
-		24932D9C60F7E75F5AD3F640C4CFDA8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SocketRocket;
-			target = 6C0B24D9EE441340054A6EC3676FDAE2 /* SocketRocket */;
-			targetProxy = B1433D96858355B42CF5DAC72FF320C2 /* PBXContainerItemProxy */;
-		};
-		9A0CDA5AE95C182AF5F1F4C7E7EEB462 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 1B34DE36B0185339388C5C140C9553F7 /* SnapKit */;
-			targetProxy = AE55E30B9712C3EE85728B01CED7D313 /* PBXContainerItemProxy */;
-		};
-		A550947BD1ED7596C70DD20CB2AF0CD0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 1B34DE36B0185339388C5C140C9553F7 /* SnapKit */;
-			targetProxy = 812BEBD88294C29F236E9C7CFD662588 /* PBXContainerItemProxy */;
-		};
-		B884F47445C78B5AB8609EC40D3C46F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SocketRocket;
-			target = 6C0B24D9EE441340054A6EC3676FDAE2 /* SocketRocket */;
-			targetProxy = 61946A1CF4B9C3A5BB6B1C4058D067C3 /* PBXContainerItemProxy */;
-		};
-		ED0FD9BB4F4FC122565E2C25971C8B71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IGListKit;
-			target = 4D4D6BC4CD6F674D07936776F679A6E4 /* IGListKit */;
-			targetProxy = 2B19AF37D337399090534FC63F52D345 /* PBXContainerItemProxy */;
-		};
-		F8C6E80E84882895253C2A8CCB151F1E /* PBXTargetDependency */ = {
+		84937ABE3153086F76F26398010964B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Chatterbox;
-			target = C966ABE94F153822248A1EA0A4E33A40 /* Chatterbox */;
-			targetProxy = 477A4F411552C61C84DAC8CD9BAE4EC6 /* PBXContainerItemProxy */;
+			target = B3A2DE6319687906B37CADA2A45EACA6 /* Chatterbox */;
+			targetProxy = 3B0CD7B5426F1E9DFFE212E1084BA866 /* PBXContainerItemProxy */;
+		};
+		B2057628887205A855B9B4EB32AA4CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = B4633AECF01D2AB3DA2E6D570E15D611 /* SnapKit */;
+			targetProxy = E91055F7E8B0F3CBA257FB110E03DE19 /* PBXContainerItemProxy */;
+		};
+		B6EBBD4261F99C8E2D3FA49EB6234928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = B4633AECF01D2AB3DA2E6D570E15D611 /* SnapKit */;
+			targetProxy = C95C68BDD727D1F1829EDE9498C1A0EC /* PBXContainerItemProxy */;
+		};
+		DA2D335F4B9DB202689D19169287BB6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			target = E94921E264DD070C4BBB143D9468AC78 /* IGListKit */;
+			targetProxy = 97CDEC192BDCB2DC73B4E1C9E0DD4753 /* PBXContainerItemProxy */;
+		};
+		F3114BEF3C7F59000D64195B23B9EAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = BB466073387655E42F7E9F0529650A0D /* SocketRocket */;
+			targetProxy = 0B6F3CED23F3A7E1B8656827C803D3A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+		02D75E6F68CB1B10D9211A3B6FF90420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95ED359D77D34F1D1CACC2459F972F91 /* Pods-Chatterbox_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chatterbox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chatterbox_Tests/Pods-Chatterbox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		128CDB0B676C4C77CC11BAEFF2782C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23210BCEE184D8B82DA44F2C8FE74FD4 /* Chatterbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Chatterbox/Chatterbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chatterbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Chatterbox/Chatterbox.modulemap";
+				PRODUCT_MODULE_NAME = Chatterbox;
+				PRODUCT_NAME = Chatterbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21632049B7950B340EFC10197840D5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23210BCEE184D8B82DA44F2C8FE74FD4 /* Chatterbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Chatterbox/Chatterbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chatterbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Chatterbox/Chatterbox.modulemap";
+				PRODUCT_MODULE_NAME = Chatterbox;
+				PRODUCT_NAME = Chatterbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		482D05F07B0ED1C5B55AC9E812CABF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670CAF87082C3E36D24B8E539A21D7F6 /* IGListKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGListKit/IGListKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGListKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGListKit/IGListKit.modulemap";
+				PRODUCT_MODULE_NAME = IGListKit;
+				PRODUCT_NAME = IGListKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1443,7 +1625,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1452,167 +1635,7 @@
 			};
 			name = Debug;
 		};
-		2663E7C30983065BF3F62F10F43DDA0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 670CAF87082C3E36D24B8E539A21D7F6 /* IGListKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IGListKit/IGListKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IGListKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IGListKit/IGListKit.modulemap";
-				PRODUCT_MODULE_NAME = IGListKit;
-				PRODUCT_NAME = IGListKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3BB0C6C0D22D4240954B77607815E5A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23210BCEE184D8B82DA44F2C8FE74FD4 /* Chatterbox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Chatterbox/Chatterbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Chatterbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Chatterbox/Chatterbox.modulemap";
-				PRODUCT_MODULE_NAME = Chatterbox;
-				PRODUCT_NAME = Chatterbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6F99A57EDD4894CC2EE384268CC5627F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95ED359D77D34F1D1CACC2459F972F91 /* Pods-Chatterbox_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Chatterbox_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Chatterbox_Tests/Pods-Chatterbox_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D4B300CE0BA430CEF38E34DC1AEE5EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7CDABCA59287266F93BC2E31380F9EB /* SnapKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		916838D601B6FA67FEA752720D2B60E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15EB219CAC4079CD126479221702029E /* SocketRocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
-				PRODUCT_MODULE_NAME = SocketRocket;
-				PRODUCT_NAME = SocketRocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9275185ACC93ACABFCC62C2B61460220 /* Release */ = {
+		62B3A84BF504FBBD4558DF28C8CBA052 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 664458A785D6016CB0B3D359384953C3 /* Pods-Chatterbox_Example.release.xcconfig */;
 			buildSettings = {
@@ -1647,74 +1670,7 @@
 			};
 			name = Release;
 		};
-		9E7362ADA6CF92EBF6077778CA026FE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D9A3D01B51DBED3284D64EEBA9B8BD9 /* Pods-Chatterbox_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Chatterbox_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Chatterbox_Tests/Pods-Chatterbox_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B41B26C5B97E82A4B425843060EF80AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23210BCEE184D8B82DA44F2C8FE74FD4 /* Chatterbox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Chatterbox/Chatterbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Chatterbox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Chatterbox/Chatterbox.modulemap";
-				PRODUCT_MODULE_NAME = Chatterbox;
-				PRODUCT_NAME = Chatterbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D4B0256670E940543222CA74CF3854B3 /* Debug */ = {
+		72BC6A025DEABF9213F42F9052EEB36E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAC09FE20B5152B865B347FE08DD6DFD /* Pods-Chatterbox_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1749,7 +1705,70 @@
 			};
 			name = Debug;
 		};
-		E35B1D8857EEDB296117957CA49BB54E /* Release */ = {
+		78DFF56A56B7FC9382D5AB474D1AC4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EB219CAC4079CD126479221702029E /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94F21BC0EC543FD2021AF06F5EF4B0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CDABCA59287266F93BC2E31380F9EB /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		970710ECD520DB5E068E35ACF3B372B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15EB219CAC4079CD126479221702029E /* SocketRocket.xcconfig */;
 			buildSettings = {
@@ -1781,39 +1800,7 @@
 			};
 			name = Release;
 		};
-		F007BCFC3764A677A9FBB6F43C9214D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7CDABCA59287266F93BC2E31380F9EB /* SnapKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F87C2EB8F4CD601A30784708F7A306DA /* Release */ = {
+		A9B2EB2001AA402CD10ACB662F37D99B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 670CAF87082C3E36D24B8E539A21D7F6 /* IGListKit.xcconfig */;
 			buildSettings = {
@@ -1845,7 +1832,41 @@
 			};
 			name = Release;
 		};
-		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+		B48BE7380573A7C4F3DFF59D3CBB7267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9A3D01B51DBED3284D64EEBA9B8BD9 /* Pods-Chatterbox_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chatterbox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chatterbox_Tests/Pods-Chatterbox_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1897,74 +1918,109 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E57B8EAA1121B0D25D629B0ABC46881B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CDABCA59287266F93BC2E31380F9EB /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18758479401AE520A90F4BE130179048 /* Build configuration list for PBXNativeTarget "Chatterbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128CDB0B676C4C77CC11BAEFF2782C29 /* Debug */,
+				21632049B7950B340EFC10197840D5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CEFC965D2C61568BB1EFA2C736DDDDD /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F21BC0EC543FD2021AF06F5EF4B0B0 /* Debug */,
+				E57B8EAA1121B0D25D629B0ABC46881B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
-				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30D504CCC8CBF08BB2D87DDDC1312B2C /* Build configuration list for PBXNativeTarget "Chatterbox" */ = {
+		82337581CA98038BF4A4FEE8E45ADFB3 /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BB0C6C0D22D4240954B77607815E5A6 /* Debug */,
-				B41B26C5B97E82A4B425843060EF80AF /* Release */,
+				72BC6A025DEABF9213F42F9052EEB36E /* Debug */,
+				62B3A84BF504FBBD4558DF28C8CBA052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53F29EF0F4226819197763DDF4777D2A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		9A9D071A29117D1EB20EDAD16FFBA56E /* Build configuration list for PBXNativeTarget "IGListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F007BCFC3764A677A9FBB6F43C9214D6 /* Debug */,
-				8D4B300CE0BA430CEF38E34DC1AEE5EB /* Release */,
+				482D05F07B0ED1C5B55AC9E812CABF7D /* Debug */,
+				A9B2EB2001AA402CD10ACB662F37D99B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AE4C0FBD90C551B75809F015510E5E4 /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Tests" */ = {
+		A267682DC27D210042F49AF60001D3ED /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F99A57EDD4894CC2EE384268CC5627F /* Debug */,
-				9E7362ADA6CF92EBF6077778CA026FE2 /* Release */,
+				78DFF56A56B7FC9382D5AB474D1AC4F9 /* Debug */,
+				970710ECD520DB5E068E35ACF3B372B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B3777AD379ACEF8C8482594728F097A /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+		D07E83AB90FF1D49A152F6972253805F /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916838D601B6FA67FEA752720D2B60E9 /* Debug */,
-				E35B1D8857EEDB296117957CA49BB54E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0C6D8C33F89B306F46FD18229FED376 /* Build configuration list for PBXNativeTarget "Pods-Chatterbox_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4B0256670E940543222CA74CF3854B3 /* Debug */,
-				9275185ACC93ACABFCC62C2B61460220 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF9D0070FB1A51F5F377BB645E7EC605 /* Build configuration list for PBXNativeTarget "IGListKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2663E7C30983065BF3F62F10F43DDA0E /* Debug */,
-				F87C2EB8F4CD601A30784708F7A306DA /* Release */,
+				02D75E6F68CB1B10D9211A3B6FF90420 /* Debug */,
+				B48BE7380573A7C4F3DFF59D3CBB7267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -62,7 +62,7 @@ class ChatMessage: NSObject, ChatMessageRepresentable {
             attributedText = NSAttributedString(
                 string: text,
                 attributes: [//NSFontAttributeName: FLChatTextMessageView.Style.Font.textLabelFont,
-                             NSAttributedStringKey.paragraphStyle: paragraphyStyle])
+                             NSAttributedString.Key.paragraphStyle: paragraphyStyle])
         }
     }
     fileprivate(set) var attributedText: NSAttributedString?

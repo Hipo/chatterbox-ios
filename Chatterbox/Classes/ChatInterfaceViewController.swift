@@ -125,12 +125,12 @@ ListDisplayDelegate {
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(didReceive(keyboardWillShow:)),
-            name: Notification.Name.UIKeyboardWillShow,
+            name: UIResponder.keyboardWillShowNotification,
             object: nil)
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(didReceive(keyboardWillHide:)),
-            name: Notification.Name.UIKeyboardWillHide,
+            name: UIResponder.keyboardWillHideNotification,
             object: nil)
     }
     
@@ -138,12 +138,12 @@ ListDisplayDelegate {
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(didReceive(applicationWillEnterForeground:)),
-            name: Notification.Name.UIApplicationWillEnterForeground,
+            name: UIApplication.willEnterForegroundNotification,
             object: nil)
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(didReceive(applicationDidEnterBackground:)),
-            name: Notification.Name.UIApplicationDidEnterBackground,
+            name: UIApplication.didEnterBackgroundNotification,
             object: nil)
     }
     
@@ -363,7 +363,7 @@ ListDisplayDelegate {
     // MARK: Notifications+Action
     
     @objc func didReceive(keyboardWillShow notification: Notification) {
-        if UIApplication.shared.applicationState != UIApplicationState.active {
+        if UIApplication.shared.applicationState != UIApplication.State.active {
             return
         }
         
@@ -371,14 +371,14 @@ ListDisplayDelegate {
                 return
         }
         
-        let kbFrame = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue
+        let kbFrame = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
         
         /* Input accessory height + keyboard height when text view is first responder, 
          input accessory height when collection view is first responder. 
          This action will be triggered when input accessory view frame is changed. */
         keyboardAccessoryHeight = kbFrame?.cgRectValue.size.height
         
-        let kbAnimationDurationInfo = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? NSNumber
+        let kbAnimationDurationInfo = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber
         let kbAnimationDuration = kbAnimationDurationInfo?.doubleValue
         
         keyboardAccessoryAnimationDuration = kbAnimationDuration
@@ -387,7 +387,7 @@ ListDisplayDelegate {
     }
     
     @objc func didReceive(keyboardWillHide notification: Notification) {
-        if UIApplication.shared.applicationState != UIApplicationState.active {
+        if UIApplication.shared.applicationState != UIApplication.State.active {
             return
         }
         

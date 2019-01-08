@@ -145,12 +145,12 @@ public class AutoGrowingTextView: UITextView {
                 placeholderLabel.frame = placeholderRectThatFits(bounds)
             }
            
-            sendSubview(toBack: placeholderLabel)
+            sendSubviewToBack(placeholderLabel)
         }
     }
     
     private func placeholderRectThatFits(_ rect: CGRect) -> CGRect {
-        var placeholderRect = UIEdgeInsetsInsetRect(rect, textContainerInset)
+        var placeholderRect = rect.inset(by: textContainerInset)
         let padding = textContainer.lineFragmentPadding
         
         placeholderRect.origin.x += padding
@@ -190,16 +190,16 @@ extension AutoGrowingTextView {
             return minimumHeight
         }
         
-        var textAttributes = [NSAttributedStringKey: Any]()
+        var textAttributes = [NSAttributedString.Key: Any]()
         
-        textAttributes[NSAttributedStringKey.font] = font
+        textAttributes[NSAttributedString.Key.font] = font
         
         if lineHeightMultiple > 1.0 {
             let paragraphyStyle = NSMutableParagraphStyle()
             
             paragraphyStyle.lineHeightMultiple = lineHeightMultiple
             
-            textAttributes[NSAttributedStringKey.paragraphStyle] = paragraphyStyle
+            textAttributes[NSAttributedString.Key.paragraphStyle] = paragraphyStyle
         }
         
         let constrainedWidth = bounds.width -

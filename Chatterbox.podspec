@@ -14,8 +14,8 @@ Plug and play chat library for iOS
   s.social_media_url = 'https://twitter.com/hipolabs'
 
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
-  s.swift_version = '4.0'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.swift_version = '4.2'
 
   s.source_files = 'Chatterbox/Classes/*.swift'
 
